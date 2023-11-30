@@ -1,0 +1,27 @@
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:355:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kobserved_nodes[m[K’ is not captured
+  355 |             for(auto& n : [01;31m[Kobserved_nodes[m[K){
+      |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:352:20:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  352 |         auto it = [[01;36m[K][m[K(){
+      |                    [01;36m[K^[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:59:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_map<long int, double> observed_nodes[m[K’ declared here
+  338 |         std::unordered_map<osmium::object_id_type,double> [01;36m[Kobserved_nodes[m[K;
+      |                                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:355:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kobserved_nodes[m[K’ is not captured
+  355 |             for(auto& n : [01;31m[Kobserved_nodes[m[K){
+      |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:352:20:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  352 |         auto it = [[01;36m[K][m[K(){
+      |                    [01;36m[K^[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:59:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_map<long int, double> observed_nodes[m[K’ declared here
+  338 |         std::unordered_map<osmium::object_id_type,double> [01;36m[Kobserved_nodes[m[K;
+      |                                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

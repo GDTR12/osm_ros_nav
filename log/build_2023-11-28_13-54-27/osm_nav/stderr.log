@@ -1,0 +1,71 @@
+[0mLIBRARY_SRCS: /root/slam/slam/osm/osm-nav/src/osm_navigation/./osm/osm_parser.cpp
+[0m
+[33mCMake Warning at CMakeLists.txt:57 (add_executable):
+  Cannot generate a safe runtime search path for target osm_navigation
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libbz2.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /root/miniconda3/envs/openalt/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /root/miniconda3/envs/openalt/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+gmake[2]: Warning: File '/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp' has modification time 9301 s in the future
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:339:45:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::vector<long int, std::allocator<long int> > path_node[m[K’
+  339 |         std::vector<osmium::object_id_type> [01;31m[Kpath_node[m[K;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:30:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::list<osm_nav::TmpNode_t> path_node[m[K’
+  338 |         std::list<TmpNode_t> [01;36m[Kpath_node[m[K;
+      |                              [01;36m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+  346 |         observed_nodes.push_back(dist_start1 > dist_start2 ? [01;31m[K{[m[Kstart1, dist_start1} : {start2, dist_start2});
+      |                                                              [01;31m[K^[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type&, double&)[m[K’
+  375 |                                         osm_nav::TmpNode_t(n.id, tmp[01;31m[K)[m[K,
+      |                                                                     [01;31m[K^[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+   61 | }[01;36m[KTmpNode_t[m[K;
+      |  [01;36m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:339:45:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::vector<long int, std::allocator<long int> > path_node[m[K’
+  339 |         std::vector<osmium::object_id_type> [01;31m[Kpath_node[m[K;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:30:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::list<osm_nav::TmpNode_t> path_node[m[K’
+  338 |         std::list<TmpNode_t> [01;36m[Kpath_node[m[K;
+      |                              [01;36m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+  346 |         observed_nodes.push_back(dist_start1 > dist_start2 ? [01;31m[K{[m[Kstart1, dist_start1} : {start2, dist_start2});
+      |                                                              [01;31m[K^[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[K{[m[K’ token
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type&, double&)[m[K’
+  375 |                                         osm_nav::TmpNode_t(n.id, tmp[01;31m[K)[m[K,
+      |                                                                     [01;31m[K^[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+   61 | }[01;36m[KTmpNode_t[m[K;
+      |  [01;36m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

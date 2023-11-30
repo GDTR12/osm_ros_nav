@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:347:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kd[m[K’ was not declared in this scope
+  347 |         observed_nodes[[01;31m[Kd[m[K]
+      |                        [01;31m[K^[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:363:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kf_min[m[K’ was not declared in this scope; did you mean ‘[01m[Kfmin[m[K’?
+  363 |         current = [01;31m[Kf_min[m[K();
+      |                   [01;31m[K^~~~~[m[K
+      |                   [32m[Kfmin[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:371:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kcost_now[m[K’ was not declared in this scope
+  371 |                 double tmp = n.cost + [01;31m[Kcost_now[m[K + distance_in_two_node(n.id, end1);
+      |                                       [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:347:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kd[m[K’ was not declared in this scope
+  347 |         observed_nodes[[01;31m[Kd[m[K]
+      |                        [01;31m[K^[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:363:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kf_min[m[K’ was not declared in this scope; did you mean ‘[01m[Kfmin[m[K’?
+  363 |         current = [01;31m[Kf_min[m[K();
+      |                   [01;31m[K^~~~~[m[K
+      |                   [32m[Kfmin[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:371:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kcost_now[m[K’ was not declared in this scope
+  371 |                 double tmp = n.cost + [01;31m[Kcost_now[m[K + distance_in_two_node(n.id, end1);
+      |                                       [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

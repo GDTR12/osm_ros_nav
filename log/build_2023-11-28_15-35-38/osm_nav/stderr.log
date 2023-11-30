@@ -1,0 +1,71 @@
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:69:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[KEnu_t[m[K’
+   69 | [01;31m[KEnu_t[m[K gnss2enu(double lon,double lat, double alt);
+      | [01;31m[K^~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:69:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[KEnu_t[m[K’
+   69 | [01;31m[KEnu_t[m[K gnss2enu(double lon,double lat, double alt);
+      | [01;31m[K^~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:349:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPath_t[m[K’ was not declared in this scope; did you mean ‘[01m[KPath[m[K’?
+  349 |         [01;31m[KPath_t[m[K path;
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[KPath[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:396:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_node[m[K’ was not declared in this scope
+  396 |                 [01;31m[Kpath_node[m[K.push_back(current);
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::visualiz_way()[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:447:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  447 |                 Enu_t enu = [01;31m[Kgnss2enu[m[K((*node_in_way_map)[node_id].lon - 117.2, (*node_in_way_map)[node_id].lat - 31.7, 0);
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::visualiz_node()[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:476:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  476 |             Enu_t enu = [01;31m[Kgnss2enu[m[K(node.second.lon - 117.2, node.second.lat - 31.7, 0);
+      |                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:349:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPath_t[m[K’ was not declared in this scope; did you mean ‘[01m[KPath[m[K’?
+  349 |         [01;31m[KPath_t[m[K path;
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[KPath[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kdouble osm_nav::OsmParser::distance_in_two_node(osmium::object_id_type, osmium::object_id_type)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:496:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  496 |         Enu_t enu1 = [01;31m[Kgnss2enu[m[K((*node_in_way_map)[n1].lon, (*node_in_way_map)[n1].lat, 0);
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kdouble osm_nav::OsmParser::distance_in_two_node(double, double, double, double)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:503:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  503 |         Enu_t enu1 = [01;31m[Kgnss2enu[m[K(lon1, lat1, 0);
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:396:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_node[m[K’ was not declared in this scope
+  396 |                 [01;31m[Kpath_node[m[K.push_back(current);
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::visualiz_way()[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:447:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  447 |                 Enu_t enu = [01;31m[Kgnss2enu[m[K((*node_in_way_map)[node_id].lon - 117.2, (*node_in_way_map)[node_id].lat - 31.7, 0);
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::visualiz_node()[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:476:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  476 |             Enu_t enu = [01;31m[Kgnss2enu[m[K(node.second.lon - 117.2, node.second.lat - 31.7, 0);
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kdouble osm_nav::OsmParser::distance_in_two_node(osmium::object_id_type, osmium::object_id_type)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:496:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  496 |         Enu_t enu1 = [01;31m[Kgnss2enu[m[K((*node_in_way_map)[n1].lon, (*node_in_way_map)[n1].lat, 0);
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::visualiz_nav_node()[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:590:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  590 |             Enu_t enu = [01;31m[Kgnss2enu[m[K(node.lon - 117.2, node.lat - 31.7, 0);
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kdouble osm_nav::OsmParser::distance_in_two_node(double, double, double, double)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:503:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  503 |         Enu_t enu1 = [01;31m[Kgnss2enu[m[K(lon1, lat1, 0);
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::visualiz_nav_node()[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:590:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgnss2enu[m[K’ was not declared in this scope
+  590 |             Enu_t enu = [01;31m[Kgnss2enu[m[K(node.lon - 117.2, node.lat - 31.7, 0);
+      |                         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,644 @@
+[0.010s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[0.054s] [ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[0.055s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[1.721s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.721s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:361:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.721s]   361 |     }
+[1.721s]       |      [01;31m[K^[m[K
+[1.721s]       |      [32m[K;[m[K
+[1.726s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.726s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In constructor ‘[01m[Kosm_nav::OsmParser::OsmParser()[m[K’:
+[1.726s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:178:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_file[m[K’ was not declared in this scope
+[1.726s]   178 |         this->get_parameter("osm_file", [01;31m[Kosm_file[m[K);
+[1.726s]       |                                         [01;31m[K^~~~~~~~[m[K
+[1.731s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:179:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_match[m[K’ was not declared in this scope
+[1.731s]   179 |         this->get_parameter("osm_match_tags", [01;31m[Kway_match[m[K);
+[1.731s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[1.737s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:187:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch_tags[m[K’ was not declared in this scope
+[1.737s]   187 |                 [01;31m[Kmatch_tags[m[K.push_back(std::pair<std::string, std::string>(key, value));
+[1.737s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[1.743s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.743s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.743s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.743s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.744s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.744s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.744s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.744s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.744s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.744s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.744s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.744s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12[m[K:
+[1.744s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:193:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch_tags[m[K’ was not declared in this scope
+[1.744s]   193 |         RCLCPP_DEBUG(this->get_logger(), "match_tags size:%ld", [01;31m[Kmatch_tags[m[K.size());
+[1.744s]       |                                                                 [01;31m[K^~~~~~~~~~[m[K
+[1.749s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.749s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:195:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_process_osm[m[K’ was not declared in this scope
+[1.749s]   195 |         [01;31m[Kt_process_osm[m[K = std::thread(&OsmParser::parse_osm, this);
+[1.749s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.752s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.752s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:361:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.752s]   361 |     }
+[1.752s]       |      [01;31m[K^[m[K
+[1.752s]       |      [32m[K;[m[K
+[1.752s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:195:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kparse_osm[m[K’ is not a member of ‘[01m[Kosm_nav::OsmParser[m[K’
+[1.752s]   195 |         t_process_osm = std::thread(&OsmParser::[01;31m[Kparse_osm[m[K, this);
+[1.753s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[1.757s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.757s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In constructor ‘[01m[Kosm_nav::OsmParser::OsmParser()[m[K’:
+[1.757s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:178:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_file[m[K’ was not declared in this scope
+[1.758s]   178 |         this->get_parameter("osm_file", [01;31m[Kosm_file[m[K);
+[1.758s]       |                                         [01;31m[K^~~~~~~~[m[K
+[1.759s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.760s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12[m[K:
+[1.760s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:197:75:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.760s]   197 |         RCLCPP_DEBUG(this->get_logger(), "size node: %ld, size way: %ld", [01;31m[Knode_in_way_map[m[K->size(), way_map->size());
+[1.760s]       |                                                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.762s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:179:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_match[m[K’ was not declared in this scope
+[1.762s]   179 |         this->get_parameter("osm_match_tags", [01;31m[Kway_match[m[K);
+[1.762s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[1.764s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:197:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.764s]   197 |         RCLCPP_DEBUG(this->get_logger(), "size node: %ld, size way: %ld", node_in_way_map->size(), [01;31m[Kway_map[m[K->size());
+[1.764s]       |                                                                                                    [01;31m[K^~~~~~~[m[K
+[1.768s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:187:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch_tags[m[K’ was not declared in this scope
+[1.768s]   187 |                 [01;31m[Kmatch_tags[m[K.push_back(std::pair<std::string, std::string>(key, value));
+[1.768s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[1.769s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.769s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:198:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node[m[K’ was not declared in this scope
+[1.769s]   198 |         [01;31m[Kvisual_node[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/osm_parser/nodes", 1);
+[1.769s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.774s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.774s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.775s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.775s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.775s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14[m[K,
+[1.775s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.775s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:193:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch_tags[m[K’ was not declared in this scope
+[1.775s]   193 |         RCLCPP_DEBUG(this->get_logger(), "match_tags size:%ld", [01;31m[Kmatch_tags[m[K.size());
+[1.775s]       |                                                                 [01;31m[K^~~~~~~~~~[m[K
+[1.780s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.780s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:195:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_process_osm[m[K’ was not declared in this scope
+[1.780s]   195 |         [01;31m[Kt_process_osm[m[K = std::thread(&OsmParser::parse_osm, this);
+[1.780s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.780s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:195:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kparse_osm[m[K’ is not a member of ‘[01m[Kosm_nav::OsmParser[m[K’
+[1.780s]   195 |         t_process_osm = std::thread(&OsmParser::[01;31m[Kparse_osm[m[K, this);
+[1.780s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[1.781s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:199:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_nav_node_dis_pub[m[K’ was not declared in this scope
+[1.781s]   199 |         [01;31m[Kvisual_nav_node_dis_pub[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/osm_parser/nodes_dis", 1);
+[1.781s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.786s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:200:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_srv[m[K’ was not declared in this scope
+[1.786s]   200 |         [01;31m[Kplanner_srv[m[K = this->create_service<osm_nav_interface::srv::Planner>(
+[1.786s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.787s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.787s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14[m[K,
+[1.787s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.787s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:197:75:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.788s]   197 |         RCLCPP_DEBUG(this->get_logger(), "size node: %ld, size way: %ld", [01;31m[Knode_in_way_map[m[K->size(), way_map->size());
+[1.788s]       |                                                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:197:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.791s]   197 |         RCLCPP_DEBUG(this->get_logger(), "size node: %ld, size way: %ld", node_in_way_map->size(), [01;31m[Kway_map[m[K->size());
+[1.791s]       |                                                                                                    [01;31m[K^~~~~~~[m[K
+[1.797s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.797s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:198:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node[m[K’ was not declared in this scope
+[1.797s]   198 |         [01;31m[Kvisual_node[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/osm_parser/nodes", 1);
+[1.797s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:204:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_way[m[K’ was not declared in this scope
+[1.806s]   204 |         [01;31m[Kvisual_way[m[K = rclcpp::create_publisher<nav_msgs::msg::Path>(this, "/osm_parser/ways", 1);
+[1.806s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:199:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_nav_node_dis_pub[m[K’ was not declared in this scope
+[1.809s]   199 |         [01;31m[Kvisual_nav_node_dis_pub[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/osm_parser/nodes_dis", 1);
+[1.809s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.813s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:205:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_path[m[K’ was not declared in this scope
+[1.813s]   205 |         [01;31m[Kvisual_path[m[K = rclcpp::create_publisher<nav_msgs::msg::Path>(this, "/osm_parser/path", 1);
+[1.813s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.815s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:200:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_srv[m[K’ was not declared in this scope
+[1.815s]   200 |         [01;31m[Kplanner_srv[m[K = this->create_service<osm_nav_interface::srv::Planner>(
+[1.815s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.819s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:206:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualiz_way[m[K’ was not declared in this scope
+[1.819s]   206 |         [01;31m[Kvisualiz_way[m[K();
+[1.819s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.826s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:207:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualiz_nav_node[m[K’ was not declared in this scope
+[1.826s]   207 |         [01;31m[Kvisualiz_nav_node[m[K();
+[1.826s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.834s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:204:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_way[m[K’ was not declared in this scope
+[1.835s]   204 |         [01;31m[Kvisual_way[m[K = rclcpp::create_publisher<nav_msgs::msg::Path>(this, "/osm_parser/ways", 1);
+[1.835s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.839s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.839s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.839s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:233:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.839s]   233 |         for (auto& n : *[01;31m[Knode_in_way_map[m[K){
+[1.839s]       |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.841s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:205:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_path[m[K’ was not declared in this scope
+[1.841s]   205 |         [01;31m[Kvisual_path[m[K = rclcpp::create_publisher<nav_msgs::msg::Path>(this, "/osm_parser/path", 1);
+[1.841s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.847s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:206:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualiz_way[m[K’ was not declared in this scope
+[1.847s]   206 |         [01;31m[Kvisualiz_way[m[K();
+[1.847s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.847s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:234:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_in_two_node[m[K’ was not declared in this scope
+[1.847s]   234 |             auto tmp = [01;31m[Kdistance_in_two_node[m[K(n.second.lon, n.second.lat, req->current_lon, req->current_lat);
+[1.847s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.852s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:263:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.852s]   263 |         for (auto& n : [01;31m[Knav_nodes[m[K){
+[1.852s]       |                        [01;31m[K^~~~~~~~~[m[K
+[1.853s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:207:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualiz_nav_node[m[K’ was not declared in this scope
+[1.854s]   207 |         [01;31m[Kvisualiz_nav_node[m[K();
+[1.854s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:277:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_in_two_node[m[K’ was not declared in this scope
+[1.861s]   277 |                     tmp_cost += [01;31m[Kdistance_in_two_node[m[K(n_in, last_id);
+[1.861s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.866s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.866s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.866s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:233:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.866s]   233 |         for (auto& n : *[01;31m[Knode_in_way_map[m[K){
+[1.866s]       |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.870s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:344:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_in_two_node[m[K’ was not declared in this scope
+[1.870s]   344 |         double dist_start1 = s1_cost + [01;31m[Kdistance_in_two_node[m[K(start1, end1);
+[1.870s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.872s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:358:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[1.872s]   358 |         [01;31m[K}[m[K
+[1.873s]       |         [01;31m[K^[m[K
+[1.873s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kvoid osm_nav::visualiz_way()[m[K’:
+[1.873s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:367:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.873s]   367 |         path.header.stamp = [01;31m[Kthis[m[K->now();
+[1.873s]       |                             [01;31m[K^~~~[m[K
+[1.874s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:234:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_in_two_node[m[K’ was not declared in this scope
+[1.874s]   234 |             auto tmp = [01;31m[Kdistance_in_two_node[m[K(n.second.lon, n.second.lat, req->current_lon, req->current_lat);
+[1.874s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.875s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:368:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.876s]   368 |         for (auto& way : *[01;31m[Kway_map[m[K){
+[1.876s]       |                           [01;31m[K^~~~~~~[m[K
+[1.876s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:373:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.876s]   373 |                 pose1.header.stamp = [01;31m[Kthis[m[K->now();
+[1.876s]       |                                      [01;31m[K^~~~[m[K
+[1.879s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:263:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.879s]   263 |         for (auto& n : [01;31m[Knav_nodes[m[K){
+[1.879s]       |                        [01;31m[K^~~~~~~~~[m[K
+[1.879s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:374:40:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.880s]   374 |                 Enu_t enu = gnss2enu((*[01;31m[Knode_in_way_map[m[K)[node_id].lon - 117.2, (*node_in_way_map)[node_id].lat - 31.7, 0);
+[1.880s]       |                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.882s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:380:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_way[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisualiz_way[m[K’?
+[1.882s]   380 |             [01;31m[Kvisual_way[m[K->publish(path);
+[1.882s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.882s]       |             [32m[Kvisualiz_way[m[K
+[1.886s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kvoid osm_nav::visualiz_node()[m[K’:
+[1.886s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:399:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.886s]   399 |         for(auto& node : *[01;31m[Knode_in_way_map[m[K){
+[1.886s]       |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.886s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:402:35:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.887s]   402 |             marker.header.stamp = [01;31m[Kthis[m[K->now();
+[1.887s]       |                                   [01;31m[K^~~~[m[K
+[1.888s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:277:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_in_two_node[m[K’ was not declared in this scope
+[1.888s]   277 |                     tmp_cost += [01;31m[Kdistance_in_two_node[m[K(n_in, last_id);
+[1.888s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.890s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:406:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node_data[m[K’ was not declared in this scope
+[1.890s]   406 |             [01;31m[Kvisual_node_data[m[K.markers.push_back(marker);
+[1.890s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.893s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:408:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisualiz_node[m[K’?
+[1.893s]   408 |         [01;31m[Kvisual_node[m[K->publish(visual_node_data);
+[1.893s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.893s]       |         [32m[Kvisualiz_node[m[K
+[1.897s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:408:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node_data[m[K’ was not declared in this scope
+[1.897s]   408 |         visual_node->publish([01;31m[Kvisual_node_data[m[K);
+[1.897s]       |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.898s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:344:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_in_two_node[m[K’ was not declared in this scope
+[1.898s]   344 |         double dist_start1 = s1_cost + [01;31m[Kdistance_in_two_node[m[K(start1, end1);
+[1.898s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.901s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:358:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[1.901s]   358 |         [01;31m[K}[m[K
+[1.901s]       |         [01;31m[K^[m[K
+[1.901s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kvoid osm_nav::visualiz_way()[m[K’:
+[1.901s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:367:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.901s]   367 |         path.header.stamp = [01;31m[Kthis[m[K->now();
+[1.901s]       |                             [01;31m[K^~~~[m[K
+[1.902s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kdouble osm_nav::distance_in_two_node(osmium::object_id_type, osmium::object_id_type)[m[K’:
+[1.902s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:423:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.902s]   423 |         Enu_t enu1 = gnss2enu((*[01;31m[Knode_in_way_map[m[K)[n1].lon, (*node_in_way_map)[n1].lat, 0);
+[1.902s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.905s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:368:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.905s]   368 |         for (auto& way : *[01;31m[Kway_map[m[K){
+[1.905s]       |                           [01;31m[K^~~~~~~[m[K
+[1.905s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:373:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.905s]   373 |                 pose1.header.stamp = [01;31m[Kthis[m[K->now();
+[1.905s]       |                                      [01;31m[K^~~~[m[K
+[1.909s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:374:40:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.909s]   374 |                 Enu_t enu = gnss2enu((*[01;31m[Knode_in_way_map[m[K)[node_id].lon - 117.2, (*node_in_way_map)[node_id].lat - 31.7, 0);
+[1.909s]       |                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.910s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kvoid osm_nav::visualiz_nav_node()[m[K’:
+[1.910s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:438:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.910s]   438 |         for(auto& way : *[01;31m[Kway_map[m[K){
+[1.910s]       |                          [01;31m[K^~~~~~~[m[K
+[1.912s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:380:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_way[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisualiz_way[m[K’?
+[1.912s]   380 |             [01;31m[Kvisual_way[m[K->publish(path);
+[1.912s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.912s]       |             [32m[Kvisualiz_way[m[K
+[1.913s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:441:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.913s]   441 |                     [01;31m[Knav_nodes[m[K.insert(std::pair(id, osm_nav::NavNode_t{}));
+[1.913s]       |                     [01;31m[K^~~~~~~~~[m[K
+[1.916s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kvoid osm_nav::visualiz_node()[m[K’:
+[1.916s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:399:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.916s]   399 |         for(auto& node : *[01;31m[Knode_in_way_map[m[K){
+[1.916s]       |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.916s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:402:35:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.916s]   402 |             marker.header.stamp = [01;31m[Kthis[m[K->now();
+[1.916s]       |                                   [01;31m[K^~~~[m[K
+[1.917s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:445:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.917s]   445 |                     [01;31m[Knav_nodes[m[K.insert(std::pair(id, osm_nav::NavNode_t{}));
+[1.917s]       |                     [01;31m[K^~~~~~~~~[m[K
+[1.919s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:451:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.919s]   451 |         for (const auto& way : *[01;31m[Kway_map[m[K){
+[1.919s]       |                                 [01;31m[K^~~~~~~[m[K
+[1.920s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:406:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node_data[m[K’ was not declared in this scope
+[1.920s]   406 |             [01;31m[Kvisual_node_data[m[K.markers.push_back(marker);
+[1.920s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.922s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:466:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.922s]   466 |                 if ( [01;31m[Knav_nodes[m[K.find(current_id) != nav_nodes.end()){
+[1.922s]       |                      [01;31m[K^~~~~~~~~[m[K
+[1.923s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:408:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisualiz_node[m[K’?
+[1.923s]   408 |         [01;31m[Kvisual_node[m[K->publish(visual_node_data);
+[1.923s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.923s]       |         [32m[Kvisualiz_node[m[K
+[1.925s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:512:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.925s]   512 |         for(auto& nid : [01;31m[Knav_nodes[m[K){
+[1.925s]       |                         [01;31m[K^~~~~~~~~[m[K
+[1.927s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:408:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node_data[m[K’ was not declared in this scope
+[1.927s]   408 |         visual_node->publish([01;31m[Kvisual_node_data[m[K);
+[1.927s]       |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.929s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:513:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.929s]   513 |             const auto node = (*[01;31m[Knode_in_way_map[m[K)[nid.first];
+[1.929s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.929s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:516:55:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.929s]   516 |             marker.header.stamp = text.header.stamp = [01;31m[Kthis[m[K->now();
+[1.929s]       |                                                       [01;31m[K^~~~[m[K
+[1.931s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kdouble osm_nav::distance_in_two_node(osmium::object_id_type, osmium::object_id_type)[m[K’:
+[1.931s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:423:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.931s]   423 |         Enu_t enu1 = gnss2enu((*[01;31m[Knode_in_way_map[m[K)[n1].lon, (*node_in_way_map)[n1].lat, 0);
+[1.931s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.935s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:535:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_nav_node_distance[m[K’ was not declared in this scope
+[1.935s]   535 |                 [01;31m[Kvisual_nav_node_distance[m[K.markers.push_back(text);
+[1.935s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.939s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:539:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node_data[m[K’ was not declared in this scope
+[1.939s]   539 |             [01;31m[Kvisual_node_data[m[K.markers.push_back(marker);
+[1.939s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.939s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kvoid osm_nav::visualiz_nav_node()[m[K’:
+[1.939s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:438:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.939s]   438 |         for(auto& way : *[01;31m[Kway_map[m[K){
+[1.939s]       |                          [01;31m[K^~~~~~~[m[K
+[1.941s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:541:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisualiz_node[m[K’?
+[1.941s]   541 |         [01;31m[Kvisual_node[m[K->publish(visual_node_data);
+[1.941s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.941s]       |         [32m[Kvisualiz_node[m[K
+[1.941s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:441:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.941s]   441 |                     [01;31m[Knav_nodes[m[K.insert(std::pair(id, osm_nav::NavNode_t{}));
+[1.941s]       |                     [01;31m[K^~~~~~~~~[m[K
+[1.944s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:445:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.944s]   445 |                     [01;31m[Knav_nodes[m[K.insert(std::pair(id, osm_nav::NavNode_t{}));
+[1.944s]       |                     [01;31m[K^~~~~~~~~[m[K
+[1.945s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:541:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node_data[m[K’ was not declared in this scope
+[1.945s]   541 |         visual_node->publish([01;31m[Kvisual_node_data[m[K);
+[1.945s]       |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.947s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:451:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.947s]   451 |         for (const auto& way : *[01;31m[Kway_map[m[K){
+[1.947s]       |                                 [01;31m[K^~~~~~~[m[K
+[1.949s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:466:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.949s]   466 |                 if ( [01;31m[Knav_nodes[m[K.find(current_id) != nav_nodes.end()){
+[1.949s]       |                      [01;31m[K^~~~~~~~~[m[K
+[1.950s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:542:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_nav_node_dis_pub[m[K’ was not declared in this scope
+[1.950s]   542 |         [01;31m[Kvisual_nav_node_dis_pub[m[K->publish(visual_nav_node_distance);
+[1.950s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.952s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:512:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.952s]   512 |         for(auto& nid : [01;31m[Knav_nodes[m[K){
+[1.952s]       |                         [01;31m[K^~~~~~~~~[m[K
+[1.955s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:542:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_nav_node_distance[m[K’ was not declared in this scope
+[1.955s]   542 |         visual_nav_node_dis_pub->publish([01;31m[Kvisual_nav_node_distance[m[K);
+[1.955s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.956s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:513:33:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.956s]   513 |             const auto node = (*[01;31m[Knode_in_way_map[m[K)[nid.first];
+[1.956s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.956s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:516:55:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.956s]   516 |             marker.header.stamp = text.header.stamp = [01;31m[Kthis[m[K->now();
+[1.956s]       |                                                       [01;31m[K^~~~[m[K
+[1.959s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kdouble osm_nav::get_cost_in_node(osmium::object_id_type, osmium::object_id_type)[m[K’:
+[1.959s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:547:29:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.959s]   547 |         for(const auto& n : [01;31m[Knav_nodes[m[K[n1].reachable_nodes){
+[1.959s]       |                             [01;31m[K^~~~~~~~~[m[K
+[1.961s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kvoid osm_nav::parse_osm()[m[K’:
+[1.961s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:556:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_file[m[K’ was not declared in this scope
+[1.961s]   556 |         osmium::io::Reader reader([01;31m[Kosm_file[m[K, osmium::osm_entity_bits::all);
+[1.961s]       |                                   [01;31m[K^~~~~~~~[m[K
+[1.962s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:535:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_nav_node_distance[m[K’ was not declared in this scope
+[1.962s]   535 |                 [01;31m[Kvisual_nav_node_distance[m[K.markers.push_back(text);
+[1.962s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.964s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:557:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch_tags[m[K’ was not declared in this scope
+[1.964s]   557 |         OsmHandler handler([01;31m[Kmatch_tags[m[K);
+[1.964s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[1.964s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.964s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.965s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12[m[K:
+[1.965s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.965s]   559 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.965s]       |                          [01;31m[K^~~~[m[K
+[1.965s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.965s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.965s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.965s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.966s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:539:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node_data[m[K’ was not declared in this scope
+[1.966s]   539 |             [01;31m[Kvisual_node_data[m[K.markers.push_back(marker);
+[1.966s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.967s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.967s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.967s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.967s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.968s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.968s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.968s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.968s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.968s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.968s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.968s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.968s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.968s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.968s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12[m[K:
+[1.968s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.968s]   559 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.968s]       |                          [01;31m[K^~~~[m[K
+[1.968s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.968s]   559 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.968s]       |                          [01;31m[K^~~~[m[K
+[1.969s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:541:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisualiz_node[m[K’?
+[1.969s]   541 |         [01;31m[Kvisual_node[m[K->publish(visual_node_data);
+[1.969s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.969s]       |         [32m[Kvisualiz_node[m[K
+[1.971s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.971s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:561:9:[m[K [01;31m[Kerror: [m[K‘[01m[KIndexType[m[K’ was not declared in this scope
+[1.971s]   561 |         [01;31m[KIndexType[m[K index;
+[1.971s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.972s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:541:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_node_data[m[K’ was not declared in this scope
+[1.972s]   541 |         visual_node->publish([01;31m[Kvisual_node_data[m[K);
+[1.972s]       |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.974s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:562:9:[m[K [01;31m[Kerror: [m[K‘[01m[KLocationHandler[m[K’ was not declared in this scope
+[1.974s]   562 |         [01;31m[KLocationHandler[m[K location_handler{index};
+[1.974s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.975s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:563:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.975s]   563 |         auto t = [01;31m[Kthis[m[K->now();
+[1.975s]       |                  [01;31m[K^~~~[m[K
+[1.977s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:542:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_nav_node_dis_pub[m[K’ was not declared in this scope
+[1.977s]   542 |         [01;31m[Kvisual_nav_node_dis_pub[m[K->publish(visual_nav_node_distance);
+[1.977s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.978s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:564:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_handler[m[K’ was not declared in this scope
+[1.978s]   564 |         osmium::apply(reader, [01;31m[Klocation_handler[m[K, handler);
+[1.978s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.978s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.979s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12[m[K:
+[1.979s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.979s]   565 |         RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.979s]       |                      [01;31m[K^~~~[m[K
+[1.979s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.979s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.979s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.979s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.979s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.979s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.979s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.979s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.979s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.979s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.979s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.979s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.979s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.979s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.979s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.979s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.979s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.980s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12[m[K:
+[1.980s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.980s]   565 |         RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.980s]       |                      [01;31m[K^~~~[m[K
+[1.980s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.980s]   565 |         RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.980s]       |                      [01;31m[K^~~~[m[K
+[1.980s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:69:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.980s]   565 |         RCLCPP_DEBUG(this->get_logger(), "Parse cost time: %f ms", ([01;31m[Kthis[m[K->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[1.980s]       |                                                                     [01;31m[K^~~~[m[K
+[1.982s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:542:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_nav_node_distance[m[K’ was not declared in this scope
+[1.982s]   542 |         visual_nav_node_dis_pub->publish([01;31m[Kvisual_nav_node_distance[m[K);
+[1.982s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.982s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.983s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:566:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[1.983s]   566 |         [01;31m[Knode_in_way_map[m[K = handler.get_matched_nodes();
+[1.983s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.985s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:567:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[1.985s]   567 |         [01;31m[Kway_map[m[K = handler.get_matched_ways();
+[1.985s]       |         [01;31m[K^~~~~~~[m[K
+[1.985s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kdouble osm_nav::get_cost_in_node(osmium::object_id_type, osmium::object_id_type)[m[K’:
+[1.985s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:547:29:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_nodes[m[K’ was not declared in this scope
+[1.985s]   547 |         for(const auto& n : [01;31m[Knav_nodes[m[K[n1].reachable_nodes){
+[1.985s]       |                             [01;31m[K^~~~~~~~~[m[K
+[1.988s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In function ‘[01m[Kvoid osm_nav::parse_osm()[m[K’:
+[1.988s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:556:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_file[m[K’ was not declared in this scope
+[1.988s]   556 |         osmium::io::Reader reader([01;31m[Kosm_file[m[K, osmium::osm_entity_bits::all);
+[1.988s]       |                                   [01;31m[K^~~~~~~~[m[K
+[1.991s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:557:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch_tags[m[K’ was not declared in this scope
+[1.991s]   557 |         OsmHandler handler([01;31m[Kmatch_tags[m[K);
+[1.991s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[1.992s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.992s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14[m[K,
+[1.992s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.992s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.992s]   559 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.992s]       |                          [01;31m[K^~~~[m[K
+[1.992s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.992s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.992s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.992s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.992s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.992s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.992s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.992s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.992s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.992s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.992s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.992s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.992s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.992s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.992s]   559 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.992s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.993s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.993s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14[m[K,
+[1.993s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.993s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.993s]   559 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.993s]       |                          [01;31m[K^~~~[m[K
+[1.993s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.993s]   559 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());
+[1.993s]       |                          [01;31m[K^~~~[m[K
+[1.994s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K At global scope:
+[1.994s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:590:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.994s]   590 | [01;31m[K}[m[K // namespace osm_nav
+[1.994s]       | [01;31m[K^[m[K
+[1.995s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.995s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:561:9:[m[K [01;31m[Kerror: [m[K‘[01m[KIndexType[m[K’ was not declared in this scope
+[1.995s]   561 |         [01;31m[KIndexType[m[K index;
+[1.995s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.999s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:562:9:[m[K [01;31m[Kerror: [m[K‘[01m[KLocationHandler[m[K’ was not declared in this scope
+[1.999s]   562 |         [01;31m[KLocationHandler[m[K location_handler{index};
+[1.999s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.999s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:563:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.999s]   563 |         auto t = [01;31m[Kthis[m[K->now();
+[1.999s]       |                  [01;31m[K^~~~[m[K
+[2.003s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:564:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_handler[m[K’ was not declared in this scope
+[2.003s]   564 |         osmium::apply(reader, [01;31m[Klocation_handler[m[K, handler);
+[2.003s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.003s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.003s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14[m[K,
+[2.003s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[2.003s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.003s]   565 |         RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.003s]       |                      [01;31m[K^~~~[m[K
+[2.003s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.003s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.003s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.004s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.004s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.004s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.004s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.004s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.004s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.004s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.004s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.004s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.004s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.004s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.004s]   565 |         [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.004s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.004s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.004s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14[m[K,
+[2.004s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[2.004s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.004s]   565 |         RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.004s]       |                      [01;31m[K^~~~[m[K
+[2.004s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.004s]   565 |         RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.004s]       |                      [01;31m[K^~~~[m[K
+[2.004s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:69:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.004s]   565 |         RCLCPP_DEBUG(this->get_logger(), "Parse cost time: %f ms", ([01;31m[Kthis[m[K->now().nanoseconds() - t.nanoseconds()) / 10e6) ;
+[2.004s]       |                                                                     [01;31m[K^~~~[m[K
+[2.007s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[2.007s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:566:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_in_way_map[m[K’ was not declared in this scope
+[2.007s]   566 |         [01;31m[Knode_in_way_map[m[K = handler.get_matched_nodes();
+[2.007s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.009s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:567:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kway_map[m[K’ was not declared in this scope
+[2.009s]   567 |         [01;31m[Kway_map[m[K = handler.get_matched_ways();
+[2.009s]       |         [01;31m[K^~~~~~~[m[K
+[2.019s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K At global scope:
+[2.019s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:590:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.019s]   590 | [01;31m[K}[m[K // namespace osm_nav
+[2.019s]       | [01;31m[K^[m[K
+[3.169s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+[3.169s] gmake[2]: *** Waiting for unfinished jobs....
+[3.188s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+[3.188s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+[3.189s] gmake: *** [Makefile:146: all] Error 2
+[3.190s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '2': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12

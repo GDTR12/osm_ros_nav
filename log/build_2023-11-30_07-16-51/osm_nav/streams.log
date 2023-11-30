@@ -1,0 +1,81 @@
+[0.007s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[0.048s] [ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[0.048s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[1.983s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.983s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12[m[K:
+[1.983s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.984s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:503:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.984s]   503 |             RCLCPP_DEBUG(this->get_logger(), [01;35m[K"%d"[m[K, [32m[Kn[m[K);
+[1.984s]       |                                              [01;35m[K^~~~[m[K  [32m[K~[m[K
+[1.984s]       |                                                    [32m[K|[m[K
+[1.984s]       |                                                    [32m[Klong int[m[K
+[1.984s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.984s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:503:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.984s]   503 |             RCLCPP_DEBUG(this->get_logger(), "[01;36m[K%d[m[K", n);
+[1.984s]       |                                               [01;36m[K~^[m[K
+[1.984s]       |                                                [01;36m[K|[m[K
+[1.984s]       |                                                [01;36m[Kint[m[K
+[1.984s]       |                                               [32m[K%ld[m[K
+[2.023s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.023s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14[m[K,
+[2.023s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[2.023s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.023s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:503:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.023s]   503 |             RCLCPP_DEBUG(this->get_logger(), [01;35m[K"%d"[m[K, [32m[Kn[m[K);
+[2.023s]       |                                              [01;35m[K^~~~[m[K  [32m[K~[m[K
+[2.024s]       |                                                    [32m[K|[m[K
+[2.024s]       |                                                    [32m[Klong int[m[K
+[2.024s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[2.024s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:503:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.024s]   503 |             RCLCPP_DEBUG(this->get_logger(), "[01;36m[K%d[m[K", n);
+[2.024s]       |                                               [01;36m[K~^[m[K
+[2.024s]       |                                                [01;36m[K|[m[K
+[2.024s]       |                                                [01;36m[Kint[m[K
+[2.024s]       |                                               [32m[K%ld[m[K
+[6.652s] [100%] [32m[1mLinking CXX executable osm_navigation[0m
+[6.982s] [100%] Built target osm_navigation
+[6.991s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '0': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[7.007s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /root/slam/slam/osm/osm-nav/build/osm_nav
+[7.011s] -- Install configuration: ""
+[7.011s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/lib/osm_nav/osm_navigation
+[7.013s] -- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav/lib/osm_nav/osm_navigation" to ""
+[7.013s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/launch
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/launch/osm_parser.launch.py
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/config
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/config/osm_parser.yaml
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/package_run_dependencies/osm_nav
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/parent_prefix_path/osm_nav
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/ament_prefix_path.sh
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/ament_prefix_path.dsv
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/path.sh
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/path.dsv
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.bash
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.sh
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.zsh
+[7.014s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.dsv
+[7.015s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/package.dsv
+[7.017s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/packages/osm_nav
+[7.018s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/cmake/osm_navConfig.cmake
+[7.018s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/cmake/osm_navConfig-version.cmake
+[7.018s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/package.xml
+[7.018s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '0': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /root/slam/slam/osm/osm-nav/build/osm_nav

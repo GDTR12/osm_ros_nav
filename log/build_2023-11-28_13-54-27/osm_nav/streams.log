@@ -1,0 +1,240 @@
+[0.006s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake /root/slam/slam/osm/osm-nav/src/osm_navigation -DCMAKE_INSTALL_PREFIX=/root/slam/slam/osm/osm-nav/install/osm_nav
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.070s] -- The CXX compiler identification is GNU 11.4.0
+[0.075s] -- Detecting C compiler ABI info
+[0.115s] -- Detecting C compiler ABI info - done
+[0.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.120s] -- Detecting C compile features
+[0.120s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.171s] -- Detecting CXX compiler ABI info - done
+[0.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.179s] -- Detecting CXX compile features
+[0.179s] -- Detecting CXX compile features - done
+[0.203s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.204s] -- Looking for pthread.h
+[0.253s] -- Looking for pthread.h - found
+[0.253s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.299s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.300s] -- Found Threads: TRUE  
+[0.343s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[0.350s] -- Found BZip2: /usr/lib/x86_64-linux-gnu/libbz2.so (found version "1.0.8") 
+[0.351s] -- Looking for BZ2_bzCompressInit
+[0.397s] -- Looking for BZ2_bzCompressInit - found
+[0.401s] -- Found Osmium: /root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include  
+[0.410s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.714s] -- Found Python3: /root/miniconda3/envs/openalt/bin/python3.1 (found version "3.11.5") found components: Interpreter 
+[0.812s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.816s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.822s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.832s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.899s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.961s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.980s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.020s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.136s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.210s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.242s] -- Found osm_nav_interface: 0.0.0 (/root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake)
+[1.252s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.437s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.497s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.601s] -- Checking for module 'eigen3'
+[1.608s] --   Found eigen3, version 3.4.0
+[1.625s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.625s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.657s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.672s] -- Checking for module 'flann'
+[1.679s] --   Found flann, version 1.9.1
+[1.699s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.699s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.730s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.736s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.862s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.862s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.866s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.878s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.900s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.955s] -- Found X11: /usr/include   
+[1.955s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.018s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.018s] -- Looking for gethostbyname
+[2.075s] -- Looking for gethostbyname - found
+[2.075s] -- Looking for connect
+[2.117s] -- Looking for connect - found
+[2.117s] -- Looking for remove
+[2.161s] -- Looking for remove - found
+[2.161s] -- Looking for shmat
+[2.201s] -- Looking for shmat - found
+[2.201s] -- Looking for IceConnectionNumber in ICE
+[2.247s] -- Looking for IceConnectionNumber in ICE - found
+[2.268s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.271s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.272s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.313s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.316s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.319s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.323s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.372s] -- Checking for module 'libusb-1.0'
+[2.380s] --   Found libusb-1.0, version 1.0.25
+[2.398s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.399s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.400s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.429s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.429s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.430s] -- Found PCAP: /usr/lib/x86_64-linux-gnu/libpcap.so  
+[2.430s] -- Performing Test PCAP_LINKS_SOLO
+[2.476s] -- Performing Test PCAP_LINKS_SOLO - Success
+[2.476s] -- Looking for pcap_get_pfring_id
+[2.521s] -- Looking for pcap_get_pfring_id - not found
+[2.521s] -- Looking for pcap_set_immediate_mode
+[2.567s] -- Looking for pcap_set_immediate_mode - found
+[2.567s] -- Looking for pcap_set_tstamp_precision
+[2.614s] -- Looking for pcap_set_tstamp_precision - found
+[2.716s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.721s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.725s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.819s] -- Found Qhull version 8.0.2
+[2.914s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.005s] -- looking for PCL_COMMON
+[3.005s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.005s] -- looking for PCL_KDTREE
+[3.006s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.006s] -- looking for PCL_OCTREE
+[3.007s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.007s] -- looking for PCL_SEARCH
+[3.007s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.007s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.008s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.008s] -- looking for PCL_FILTERS
+[3.008s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.008s] -- looking for PCL_2D
+[3.009s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.009s] -- looking for PCL_GEOMETRY
+[3.009s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.009s] -- looking for PCL_IO
+[3.009s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.010s] -- looking for PCL_FEATURES
+[3.010s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.010s] -- looking for PCL_ML
+[3.011s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.011s] -- looking for PCL_SEGMENTATION
+[3.012s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.012s] -- looking for PCL_VISUALIZATION
+[3.013s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.013s] -- looking for PCL_SURFACE
+[3.013s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.013s] -- looking for PCL_REGISTRATION
+[3.015s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.015s] -- looking for PCL_KEYPOINTS
+[3.015s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.015s] -- looking for PCL_TRACKING
+[3.016s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.016s] -- looking for PCL_RECOGNITION
+[3.016s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.017s] -- looking for PCL_STEREO
+[3.017s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.017s] -- looking for PCL_APPS
+[3.018s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.018s] -- looking for PCL_IN_HAND_SCANNER
+[3.018s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.018s] -- looking for PCL_MODELER
+[3.018s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.019s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.019s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.019s] -- looking for PCL_OUTOFCORE
+[3.019s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.019s] -- looking for PCL_PEOPLE
+[3.020s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.020s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.023s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.275s] [0mLIBRARY_SRCS: /root/slam/slam/osm/osm-nav/src/osm_navigation/./osm/osm_parser.cpp
+[3.275s] [0m
+[3.278s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.541s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.541s] -- Configured cppcheck include dirs: /root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include;/root/slam/slam/osm/osm-nav/src/osm_navigation/./include;$<BUILD_INTERFACE:/root/slam/slam/osm/osm-nav/src/osm_navigation/include>
+[3.541s] -- Configured cppcheck exclude dirs and/or files: 
+[3.563s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.607s] -- Added test 'lint_cmake' to check CMake code style
+[3.630s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.809s] -- Added test 'uncrustify' to check C / C++ code style
+[3.809s] -- Configured uncrustify additional arguments: 
+[3.832s] -- Added test 'xmllint' to check XML markup files
+[3.833s] -- Configuring done
+[3.842s] [33mCMake Warning at CMakeLists.txt:57 (add_executable):
+[3.842s]   Cannot generate a safe runtime search path for target osm_navigation
+[3.842s]   because files in some directories may conflict with libraries in implicit
+[3.842s]   directories:
+[3.842s] 
+[3.842s]     runtime library [libbz2.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[3.842s]       /root/miniconda3/envs/openalt/lib
+[3.842s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[3.842s]       /root/miniconda3/envs/openalt/lib
+[3.842s] 
+[3.842s]   Some of these libraries may not be found correctly.
+[3.842s] 
+[3.842s] [0m
+[3.842s] -- Generating done
+[3.844s] -- Build files have been written to: /root/slam/slam/osm/osm-nav/build/osm_nav
+[3.854s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '0': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake /root/slam/slam/osm/osm-nav/src/osm_navigation -DCMAKE_INSTALL_PREFIX=/root/slam/slam/osm/osm-nav/install/osm_nav
+[3.855s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[3.879s] gmake[2]: Warning: File '/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp' has modification time 9301 s in the future
+[3.882s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[3.882s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[5.549s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[5.549s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.549s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:339:45:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::vector<long int, std::allocator<long int> > path_node[m[K’
+[5.549s]   339 |         std::vector<osmium::object_id_type> [01;31m[Kpath_node[m[K;
+[5.549s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[5.549s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:30:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::list<osm_nav::TmpNode_t> path_node[m[K’
+[5.549s]   338 |         std::list<TmpNode_t> [01;36m[Kpath_node[m[K;
+[5.549s]       |                              [01;36m[K^~~~~~~~~[m[K
+[5.549s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[5.549s]   346 |         observed_nodes.push_back(dist_start1 > dist_start2 ? [01;31m[K{[m[Kstart1, dist_start1} : {start2, dist_start2});
+[5.549s]       |                                                              [01;31m[K^[m[K
+[5.549s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[K{[m[K’ token
+[5.549s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[5.553s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type&, double&)[m[K’
+[5.553s]   375 |                                         osm_nav::TmpNode_t(n.id, tmp[01;31m[K)[m[K,
+[5.553s]       |                                                                     [01;31m[K^[m[K
+[5.553s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[5.553s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+[5.553s]    61 | }[01;36m[KTmpNode_t[m[K;
+[5.553s]       |  [01;36m[K^~~~~~~~~[m[K
+[5.557s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[5.557s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[5.557s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[5.557s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[5.557s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[5.558s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[5.558s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.558s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:339:45:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::vector<long int, std::allocator<long int> > path_node[m[K’
+[5.558s]   339 |         std::vector<osmium::object_id_type> [01;31m[Kpath_node[m[K;
+[5.558s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[5.558s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:30:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::list<osm_nav::TmpNode_t> path_node[m[K’
+[5.558s]   338 |         std::list<TmpNode_t> [01;36m[Kpath_node[m[K;
+[5.559s]       |                              [01;36m[K^~~~~~~~~[m[K
+[5.559s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[5.559s]   346 |         observed_nodes.push_back(dist_start1 > dist_start2 ? [01;31m[K{[m[Kstart1, dist_start1} : {start2, dist_start2});
+[5.559s]       |                                                              [01;31m[K^[m[K
+[5.559s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[K{[m[K’ token
+[5.559s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[5.564s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type&, double&)[m[K’
+[5.564s]   375 |                                         osm_nav::TmpNode_t(n.id, tmp[01;31m[K)[m[K,
+[5.564s]       |                                                                     [01;31m[K^[m[K
+[5.564s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[5.564s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+[5.564s]    61 | }[01;36m[KTmpNode_t[m[K;
+[5.564s]       |  [01;36m[K^~~~~~~~~[m[K
+[5.564s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[5.564s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[5.564s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[5.564s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[5.564s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[6.872s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+[6.872s] gmake[2]: *** Waiting for unfinished jobs....
+[7.001s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+[7.001s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+[7.001s] gmake: *** [Makefile:146: all] Error 2
+[7.003s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '2': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12

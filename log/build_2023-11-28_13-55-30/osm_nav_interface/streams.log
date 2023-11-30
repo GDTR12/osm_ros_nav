@@ -1,0 +1,148 @@
+[0.010s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav_interface -- -j12 -l12
+[0.038s] [  6%] Built target osm_nav_interface__cpp
+[0.038s] [ 12%] Built target osm_nav_interface__rosidl_generator_c
+[0.045s] [ 12%] Built target ament_cmake_python_copy_osm_nav_interface
+[0.052s] [ 22%] Built target osm_nav_interface__rosidl_typesupport_introspection_c
+[0.055s] [ 32%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_c
+[0.055s] [ 41%] Built target osm_nav_interface__rosidl_typesupport_c
+[0.057s] [ 54%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_cpp
+[0.057s] [ 61%] Built target osm_nav_interface__rosidl_typesupport_cpp
+[0.059s] [ 70%] Built target osm_nav_interface__rosidl_typesupport_introspection_cpp
+[0.069s] [ 70%] Built target osm_nav_interface
+[0.080s] [ 74%] Built target osm_nav_interface__py
+[0.092s] [ 80%] Built target osm_nav_interface__rosidl_generator_py
+[0.104s] [ 87%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.104s] [ 93%] Built target osm_nav_interface__rosidl_typesupport_introspection_c__pyext
+[0.106s] [100%] Built target osm_nav_interface__rosidl_typesupport_c__pyext
+[0.186s] running egg_info
+[0.186s] writing osm_nav_interface.egg-info/PKG-INFO
+[0.187s] writing dependency_links to osm_nav_interface.egg-info/dependency_links.txt
+[0.187s] writing top-level names to osm_nav_interface.egg-info/top_level.txt
+[0.188s] reading manifest file 'osm_nav_interface.egg-info/SOURCES.txt'
+[0.188s] writing manifest file 'osm_nav_interface.egg-info/SOURCES.txt'
+[0.204s] [100%] Built target ament_cmake_python_build_osm_nav_interface_egg
+[0.210s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav_interface -- -j12 -l12
+[0.246s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --install /root/slam/slam/osm/osm-nav/build/osm_nav_interface
+[0.250s] -- Install configuration: ""
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/rosidl_interfaces/osm_nav_interface
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.h
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__functions.h
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__functions.c
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__struct.h
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/planner.h
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_generator_c__visibility_control.h
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/library_path.sh
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/library_path.dsv
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_c.so
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv
+[0.250s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_fastrtps_c.h
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_c.so
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/planner.hpp
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__builder.hpp
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__traits.hpp
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__struct.hpp
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/dds_fastrtps
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_fastrtps_cpp.hpp
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_introspection_c.h
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.c
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_c.so
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_c.so
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface
+[0.251s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.cpp
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_introspection_cpp.hpp
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_cpp.so
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_cpp.so
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/pythonpath.sh
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/pythonpath.dsv
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info
+[0.252s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.252s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.252s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.252s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/__init__.py
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner.py
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner_s.c
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/libosm_nav_interface__rosidl_generator_py.so
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_c.c
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/__init__.py
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+[0.252s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
+[0.275s] Listing '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface'...
+[0.275s] Listing '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv'...
+[0.277s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
+[0.277s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_py.so
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner.idl
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner.srv
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner_Request.msg
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner_Response.msg
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/package_run_dependencies/osm_nav_interface
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/parent_prefix_path/osm_nav_interface
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/ament_prefix_path.sh
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/ament_prefix_path.dsv
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/path.sh
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/path.dsv
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.bash
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.sh
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.zsh
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.dsv
+[0.278s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/package.dsv
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/packages/osm_nav_interface
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cExport.cmake
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cExport-noconfig.cmake
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.278s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cppExport.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cExport.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cppExport.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_pyExport.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake-extras.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interfaceConfig.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interfaceConfig-version.cmake
+[0.279s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/package.xml
+[0.280s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --install /root/slam/slam/osm/osm-nav/build/osm_nav_interface

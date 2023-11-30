@@ -1,0 +1,840 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (osm_nav_interface) JobQueued: {'identifier': 'osm_nav_interface', 'dependencies': OrderedDict()}
+[0.000149] (osm_nav) JobQueued: {'identifier': 'osm_nav', 'dependencies': OrderedDict([('osm_nav_interface', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface')])}
+[0.000392] (osm_nav_interface) JobStarted: {'identifier': 'osm_nav_interface'}
+[0.008225] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'cmake'}
+[0.008579] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'build'}
+[0.008957] (osm_nav_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', '--', '-j12', '-l12'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble')]), 'shell': False}
+[0.040392] (osm_nav_interface) StdoutLine: {'line': b'[  3%] Built target osm_nav_interface__cpp\n'}
+[0.040597] (osm_nav_interface) StdoutLine: {'line': b'[ 12%] Built target osm_nav_interface__rosidl_generator_c\n'}
+[0.046805] (osm_nav_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_osm_nav_interface\n'}
+[0.053450] (osm_nav_interface) StdoutLine: {'line': b'[ 22%] Built target osm_nav_interface__rosidl_typesupport_c\n'}
+[0.053971] (osm_nav_interface) StdoutLine: {'line': b'[ 32%] Built target osm_nav_interface__rosidl_typesupport_introspection_c\n'}
+[0.054538] (osm_nav_interface) StdoutLine: {'line': b'[ 41%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.054631] (osm_nav_interface) StdoutLine: {'line': b'[ 51%] Built target osm_nav_interface__rosidl_typesupport_cpp\n'}
+[0.057914] (osm_nav_interface) StdoutLine: {'line': b'[ 61%] Built target osm_nav_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.061096] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.071919] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] Built target osm_nav_interface\n'}
+[0.083743] (osm_nav_interface) StdoutLine: {'line': b'[ 74%] Built target osm_nav_interface__py\n'}
+[0.097365] (osm_nav_interface) StdoutLine: {'line': b'[ 80%] Built target osm_nav_interface__rosidl_generator_py\n'}
+[0.099889] (-) TimerEvent: {}
+[0.109243] (osm_nav_interface) StdoutLine: {'line': b'[ 87%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.109418] (osm_nav_interface) StdoutLine: {'line': b'[ 93%] Built target osm_nav_interface__rosidl_typesupport_c__pyext\n'}
+[0.110696] (osm_nav_interface) StdoutLine: {'line': b'[100%] Built target osm_nav_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.189443] (osm_nav_interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.189877] (osm_nav_interface) StdoutLine: {'line': b'writing osm_nav_interface.egg-info/PKG-INFO\n'}
+[0.190000] (osm_nav_interface) StdoutLine: {'line': b'writing dependency_links to osm_nav_interface.egg-info/dependency_links.txt\n'}
+[0.190084] (osm_nav_interface) StdoutLine: {'line': b'writing top-level names to osm_nav_interface.egg-info/top_level.txt\n'}
+[0.191274] (osm_nav_interface) StdoutLine: {'line': b"reading manifest file 'osm_nav_interface.egg-info/SOURCES.txt'\n"}
+[0.191570] (osm_nav_interface) StdoutLine: {'line': b"writing manifest file 'osm_nav_interface.egg-info/SOURCES.txt'\n"}
+[0.199973] (-) TimerEvent: {}
+[0.205856] (osm_nav_interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_osm_nav_interface_egg\n'}
+[0.212864] (osm_nav_interface) CommandEnded: {'returncode': 0}
+[0.242568] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'install'}
+[0.248291] (osm_nav_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble')]), 'shell': False}
+[0.253086] (osm_nav_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.253239] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/rosidl_interfaces/osm_nav_interface\n'}
+[0.253279] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.253313] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.253350] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.253383] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.h\n'}
+[0.253415] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__functions.h\n'}
+[0.253446] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__functions.c\n'}
+[0.253477] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__struct.h\n'}
+[0.253507] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/planner.h\n'}
+[0.253537] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[0.253568] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.253598] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/library_path.sh\n'}
+[0.253686] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/library_path.dsv\n'}
+[0.253734] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_c.so\n'}
+[0.253763] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.253794] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.253824] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.253855] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_fastrtps_c.h\n'}
+[0.253919] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[0.253957] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.253986] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.254017] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.254046] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.254077] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/planner.hpp\n'}
+[0.254105] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.254135] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__builder.hpp\n'}
+[0.254163] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__traits.hpp\n'}
+[0.254192] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__struct.hpp\n'}
+[0.254221] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.254251] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.254279] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.254308] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/dds_fastrtps\n'}
+[0.254338] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.254369] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[0.254434] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.254462] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.254491] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.254523] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.254554] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.254583] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_introspection_c.h\n'}
+[0.254615] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.c\n'}
+[0.254645] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[0.254694] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.254726] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_c.so\n'}
+[0.254756] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_c.so\n'}
+[0.254786] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.254817] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.254877] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.254904] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.cpp\n'}
+[0.254931] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.254957] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.254983] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_cpp.so\n'}
+[0.255013] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/pythonpath.sh\n'}
+[0.255040] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/pythonpath.dsv\n'}
+[0.255066] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info\n'}
+[0.255094] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.255120] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.255145] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.255171] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.255196] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface\n'}
+[0.255222] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv\n'}
+[0.255253] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/__init__.py\n'}
+[0.255284] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner.py\n'}
+[0.255311] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner_s.c\n'}
+[0.255338] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.255365] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.255393] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/libosm_nav_interface__rosidl_generator_py.so\n'}
+[0.255420] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_c.c\n'}
+[0.255446] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.255473] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/__init__.py\n'}
+[0.255499] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.255525] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.273484] (osm_nav_interface) StdoutLine: {'line': b"Listing '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface'...\n"}
+[0.273611] (osm_nav_interface) StdoutLine: {'line': b"Listing '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv'...\n"}
+[0.276275] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.276381] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.276446] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.276554] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_py.so\n'}
+[0.276619] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner.idl\n'}
+[0.276667] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner.srv\n'}
+[0.276711] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner_Request.msg\n'}
+[0.276757] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner_Response.msg\n'}
+[0.276787] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/package_run_dependencies/osm_nav_interface\n'}
+[0.276833] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/parent_prefix_path/osm_nav_interface\n'}
+[0.276864] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/ament_prefix_path.sh\n'}
+[0.276912] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/ament_prefix_path.dsv\n'}
+[0.276941] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/path.sh\n'}
+[0.276971] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/path.dsv\n'}
+[0.277002] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.bash\n'}
+[0.277044] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.sh\n'}
+[0.277074] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.zsh\n'}
+[0.277115] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.dsv\n'}
+[0.277145] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/package.dsv\n'}
+[0.277187] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/packages/osm_nav_interface\n'}
+[0.277229] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cExport.cmake\n'}
+[0.277261] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.277306] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.277336] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.277378] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cppExport.cmake\n'}
+[0.277409] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.277439] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.277469] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.277519] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.277549] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cExport.cmake\n'}
+[0.277579] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.277609] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.277638] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.277696] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cppExport.cmake\n'}
+[0.277724] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.277752] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_pyExport.cmake\n'}
+[0.277780] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.277807] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[0.277832] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.277858] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.277895] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.277922] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.277948] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.277974] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.277999] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interfaceConfig.cmake\n'}
+[0.278025] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interfaceConfig-version.cmake\n'}
+[0.278050] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/package.xml\n'}
+[0.278884] (osm_nav_interface) CommandEnded: {'returncode': 0}
+[0.300074] (-) TimerEvent: {}
+[0.329829] (osm_nav_interface) JobEnded: {'identifier': 'osm_nav_interface', 'rc': 0}
+[0.331146] (osm_nav) JobStarted: {'identifier': 'osm_nav'}
+[0.338886] (osm_nav) JobProgress: {'identifier': 'osm_nav', 'progress': 'cmake'}
+[0.339605] (osm_nav) JobProgress: {'identifier': 'osm_nav', 'progress': 'build'}
+[0.339859] (osm_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/slam/slam/osm/osm-nav/build/osm_nav', '--', '-j12', '-l12'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble')]), 'shell': False}
+[0.373289] (osm_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target osm_navigation\x1b[0m\n'}
+[0.384876] (osm_nav) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o\x1b[0m\n'}
+[0.386156] (osm_nav) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o\x1b[0m\n'}
+[0.400181] (-) TimerEvent: {}
+[0.500397] (-) TimerEvent: {}
+[0.600631] (-) TimerEvent: {}
+[0.700893] (-) TimerEvent: {}
+[0.801185] (-) TimerEvent: {}
+[0.901441] (-) TimerEvent: {}
+[1.001694] (-) TimerEvent: {}
+[1.101977] (-) TimerEvent: {}
+[1.202295] (-) TimerEvent: {}
+[1.302561] (-) TimerEvent: {}
+[1.402816] (-) TimerEvent: {}
+[1.503058] (-) TimerEvent: {}
+[1.603316] (-) TimerEvent: {}
+[1.703565] (-) TimerEvent: {}
+[1.803816] (-) TimerEvent: {}
+[1.904066] (-) TimerEvent: {}
+[2.004337] (-) TimerEvent: {}
+[2.052185] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.052336] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:361:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.052377] (osm_nav) StderrLine: {'line': b'  361 |     }\n'}
+[2.052408] (osm_nav) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.052436] (osm_nav) StderrLine: {'line': b'      |      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.057028] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.057064] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::OsmParser::OsmParser()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.057095] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:178:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_file\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.057124] (osm_nav) StderrLine: {'line': b'  178 |         this->get_parameter("osm_file", \x1b[01;31m\x1b[Kosm_file\x1b[m\x1b[K);\n'}
+[2.057152] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.061621] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:179:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_match\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.061765] (osm_nav) StderrLine: {'line': b'  179 |         this->get_parameter("osm_match_tags", \x1b[01;31m\x1b[Kway_match\x1b[m\x1b[K);\n'}
+[2.061800] (osm_nav) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.067939] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:187:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmatch_tags\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.068119] (osm_nav) StderrLine: {'line': b'  187 |                 \x1b[01;31m\x1b[Kmatch_tags\x1b[m\x1b[K.push_back(std::pair<std::string, std::string>(key, value));\n'}
+[2.068158] (osm_nav) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.074532] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.074580] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.074609] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.074636] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.074662] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.074688] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.074713] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.074738] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.074763] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.074788] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.074821] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.074845] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12\x1b[m\x1b[K:\n'}
+[2.074869] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:193:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmatch_tags\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.074896] (osm_nav) StderrLine: {'line': b'  193 |         RCLCPP_DEBUG(this->get_logger(), "match_tags size:%ld", \x1b[01;31m\x1b[Kmatch_tags\x1b[m\x1b[K.size());\n'}
+[2.074921] (osm_nav) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.080343] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.080456] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:195:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt_process_osm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.080491] (osm_nav) StderrLine: {'line': b'  195 |         \x1b[01;31m\x1b[Kt_process_osm\x1b[m\x1b[K = std::thread(&OsmParser::parse_osm, this);\n'}
+[2.080520] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.083397] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.083450] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:361:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.083486] (osm_nav) StderrLine: {'line': b'  361 |     }\n'}
+[2.083535] (osm_nav) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.083565] (osm_nav) StderrLine: {'line': b'      |      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.083592] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:195:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparse_osm\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::OsmParser\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.083623] (osm_nav) StderrLine: {'line': b'  195 |         t_process_osm = std::thread(&OsmParser::\x1b[01;31m\x1b[Kparse_osm\x1b[m\x1b[K, this);\n'}
+[2.083650] (osm_nav) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.088441] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.088538] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::OsmParser::OsmParser()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.088588] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:178:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_file\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.088633] (osm_nav) StderrLine: {'line': b'  178 |         this->get_parameter("osm_file", \x1b[01;31m\x1b[Kosm_file\x1b[m\x1b[K);\n'}
+[2.088676] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.090556] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.090617] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.090648] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.090676] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.090703] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.090729] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.090754] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.090779] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.090804] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.090829] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.090854] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.090878] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12\x1b[m\x1b[K:\n'}
+[2.090903] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:197:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.090930] (osm_nav) StderrLine: {'line': b'  197 |         RCLCPP_DEBUG(this->get_logger(), "size node: %ld, size way: %ld", \x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K->size(), way_map->size());\n'}
+[2.090956] (osm_nav) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.092868] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:179:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_match\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.092951] (osm_nav) StderrLine: {'line': b'  179 |         this->get_parameter("osm_match_tags", \x1b[01;31m\x1b[Kway_match\x1b[m\x1b[K);\n'}
+[2.092988] (osm_nav) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.095005] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:197:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.095118] (osm_nav) StderrLine: {'line': b'  197 |         RCLCPP_DEBUG(this->get_logger(), "size node: %ld, size way: %ld", node_in_way_map->size(), \x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K->size());\n'}
+[2.095151] (osm_nav) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.098753] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:187:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmatch_tags\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.098799] (osm_nav) StderrLine: {'line': b'  187 |                 \x1b[01;31m\x1b[Kmatch_tags\x1b[m\x1b[K.push_back(std::pair<std::string, std::string>(key, value));\n'}
+[2.098832] (osm_nav) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.100461] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.100501] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:198:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.100530] (osm_nav) StderrLine: {'line': b'  198 |         \x1b[01;31m\x1b[Kvisual_node\x1b[m\x1b[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/osm_parser/nodes", 1);\n'}
+[2.100556] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.104393] (-) TimerEvent: {}
+[2.105385] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.105434] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.105461] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.105487] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.105513] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.105539] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.105565] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.105590] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.105615] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.105641] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.105665] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.105689] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14\x1b[m\x1b[K,\n'}
+[2.105713] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.105738] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:193:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmatch_tags\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.105764] (osm_nav) StderrLine: {'line': b'  193 |         RCLCPP_DEBUG(this->get_logger(), "match_tags size:%ld", \x1b[01;31m\x1b[Kmatch_tags\x1b[m\x1b[K.size());\n'}
+[2.105789] (osm_nav) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.111024] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.111125] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:195:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt_process_osm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.111163] (osm_nav) StderrLine: {'line': b'  195 |         \x1b[01;31m\x1b[Kt_process_osm\x1b[m\x1b[K = std::thread(&OsmParser::parse_osm, this);\n'}
+[2.111191] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.111219] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:195:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparse_osm\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::OsmParser\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.111247] (osm_nav) StderrLine: {'line': b'  195 |         t_process_osm = std::thread(&OsmParser::\x1b[01;31m\x1b[Kparse_osm\x1b[m\x1b[K, this);\n'}
+[2.111283] (osm_nav) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.111874] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:199:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_nav_node_dis_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.111996] (osm_nav) StderrLine: {'line': b'  199 |         \x1b[01;31m\x1b[Kvisual_nav_node_dis_pub\x1b[m\x1b[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/osm_parser/nodes_dis", 1);\n'}
+[2.112050] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.117398] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:200:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplanner_srv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.117491] (osm_nav) StderrLine: {'line': b'  200 |         \x1b[01;31m\x1b[Kplanner_srv\x1b[m\x1b[K = this->create_service<osm_nav_interface::srv::Planner>(\n'}
+[2.117540] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.117975] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.118067] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.118125] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.118179] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.118228] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.118273] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.118315] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.118363] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.118403] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.118444] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.118488] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.118527] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14\x1b[m\x1b[K,\n'}
+[2.118567] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.118609] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:197:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.118650] (osm_nav) StderrLine: {'line': b'  197 |         RCLCPP_DEBUG(this->get_logger(), "size node: %ld, size way: %ld", \x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K->size(), way_map->size());\n'}
+[2.118691] (osm_nav) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.122134] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:197:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.122247] (osm_nav) StderrLine: {'line': b'  197 |         RCLCPP_DEBUG(this->get_logger(), "size node: %ld, size way: %ld", node_in_way_map->size(), \x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K->size());\n'}
+[2.122311] (osm_nav) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.127570] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.127774] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:198:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.127845] (osm_nav) StderrLine: {'line': b'  198 |         \x1b[01;31m\x1b[Kvisual_node\x1b[m\x1b[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/osm_parser/nodes", 1);\n'}
+[2.127893] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.137407] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:204:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_way\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.137555] (osm_nav) StderrLine: {'line': b'  204 |         \x1b[01;31m\x1b[Kvisual_way\x1b[m\x1b[K = rclcpp::create_publisher<nav_msgs::msg::Path>(this, "/osm_parser/ways", 1);\n'}
+[2.137609] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.139996] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:199:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_nav_node_dis_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.140140] (osm_nav) StderrLine: {'line': b'  199 |         \x1b[01;31m\x1b[Kvisual_nav_node_dis_pub\x1b[m\x1b[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/osm_parser/nodes_dis", 1);\n'}
+[2.140230] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.143874] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:205:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_path\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.143982] (osm_nav) StderrLine: {'line': b'  205 |         \x1b[01;31m\x1b[Kvisual_path\x1b[m\x1b[K = rclcpp::create_publisher<nav_msgs::msg::Path>(this, "/osm_parser/path", 1);\n'}
+[2.144031] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.145614] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:200:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplanner_srv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.145744] (osm_nav) StderrLine: {'line': b'  200 |         \x1b[01;31m\x1b[Kplanner_srv\x1b[m\x1b[K = this->create_service<osm_nav_interface::srv::Planner>(\n'}
+[2.145800] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.150089] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:206:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualiz_way\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.150223] (osm_nav) StderrLine: {'line': b'  206 |         \x1b[01;31m\x1b[Kvisualiz_way\x1b[m\x1b[K();\n'}
+[2.150282] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.156885] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:207:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualiz_nav_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.157010] (osm_nav) StderrLine: {'line': b'  207 |         \x1b[01;31m\x1b[Kvisualiz_nav_node\x1b[m\x1b[K();\n'}
+[2.157071] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.165466] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:204:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_way\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.165643] (osm_nav) StderrLine: {'line': b'  204 |         \x1b[01;31m\x1b[Kvisual_way\x1b[m\x1b[K = rclcpp::create_publisher<nav_msgs::msg::Path>(this, "/osm_parser/ways", 1);\n'}
+[2.165717] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.170316] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.170439] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.170503] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:233:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.170552] (osm_nav) StderrLine: {'line': b'  233 |         for (auto& n : *\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K){\n'}
+[2.170596] (osm_nav) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.172185] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:205:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_path\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.172288] (osm_nav) StderrLine: {'line': b'  205 |         \x1b[01;31m\x1b[Kvisual_path\x1b[m\x1b[K = rclcpp::create_publisher<nav_msgs::msg::Path>(this, "/osm_parser/path", 1);\n'}
+[2.172362] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.177725] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:206:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualiz_way\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.177859] (osm_nav) StderrLine: {'line': b'  206 |         \x1b[01;31m\x1b[Kvisualiz_way\x1b[m\x1b[K();\n'}
+[2.177940] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.178369] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:234:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance_in_two_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.178454] (osm_nav) StderrLine: {'line': b'  234 |             auto tmp = \x1b[01;31m\x1b[Kdistance_in_two_node\x1b[m\x1b[K(n.second.lon, n.second.lat, req->current_lon, req->current_lat);\n'}
+[2.178501] (osm_nav) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.183341] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:263:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.183418] (osm_nav) StderrLine: {'line': b'  263 |         for (auto& n : \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K){\n'}
+[2.183472] (osm_nav) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.184594] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:207:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualiz_nav_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.184675] (osm_nav) StderrLine: {'line': b'  207 |         \x1b[01;31m\x1b[Kvisualiz_nav_node\x1b[m\x1b[K();\n'}
+[2.184725] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.191783] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:277:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance_in_two_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.191958] (osm_nav) StderrLine: {'line': b'  277 |                     tmp_cost += \x1b[01;31m\x1b[Kdistance_in_two_node\x1b[m\x1b[K(n_in, last_id);\n'}
+[2.192018] (osm_nav) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.197063] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.197207] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.197276] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:233:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.197333] (osm_nav) StderrLine: {'line': b'  233 |         for (auto& n : *\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K){\n'}
+[2.197386] (osm_nav) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.200806] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:344:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance_in_two_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.200902] (osm_nav) StderrLine: {'line': b'  344 |         double dist_start1 = s1_cost + \x1b[01;31m\x1b[Kdistance_in_two_node\x1b[m\x1b[K(start1, end1);\n'}
+[2.200949] (osm_nav) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.203525] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:358:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.203616] (osm_nav) StderrLine: {'line': b'  358 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[2.203665] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.203924] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::visualiz_way()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.203976] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:367:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.204022] (osm_nav) StderrLine: {'line': b'  367 |         path.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.204063] (osm_nav) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.204454] (-) TimerEvent: {}
+[2.205234] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:234:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance_in_two_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.205322] (osm_nav) StderrLine: {'line': b'  234 |             auto tmp = \x1b[01;31m\x1b[Kdistance_in_two_node\x1b[m\x1b[K(n.second.lon, n.second.lat, req->current_lon, req->current_lat);\n'}
+[2.205377] (osm_nav) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.206573] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:368:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.206682] (osm_nav) StderrLine: {'line': b'  368 |         for (auto& way : *\x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K){\n'}
+[2.206735] (osm_nav) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.206778] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:373:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.206820] (osm_nav) StderrLine: {'line': b'  373 |                 pose1.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.206861] (osm_nav) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.210279] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:263:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.210380] (osm_nav) StderrLine: {'line': b'  263 |         for (auto& n : \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K){\n'}
+[2.210432] (osm_nav) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.210580] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:374:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.210642] (osm_nav) StderrLine: {'line': b'  374 |                 Enu_t enu = gnss2enu((*\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K)[node_id].lon - 117.2, (*node_in_way_map)[node_id].lat - 31.7, 0);\n'}
+[2.210692] (osm_nav) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.213266] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:380:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_way\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvisualiz_way\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.213366] (osm_nav) StderrLine: {'line': b'  380 |             \x1b[01;31m\x1b[Kvisual_way\x1b[m\x1b[K->publish(path);\n'}
+[2.213415] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.213460] (osm_nav) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kvisualiz_way\x1b[m\x1b[K\n'}
+[2.217374] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::visualiz_node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.217462] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:399:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.217510] (osm_nav) StderrLine: {'line': b'  399 |         for(auto& node : *\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K){\n'}
+[2.217554] (osm_nav) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.217595] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:402:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.217637] (osm_nav) StderrLine: {'line': b'  402 |             marker.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.217677] (osm_nav) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.219371] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:277:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance_in_two_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.219456] (osm_nav) StderrLine: {'line': b'  277 |                     tmp_cost += \x1b[01;31m\x1b[Kdistance_in_two_node\x1b[m\x1b[K(n_in, last_id);\n'}
+[2.219506] (osm_nav) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.221107] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:406:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.221196] (osm_nav) StderrLine: {'line': b'  406 |             \x1b[01;31m\x1b[Kvisual_node_data\x1b[m\x1b[K.markers.push_back(marker);\n'}
+[2.221248] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.223631] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:408:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvisualiz_node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.223731] (osm_nav) StderrLine: {'line': b'  408 |         \x1b[01;31m\x1b[Kvisual_node\x1b[m\x1b[K->publish(visual_node_data);\n'}
+[2.223775] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.223814] (osm_nav) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kvisualiz_node\x1b[m\x1b[K\n'}
+[2.227609] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:408:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.227738] (osm_nav) StderrLine: {'line': b'  408 |         visual_node->publish(\x1b[01;31m\x1b[Kvisual_node_data\x1b[m\x1b[K);\n'}
+[2.227786] (osm_nav) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.228702] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:344:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistance_in_two_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.228792] (osm_nav) StderrLine: {'line': b'  344 |         double dist_start1 = s1_cost + \x1b[01;31m\x1b[Kdistance_in_two_node\x1b[m\x1b[K(start1, end1);\n'}
+[2.228840] (osm_nav) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.231874] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:358:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.231996] (osm_nav) StderrLine: {'line': b'  358 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[2.232046] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.232383] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::visualiz_way()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.232471] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:367:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.232518] (osm_nav) StderrLine: {'line': b'  367 |         path.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.232562] (osm_nav) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.233501] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::distance_in_two_node(osmium::object_id_type, osmium::object_id_type)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.233568] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:423:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.233600] (osm_nav) StderrLine: {'line': b'  423 |         Enu_t enu1 = gnss2enu((*\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K)[n1].lon, (*node_in_way_map)[n1].lat, 0);\n'}
+[2.233627] (osm_nav) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.235915] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:368:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.235959] (osm_nav) StderrLine: {'line': b'  368 |         for (auto& way : *\x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K){\n'}
+[2.235988] (osm_nav) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.236057] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:373:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.236091] (osm_nav) StderrLine: {'line': b'  373 |                 pose1.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.236121] (osm_nav) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.240406] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:374:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.240491] (osm_nav) StderrLine: {'line': b'  374 |                 Enu_t enu = gnss2enu((*\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K)[node_id].lon - 117.2, (*node_in_way_map)[node_id].lat - 31.7, 0);\n'}
+[2.240523] (osm_nav) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.241440] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::visualiz_nav_node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.241496] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:438:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.241531] (osm_nav) StderrLine: {'line': b'  438 |         for(auto& way : *\x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K){\n'}
+[2.241557] (osm_nav) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.242970] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:380:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_way\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvisualiz_way\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.243023] (osm_nav) StderrLine: {'line': b'  380 |             \x1b[01;31m\x1b[Kvisual_way\x1b[m\x1b[K->publish(path);\n'}
+[2.243052] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.243078] (osm_nav) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kvisualiz_way\x1b[m\x1b[K\n'}
+[2.244384] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:441:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.244456] (osm_nav) StderrLine: {'line': b'  441 |                     \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K.insert(std::pair(id, osm_nav::NavNode_t{}));\n'}
+[2.244488] (osm_nav) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.247213] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::visualiz_node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.247286] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:399:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.247320] (osm_nav) StderrLine: {'line': b'  399 |         for(auto& node : *\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K){\n'}
+[2.247348] (osm_nav) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.247374] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:402:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.247408] (osm_nav) StderrLine: {'line': b'  402 |             marker.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.247434] (osm_nav) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.247725] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:445:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.247757] (osm_nav) StderrLine: {'line': b'  445 |                     \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K.insert(std::pair(id, osm_nav::NavNode_t{}));\n'}
+[2.247786] (osm_nav) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.250292] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:451:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.250328] (osm_nav) StderrLine: {'line': b'  451 |         for (const auto& way : *\x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K){\n'}
+[2.250355] (osm_nav) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.251236] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:406:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.251268] (osm_nav) StderrLine: {'line': b'  406 |             \x1b[01;31m\x1b[Kvisual_node_data\x1b[m\x1b[K.markers.push_back(marker);\n'}
+[2.251295] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.253038] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:466:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.253073] (osm_nav) StderrLine: {'line': b'  466 |                 if ( \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K.find(current_id) != nav_nodes.end()){\n'}
+[2.253100] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.253867] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:408:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvisualiz_node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.254104] (osm_nav) StderrLine: {'line': b'  408 |         \x1b[01;31m\x1b[Kvisual_node\x1b[m\x1b[K->publish(visual_node_data);\n'}
+[2.254249] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.254303] (osm_nav) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kvisualiz_node\x1b[m\x1b[K\n'}
+[2.256155] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:512:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.256210] (osm_nav) StderrLine: {'line': b'  512 |         for(auto& nid : \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K){\n'}
+[2.256241] (osm_nav) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.257980] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:408:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.258013] (osm_nav) StderrLine: {'line': b'  408 |         visual_node->publish(\x1b[01;31m\x1b[Kvisual_node_data\x1b[m\x1b[K);\n'}
+[2.258041] (osm_nav) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.260306] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:513:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.260370] (osm_nav) StderrLine: {'line': b'  513 |             const auto node = (*\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K)[nid.first];\n'}
+[2.260401] (osm_nav) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.260430] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:516:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.260460] (osm_nav) StderrLine: {'line': b'  516 |             marker.header.stamp = text.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.260487] (osm_nav) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.262325] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::distance_in_two_node(osmium::object_id_type, osmium::object_id_type)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.262372] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:423:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.262402] (osm_nav) StderrLine: {'line': b'  423 |         Enu_t enu1 = gnss2enu((*\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K)[n1].lon, (*node_in_way_map)[n1].lat, 0);\n'}
+[2.262433] (osm_nav) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.265706] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:535:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_nav_node_distance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.265753] (osm_nav) StderrLine: {'line': b'  535 |                 \x1b[01;31m\x1b[Kvisual_nav_node_distance\x1b[m\x1b[K.markers.push_back(text);\n'}
+[2.265782] (osm_nav) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.269625] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:539:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.269667] (osm_nav) StderrLine: {'line': b'  539 |             \x1b[01;31m\x1b[Kvisual_node_data\x1b[m\x1b[K.markers.push_back(marker);\n'}
+[2.269696] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.269756] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::visualiz_nav_node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.269790] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:438:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.269822] (osm_nav) StderrLine: {'line': b'  438 |         for(auto& way : *\x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K){\n'}
+[2.269850] (osm_nav) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.271988] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:541:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvisualiz_node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.272025] (osm_nav) StderrLine: {'line': b'  541 |         \x1b[01;31m\x1b[Kvisual_node\x1b[m\x1b[K->publish(visual_node_data);\n'}
+[2.272052] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.272078] (osm_nav) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kvisualiz_node\x1b[m\x1b[K\n'}
+[2.272455] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:441:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.272489] (osm_nav) StderrLine: {'line': b'  441 |                     \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K.insert(std::pair(id, osm_nav::NavNode_t{}));\n'}
+[2.272517] (osm_nav) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.275241] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:445:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.275278] (osm_nav) StderrLine: {'line': b'  445 |                     \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K.insert(std::pair(id, osm_nav::NavNode_t{}));\n'}
+[2.275306] (osm_nav) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.275638] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:541:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.275675] (osm_nav) StderrLine: {'line': b'  541 |         visual_node->publish(\x1b[01;31m\x1b[Kvisual_node_data\x1b[m\x1b[K);\n'}
+[2.275703] (osm_nav) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.277625] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:451:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.277677] (osm_nav) StderrLine: {'line': b'  451 |         for (const auto& way : *\x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K){\n'}
+[2.277705] (osm_nav) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.280446] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:466:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.280488] (osm_nav) StderrLine: {'line': b'  466 |                 if ( \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K.find(current_id) != nav_nodes.end()){\n'}
+[2.280516] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.280702] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:542:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_nav_node_dis_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.280734] (osm_nav) StderrLine: {'line': b'  542 |         \x1b[01;31m\x1b[Kvisual_nav_node_dis_pub\x1b[m\x1b[K->publish(visual_nav_node_distance);\n'}
+[2.280761] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.283332] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:512:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.283386] (osm_nav) StderrLine: {'line': b'  512 |         for(auto& nid : \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K){\n'}
+[2.283416] (osm_nav) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.286048] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:542:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_nav_node_distance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.286132] (osm_nav) StderrLine: {'line': b'  542 |         visual_nav_node_dis_pub->publish(\x1b[01;31m\x1b[Kvisual_nav_node_distance\x1b[m\x1b[K);\n'}
+[2.286169] (osm_nav) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.287395] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:513:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.287465] (osm_nav) StderrLine: {'line': b'  513 |             const auto node = (*\x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K)[nid.first];\n'}
+[2.287494] (osm_nav) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.287522] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:516:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.287550] (osm_nav) StderrLine: {'line': b'  516 |             marker.header.stamp = text.header.stamp = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.287578] (osm_nav) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.289642] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::get_cost_in_node(osmium::object_id_type, osmium::object_id_type)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.289702] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:547:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.289732] (osm_nav) StderrLine: {'line': b'  547 |         for(const auto& n : \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K[n1].reachable_nodes){\n'}
+[2.289759] (osm_nav) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.292393] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::parse_osm()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.292437] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:556:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_file\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.292468] (osm_nav) StderrLine: {'line': b'  556 |         osmium::io::Reader reader(\x1b[01;31m\x1b[Kosm_file\x1b[m\x1b[K, osmium::osm_entity_bits::all);\n'}
+[2.292496] (osm_nav) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.293053] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:535:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_nav_node_distance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.293106] (osm_nav) StderrLine: {'line': b'  535 |                 \x1b[01;31m\x1b[Kvisual_nav_node_distance\x1b[m\x1b[K.markers.push_back(text);\n'}
+[2.293140] (osm_nav) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.295282] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:557:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmatch_tags\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.295345] (osm_nav) StderrLine: {'line': b'  557 |         OsmHandler handler(\x1b[01;31m\x1b[Kmatch_tags\x1b[m\x1b[K);\n'}
+[2.295375] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.295486] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.295540] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.295570] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.295598] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.295630] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.295656] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.295681] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.295707] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.295733] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.295760] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.295786] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12\x1b[m\x1b[K:\n'}
+[2.295810] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.295836] (osm_nav) StderrLine: {'line': b'  559 |             RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.295862] (osm_nav) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.295886] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.295912] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.295938] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.295964] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.297208] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:539:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.297243] (osm_nav) StderrLine: {'line': b'  539 |             \x1b[01;31m\x1b[Kvisual_node_data\x1b[m\x1b[K.markers.push_back(marker);\n'}
+[2.297272] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.298510] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.298574] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.298601] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.298627] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.298653] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.298679] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.298706] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.298770] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.298797] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.298825] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.298850] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.298876] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.298901] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.298925] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.298950] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.298975] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.298999] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.299024] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.299050] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.299075] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.299101] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.299129] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.299154] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.299179] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12\x1b[m\x1b[K:\n'}
+[2.299203] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.299228] (osm_nav) StderrLine: {'line': b'  559 |             RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.299254] (osm_nav) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.299278] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.299303] (osm_nav) StderrLine: {'line': b'  559 |             RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.299328] (osm_nav) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.299666] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:541:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvisualiz_node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.299699] (osm_nav) StderrLine: {'line': b'  541 |         \x1b[01;31m\x1b[Kvisual_node\x1b[m\x1b[K->publish(visual_node_data);\n'}
+[2.299725] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.299750] (osm_nav) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kvisualiz_node\x1b[m\x1b[K\n'}
+[2.301856] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.301901] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:561:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIndexType\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.301931] (osm_nav) StderrLine: {'line': b'  561 |         \x1b[01;31m\x1b[KIndexType\x1b[m\x1b[K index;\n'}
+[2.301957] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.303456] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:541:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_node_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.303491] (osm_nav) StderrLine: {'line': b'  541 |         visual_node->publish(\x1b[01;31m\x1b[Kvisual_node_data\x1b[m\x1b[K);\n'}
+[2.303517] (osm_nav) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.304540] (-) TimerEvent: {}
+[2.305553] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:562:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLocationHandler\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.305591] (osm_nav) StderrLine: {'line': b'  562 |         \x1b[01;31m\x1b[KLocationHandler\x1b[m\x1b[K location_handler{index};\n'}
+[2.305623] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.305650] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:563:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.305677] (osm_nav) StderrLine: {'line': b'  563 |         auto t = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.305702] (osm_nav) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.308190] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:542:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_nav_node_dis_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.308234] (osm_nav) StderrLine: {'line': b'  542 |         \x1b[01;31m\x1b[Kvisual_nav_node_dis_pub\x1b[m\x1b[K->publish(visual_nav_node_distance);\n'}
+[2.308262] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.309397] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:564:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klocation_handler\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.309434] (osm_nav) StderrLine: {'line': b'  564 |         osmium::apply(reader, \x1b[01;31m\x1b[Klocation_handler\x1b[m\x1b[K, handler);\n'}
+[2.309463] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.309580] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.309610] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.309706] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.309736] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.309762] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.309789] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.309817] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.309843] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.309876] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.309907] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.309933] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12\x1b[m\x1b[K:\n'}
+[2.309959] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.309988] (osm_nav) StderrLine: {'line': b'  565 |         RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.310015] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.310042] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.310076] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.310115] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.310146] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.310171] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.310202] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.310227] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.310252] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.310277] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.310304] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.310329] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.310356] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.310384] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.310409] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.310434] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.310460] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.310486] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.310514] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.310539] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.310565] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.310594] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.310620] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.310645] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.310670] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.310698] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.310723] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.310746] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.310773] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:12\x1b[m\x1b[K:\n'}
+[2.310798] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.310825] (osm_nav) StderrLine: {'line': b'  565 |         RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.310850] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.310874] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.310899] (osm_nav) StderrLine: {'line': b'  565 |         RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.310925] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.310951] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.310975] (osm_nav) StderrLine: {'line': b'  565 |         RCLCPP_DEBUG(this->get_logger(), "Parse cost time: %f ms", (\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.311000] (osm_nav) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.313430] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:542:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisual_nav_node_distance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.313494] (osm_nav) StderrLine: {'line': b'  542 |         visual_nav_node_dis_pub->publish(\x1b[01;31m\x1b[Kvisual_nav_node_distance\x1b[m\x1b[K);\n'}
+[2.313523] (osm_nav) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.313624] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.313655] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:566:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.313682] (osm_nav) StderrLine: {'line': b'  566 |         \x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K = handler.get_matched_nodes();\n'}
+[2.313713] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.316189] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:567:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.316243] (osm_nav) StderrLine: {'line': b'  567 |         \x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K = handler.get_matched_ways();\n'}
+[2.316270] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.316537] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::get_cost_in_node(osmium::object_id_type, osmium::object_id_type)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.316568] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:547:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_nodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.316596] (osm_nav) StderrLine: {'line': b'  547 |         for(const auto& n : \x1b[01;31m\x1b[Knav_nodes\x1b[m\x1b[K[n1].reachable_nodes){\n'}
+[2.316623] (osm_nav) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.319361] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::parse_osm()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.319436] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:556:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_file\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.319464] (osm_nav) StderrLine: {'line': b'  556 |         osmium::io::Reader reader(\x1b[01;31m\x1b[Kosm_file\x1b[m\x1b[K, osmium::osm_entity_bits::all);\n'}
+[2.319491] (osm_nav) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.322482] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:557:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmatch_tags\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.322518] (osm_nav) StderrLine: {'line': b'  557 |         OsmHandler handler(\x1b[01;31m\x1b[Kmatch_tags\x1b[m\x1b[K);\n'}
+[2.322550] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.322776] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.322811] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.322838] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.322864] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.322891] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.322915] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.322949] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.322979] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.323060] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.323088] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.323114] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14\x1b[m\x1b[K,\n'}
+[2.323139] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.323167] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.323194] (osm_nav) StderrLine: {'line': b'  559 |             RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.323220] (osm_nav) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.323245] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.323271] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.323296] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.323323] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323348] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.323377] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.323403] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323432] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.323458] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.323483] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323508] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.323536] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.323561] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323587] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.323612] (osm_nav) StderrLine: {'line': b'  559 |             \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.323636] (osm_nav) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323661] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.323685] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.323709] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.323733] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.323757] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.323783] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.323807] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.323832] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.323856] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.323881] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.323905] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.323929] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14\x1b[m\x1b[K,\n'}
+[2.323953] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.323977] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.324002] (osm_nav) StderrLine: {'line': b'  559 |             RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.324026] (osm_nav) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.324051] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:559:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.324076] (osm_nav) StderrLine: {'line': b'  559 |             RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Match tags: k=%s, v=%s", tag.first.c_str(), tag.second.c_str());\n'}
+[2.324101] (osm_nav) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.325395] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K At global scope:\n'}
+[2.325427] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:590:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.325455] (osm_nav) StderrLine: {'line': b'  590 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K // namespace osm_nav\n'}
+[2.325481] (osm_nav) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.325756] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.325787] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:561:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIndexType\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.325814] (osm_nav) StderrLine: {'line': b'  561 |         \x1b[01;31m\x1b[KIndexType\x1b[m\x1b[K index;\n'}
+[2.325840] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.329763] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:562:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLocationHandler\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.329897] (osm_nav) StderrLine: {'line': b'  562 |         \x1b[01;31m\x1b[KLocationHandler\x1b[m\x1b[K location_handler{index};\n'}
+[2.329934] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.329963] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:563:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.330000] (osm_nav) StderrLine: {'line': b'  563 |         auto t = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.330027] (osm_nav) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.334010] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:564:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klocation_handler\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.334051] (osm_nav) StderrLine: {'line': b'  564 |         osmium::apply(reader, \x1b[01;31m\x1b[Klocation_handler\x1b[m\x1b[K, handler);\n'}
+[2.334081] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.334108] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.334135] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.334166] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.334250] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.334278] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.334306] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.334332] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.334358] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.334386] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.334414] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.334439] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14\x1b[m\x1b[K,\n'}
+[2.334465] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.334490] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.334516] (osm_nav) StderrLine: {'line': b'  565 |         RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.334542] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.334568] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.334594] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.334620] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.334645] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.334671] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.334700] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.334726] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.334750] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.334777] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.334802] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.334829] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.334856] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.334885] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.334910] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.334937] (osm_nav) StderrLine: {'line': b'  565 |         \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(this->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.334962] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.334985] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.335010] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.335034] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.335057] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.335081] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.335106] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.335131] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.335155] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.335179] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.335203] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.335228] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.335252] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:14\x1b[m\x1b[K,\n'}
+[2.335278] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.335302] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.335330] (osm_nav) StderrLine: {'line': b'  565 |         RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.335355] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.335379] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.335404] (osm_nav) StderrLine: {'line': b'  565 |         RCLCPP_DEBUG(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Parse cost time: %f ms", (this->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.335427] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.335451] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:565:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.335476] (osm_nav) StderrLine: {'line': b'  565 |         RCLCPP_DEBUG(this->get_logger(), "Parse cost time: %f ms", (\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now().nanoseconds() - t.nanoseconds()) / 10e6) ;\n'}
+[2.335503] (osm_nav) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.338185] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.338228] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:566:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_in_way_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.338258] (osm_nav) StderrLine: {'line': b'  566 |         \x1b[01;31m\x1b[Knode_in_way_map\x1b[m\x1b[K = handler.get_matched_nodes();\n'}
+[2.338286] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.340567] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:567:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kway_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.340598] (osm_nav) StderrLine: {'line': b'  567 |         \x1b[01;31m\x1b[Kway_map\x1b[m\x1b[K = handler.get_matched_ways();\n'}
+[2.340626] (osm_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.350107] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K At global scope:\n'}
+[2.350320] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:590:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.350361] (osm_nav) StderrLine: {'line': b'  590 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K // namespace osm_nav\n'}
+[2.350390] (osm_nav) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.404651] (-) TimerEvent: {}
+[2.504907] (-) TimerEvent: {}
+[2.605154] (-) TimerEvent: {}
+[2.705415] (-) TimerEvent: {}
+[2.805650] (-) TimerEvent: {}
+[2.905921] (-) TimerEvent: {}
+[3.006159] (-) TimerEvent: {}
+[3.106409] (-) TimerEvent: {}
+[3.206635] (-) TimerEvent: {}
+[3.306871] (-) TimerEvent: {}
+[3.407189] (-) TimerEvent: {}
+[3.499737] (osm_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1\n'}
+[3.499862] (osm_nav) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.507259] (-) TimerEvent: {}
+[3.519356] (osm_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1\n'}
+[3.519497] (osm_nav) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2\n'}
+[3.519637] (osm_nav) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.520957] (osm_nav) CommandEnded: {'returncode': 2}
+[3.542193] (osm_nav) JobEnded: {'identifier': 'osm_nav', 'rc': 2}
+[3.552630] (-) EventReactorShutdown: {}

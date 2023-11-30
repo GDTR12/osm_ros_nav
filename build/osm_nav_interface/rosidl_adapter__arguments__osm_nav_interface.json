@@ -1,0 +1,6 @@
+{
+  "package_name": "osm_nav_interface",
+  "non_idl_tuples": [
+    "/root/slam/slam/osm/osm-nav/src/osm_nav_interface:srv/Planner.srv"
+  ]
+}

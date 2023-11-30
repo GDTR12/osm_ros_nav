@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model href="" schematypens=""?>
+<package format="3">
+  <name>osm_nav</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="guoming.huang@foxmail.com">root</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>pcl_conversions</build_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <build_depend>pcl_msgs</build_depend>
+  <exec_depend>pcl_msgs</exec_depend>
+  <build_depend>pcl_ros</build_depend>
+  <exec_depend>pcl_ros</exec_depend>
+
+  <build_depend>pluginlib</build_depend>
+  <exec_depend>pluginlib</exec_depend>
+
+  <build_depend>angles</build_depend>
+  <exec_depend>angles</exec_depend>
+
+  <build_depend>osm_nav_interface</build_depend>
+  <exec_depend>osm_nav_interface</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

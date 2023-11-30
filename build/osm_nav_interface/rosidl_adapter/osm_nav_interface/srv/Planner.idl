@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from osm_nav_interface/srv/Planner.srv
+// generated code does not contain a copyright notice
+
+
+module osm_nav_interface {
+  module srv {
+    struct Planner_Request {
+      double current_lon;
+
+      double current_lat;
+
+      double target_lon;
+
+      double target_lat;
+    };
+    struct Planner_Response {
+      double next_lon;
+
+      double next_lat;
+    };
+  };
+};

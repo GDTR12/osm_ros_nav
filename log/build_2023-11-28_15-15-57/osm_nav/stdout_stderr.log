@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:390:47:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kosm_nav::TmpNode_t[m[K’ {aka ‘[01m[Kosm_nav::TmpNode[m[K’} and ‘[01m[Klong int[m[K’)
+  390 |                 current = f_min(observed_nodes[01;31m[K)[m[K;
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode& osm_nav::TmpNode::operator=(const osm_nav::TmpNode&)[m[K’
+   58 | typedef struct [01;36m[KTmpNode[m[K{
+      |                [01;36m[K^~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:16:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kconst osm_nav::TmpNode&[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode& osm_nav::TmpNode::operator=(osm_nav::TmpNode&&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:16:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kosm_nav::TmpNode&&[m[K’
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:390:47:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kosm_nav::TmpNode_t[m[K’ {aka ‘[01m[Kosm_nav::TmpNode[m[K’} and ‘[01m[Klong int[m[K’)
+  390 |                 current = f_min(observed_nodes[01;31m[K)[m[K;
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode& osm_nav::TmpNode::operator=(const osm_nav::TmpNode&)[m[K’
+   58 | typedef struct [01;36m[KTmpNode[m[K{
+      |                [01;36m[K^~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:16:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kconst osm_nav::TmpNode&[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode& osm_nav::TmpNode::operator=(osm_nav::TmpNode&&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:16:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klong int[m[K’ to ‘[01m[Kosm_nav::TmpNode&&[m[K’
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

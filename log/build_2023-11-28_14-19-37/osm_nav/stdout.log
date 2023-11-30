@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable osm_navigation[0m
+[100%] Built target osm_navigation
+-- Install configuration: ""
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/lib/osm_nav/osm_navigation
+-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav/lib/osm_nav/osm_navigation" to ""
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/launch
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/launch/osm_parser.launch.py
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/config
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/config/osm_parser.yaml
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/package_run_dependencies/osm_nav
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/parent_prefix_path/osm_nav
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/ament_prefix_path.sh
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/ament_prefix_path.dsv
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/path.sh
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/path.dsv
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.bash
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.sh
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.zsh
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.dsv
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/package.dsv
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/packages/osm_nav
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/cmake/osm_navConfig.cmake
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/cmake/osm_navConfig-version.cmake
+-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/package.xml

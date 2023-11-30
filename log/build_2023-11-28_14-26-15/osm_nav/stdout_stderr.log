@@ -1,0 +1,69 @@
+[35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbind(osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)>, <brace-enclosed initializer list>, const std::_Placeholder<1>&)[m[K’
+  376 |                                         [01;31m[Kstd::bind([](const TmpNode_t& a, const TmpNode_t& b){[m[K
+      |                                         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;31m[K                                            return a.id == b.id;[m[K
+      |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  378 | [01;31m[K                                            }, {n.id, tmp}, std::placeholders::_1)[m[K
+      |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)>; _BoundArgs = {}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)> >::type; std::__is_socketlike<_Func> = std::__is_socketlike<osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)>, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)> >; typename std::decay<_Tp>::type = std::decay<osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)> >::type][m[K’
+  789 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Result, class _Func, class ... _BoundArgs> typename std::_Bindres_helper<_Result, _Func, _BoundArgs>::type std::bind(_Func&&, _BoundArgs&& ...)[m[K’
+  813 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:50:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Result[m[K’
+  376 |                                         [01;36m[Kstd::bind([](const TmpNode_t& a, const TmpNode_t& b){[m[K
+      |                                         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;36m[K                                            return a.id == b.id;[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  378 | [01;36m[K                                            }, {n.id, tmp}, std::placeholders::_1)[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbind(osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)>, <brace-enclosed initializer list>, const std::_Placeholder<1>&)[m[K’
+  376 |                                         [01;31m[Kstd::bind([](const TmpNode_t& a, const TmpNode_t& b){[m[K
+      |                                         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;31m[K                                            return a.id == b.id;[m[K
+      |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  378 | [01;31m[K                                            }, {n.id, tmp}, std::placeholders::_1)[m[K
+      |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:2[m[K:
+[01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)>; _BoundArgs = {}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)> >::type; std::__is_socketlike<_Func> = std::__is_socketlike<osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)>, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)> >; typename std::decay<_Tp>::type = std::decay<osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const TmpNode_t&, const TmpNode_t&)> >::type][m[K’
+  789 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/functional:789:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Result, class _Func, class ... _BoundArgs> typename std::_Bindres_helper<_Result, _Func, _BoundArgs>::type std::bind(_Func&&, _BoundArgs&& ...)[m[K’
+  813 |     [01;36m[Kbind[m[K(_Func&& __f, _BoundArgs&&... __args)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/functional:813:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:50:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Result[m[K’
+  376 |                                         [01;36m[Kstd::bind([](const TmpNode_t& a, const TmpNode_t& b){[m[K
+      |                                         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;36m[K                                            return a.id == b.id;[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  378 | [01;36m[K                                            }, {n.id, tmp}, std::placeholders::_1)[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

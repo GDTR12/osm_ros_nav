@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:362:48:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = osm_nav::Path; _Args = {}][m[K’
+  362 |         auto n1 = [01;31m[Kstd::make_shared<struct Path>({start1, s1_cost})[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/memory/buffer.hpp:47[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/builder/builder.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/io/detail/xml_input_format.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/io/xml_input.hpp:45[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:363:48:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = osm_nav::Path; _Args = {}][m[K’
+  363 |         auto n2 = [01;31m[Kstd::make_shared<struct Path>({start2, s2_cost})[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/memory/buffer.hpp:47[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/builder/builder.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/io/detail/xml_input_format.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/io/xml_input.hpp:45[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:362:48:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = osm_nav::Path; _Args = {}][m[K’
+  362 |         auto n1 = [01;31m[Kstd::make_shared<struct Path>({start1, s1_cost})[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/memory/buffer.hpp:47[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/builder/builder.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/io/detail/xml_input_format.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/io/xml_input.hpp:45[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:3[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:363:48:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = osm_nav::Path; _Args = {}][m[K’
+  363 |         auto n2 = [01;31m[Kstd::make_shared<struct Path>({start2, s2_cost})[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/memory/buffer.hpp:47[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/builder/builder.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/io/detail/xml_input_format.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/io/xml_input.hpp:45[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:3[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

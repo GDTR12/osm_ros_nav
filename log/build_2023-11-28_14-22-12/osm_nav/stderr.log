@@ -1,0 +1,15 @@
+[0mLIBRARY_SRCS: /root/slam/slam/osm/osm-nav/src/osm_navigation/./osm/osm_parser.cpp
+[0m
+[33mCMake Warning at CMakeLists.txt:57 (add_executable):
+  Cannot generate a safe runtime search path for target osm_navigation
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libbz2.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /root/miniconda3/envs/openalt/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /root/miniconda3/envs/openalt/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m

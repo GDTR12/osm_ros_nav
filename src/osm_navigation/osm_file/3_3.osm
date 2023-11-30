@@ -1,0 +1,1821 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='31.5860902' minlon='120.7709885' maxlat='31.5946938' maxlon='120.7867343' origin='CGImap 0.6.1 (1963 thorn-01.openstreetmap.org)' />
+  <node id='167704' action='modify' visible='true' lat='31.59288608591' lon='120.77217530141' />
+  <node id='167705' action='modify' visible='true' lat='31.58927105442' lon='120.78039764822' />
+  <node id='167706' action='modify' visible='true' lat='31.58825089778' lon='120.77839135587' />
+  <node id='167707' action='modify' visible='true' lat='31.5905482' lon='120.7793716' />
+  <node id='167708' action='modify' visible='true' lat='31.59162776547' lon='120.78265607089' />
+  <node id='167709' action='modify' visible='true' lat='31.59262112394' lon='120.7729642006' />
+  <node id='167710' action='modify' visible='true' lat='31.59265431855' lon='120.77386737118' />
+  <node id='167711' action='modify' visible='true' lat='31.59356187888' lon='120.77596052746' />
+  <node id='167712' action='modify' visible='true' lat='31.5919236911' lon='120.78226922862' />
+  <node id='167713' action='modify' visible='true' lat='31.59215136309' lon='120.77805471872' />
+  <node id='167714' action='modify' visible='true' lat='31.59151716913' lon='120.77858069671' />
+  <node id='167715' action='modify' visible='true' lat='31.58993273123' lon='120.77986412062' />
+  <node id='167716' action='modify' visible='true' lat='31.59096927231' lon='120.7746036339' />
+  <node id='167717' action='modify' visible='true' lat='31.59115939772' lon='120.77447533339' />
+  <node id='167718' action='modify' visible='true' lat='31.59151352851' lon='120.77518746123' />
+  <node id='167719' action='modify' visible='true' lat='31.59172714938' lon='120.77525853977' />
+  <node id='167720' action='modify' visible='true' lat='31.59227547878' lon='120.77483475074' />
+  <node id='167721' action='modify' visible='true' lat='31.59116853548' lon='120.77440425619' />
+  <node id='167722' action='modify' visible='true' lat='31.59092521181' lon='120.77391475305' />
+  <node id='167723' action='modify' visible='true' lat='31.59141985503' lon='120.7734225677' />
+  <node id='167724' action='modify' visible='true' lat='31.59147468829' lon='120.77343195543' />
+  <node id='167725' action='modify' visible='true' lat='31.59171115639' lon='120.77391609415' />
+  <node id='167726' action='modify' visible='true' lat='31.59208413446' lon='120.77444046669' />
+  <node id='167727' action='modify' visible='true' lat='31.59197846656' lon='120.77451020446'>
+    <tag k='amenity' v='parking_entrance' />
+    <tag k='name' v='地下车库出口' />
+    <tag k='parking' v='underground' />
+  </node>
+  <node id='167728' action='modify' visible='true' lat='31.590953892' lon='120.77397244997' />
+  <node id='167729' action='modify' visible='true' lat='31.59099897835' lon='120.77394295731'>
+    <tag k='entrance' v='yes' />
+    <tag k='name' v='地下车库入口' />
+    <tag k='parking' v='underground' />
+  </node>
+  <node id='167730' action='modify' visible='true' lat='31.59238991701' lon='120.77507112395' />
+  <node id='167731' action='modify' visible='true' lat='31.5926193265' lon='120.77227860421'>
+    <tag k='amenity' v='parking' />
+    <tag k='highway' v='rest_area' />
+    <tag k='name' v='起点停车区' />
+    <tag k='orientation' v='perpendicular' />
+    <tag k='parking:color' v='white' />
+    <tag k='parking:direction' v='backward' />
+    <tag k='parking:type' v='parallel' />
+  </node>
+  <node id='167732' action='modify' visible='true' lat='31.59145469643' lon='120.77824652128' />
+  <node id='167733' action='modify' visible='true' lat='31.59145469643' lon='120.77828071944' />
+  <node id='167734' action='modify' visible='true' lat='31.59141528502' lon='120.77831491761'>
+    <tag k='entrance' v='yes' />
+    <tag k='name' v='地下车库入口' />
+  </node>
+  <node id='167735' action='modify' visible='true' lat='31.59219551427' lon='120.77763698861' />
+  <node id='167736' action='modify' visible='true' lat='31.59155369732' lon='120.77816367892' />
+  <node id='167737' action='modify' visible='true' lat='31.59170140719' lon='120.77842789656' />
+  <node id='167738' action='modify' visible='true' lat='31.59199938608' lon='120.7770601012' />
+  <node id='167739' action='modify' visible='true' lat='31.59204529449' lon='120.77716089718'>
+    <tag k='amenity' v='parking_entrance' />
+    <tag k='name' v='地下车库出口' />
+    <tag k='parking' v='underground' />
+  </node>
+  <node id='167740' action='modify' visible='true' lat='31.59079156288' lon='120.78110574603' />
+  <node id='167741' action='modify' visible='true' lat='31.58778480243' lon='120.78067659259' />
+  <node id='167742' action='modify' visible='true' lat='31.58745578932' lon='120.78092335582' />
+  <node id='167743' action='modify' visible='true' lat='31.59069788182' lon='120.77852010459' />
+  <node id='167744' action='modify' visible='true' lat='31.5919830812' lon='120.77781277975' />
+  <node id='167745' action='modify' visible='true' lat='31.59200890676' lon='120.77763981493' />
+  <node id='167746' action='modify' visible='true' lat='31.59199460316' lon='120.77780131582' />
+  <node id='167747' action='modify' visible='true' lat='31.59201743547' lon='120.77766695668' />
+  <node id='167748' action='modify' visible='true' lat='31.59202186671' lon='120.77770454808' />
+  <node id='167749' action='modify' visible='true' lat='31.59201725487' lon='120.77774756891' />
+  <node id='167750' action='modify' visible='true' lat='31.59200478733' lon='120.7777832012' />
+  <node id='167751' action='modify' visible='true' lat='31.59199460833' lon='120.77780128064' />
+  <node id='167752' action='modify' visible='true' lat='31.59214397883' lon='120.77695473254' />
+  <node id='167753' action='modify' visible='true' lat='31.59197675332' lon='120.7770764076' />
+  <node id='167754' action='modify' visible='true' lat='31.59185395027' lon='120.77711194687' />
+  <node id='167755' action='modify' visible='true' lat='31.59174714004' lon='120.77720448308' />
+  <node id='167756' action='modify' visible='true' lat='31.59118236554' lon='120.7744991124' />
+  <node id='167757' action='modify' visible='true' lat='31.59100745612' lon='120.77900556205' />
+  <node id='167758' action='modify' visible='true' lat='31.59059836649' lon='120.77819644394' />
+  <node id='167759' action='modify' visible='true' lat='31.59088694197' lon='120.7779105746' />
+  <node id='167760' action='modify' visible='true' lat='31.59115425537' lon='120.77768392794' />
+  <node id='167761' action='modify' visible='true' lat='31.59147989175' lon='120.77822543825' />
+  <node id='738982' action='delete' visible='true' version='11' lat='31.59105189196' lon='120.77896657882'>
+    <tag k='name' v='减速让行' />
+    <tag k='traffic_sign:forward' v='GB_Prohibitory_2' />
+  </node>
+  <node id='738983' action='delete' visible='true' version='11' lat='31.59158976628' lon='120.77570598501'>
+    <tag k='name' v='禁止左转' />
+    <tag k='traffic_sign:forward' v='GB_Prohibitory_22' />
+  </node>
+  <node id='738984' action='delete' visible='true' version='11' lat='31.59096784643' lon='120.77904027765'>
+    <tag k='name' v='减速让行' />
+    <tag k='traffic_sign:backward' v='GB_Prohibitory_2' />
+  </node>
+  <node id='738986' action='modify' visible='true' version='11' lat='31.59295843898' lon='120.77457466275'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='plate|plate' />
+  </node>
+  <node id='738988' action='modify' visible='true' version='11' lat='31.59297709252' lon='120.77461432281'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='arrow|arrow' />
+  </node>
+  <node id='738990' action='modify' visible='true' version='11' lat='31.5929565604' lon='120.77460241167'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='plate' />
+  </node>
+  <node id='738992' action='modify' visible='true' version='11' lat='31.5938190754' lon='120.77663628744'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='arrow|plate' />
+  </node>
+  <node id='738994' action='modify' visible='true' version='11' lat='31.59382921858' lon='120.77658203442'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='arrow|plate' />
+  </node>
+  <node id='738996' action='modify' visible='true' version='11' lat='31.59386077863' lon='120.77666010774'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='arrow|plate' />
+  </node>
+  <node id='738998' action='modify' visible='true' version='11' lat='31.59256568162' lon='120.77778224496'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='plate|arrow' />
+  </node>
+  <node id='739000' action='modify' visible='true' version='11' lat='31.59257185516' lon='120.77770595623'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='plate|arrow' />
+  </node>
+  <node id='739002' action='modify' visible='true' version='11' lat='31.59250903229' lon='120.77775807899'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='plate|arrow' />
+  </node>
+  <node id='739568' action='delete' visible='true' version='11' lat='31.58970991513' lon='120.78004161162'>
+    <tag k='name' v='掉头' />
+    <tag k='traffic_sign:forward' v='GB_Indicator_36' />
+  </node>
+  <node id='739570' action='modify' visible='true' version='11' lat='31.59251968359' lon='120.77769405615'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:type' v='plate|arrow' />
+  </node>
+  <node id='5917900893' action='delete' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59195530021' lon='120.77223469465'>
+    <tag k='name' v='掉头' />
+    <tag k='traffic_sign:forward' v='GB_Indicator_36' />
+  </node>
+  <node id='5917900894' action='modify' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.58881598449' lon='120.77793388682' />
+  <node id='5917900895' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5894116' lon='120.7774517' />
+  <node id='5917900896' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5905313' lon='120.7765605' />
+  <node id='5917900897' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.591004' lon='120.7761811' />
+  <node id='5917900898' action='delete' timestamp='2018-09-26T02:38:47Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057' lat='31.5881458' lon='120.7784987' />
+  <node id='5917900899' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5920338' lon='120.7753568' />
+  <node id='5917900900' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5923648' lon='120.7750919' />
+  <node id='5917900901' timestamp='2018-09-25T13:52:08Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='62914694' lat='31.5896992' lon='120.780051' />
+  <node id='5917900902' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5905482' lon='120.7793716' />
+  <node id='5917900903' action='delete' timestamp='2018-09-26T02:38:47Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057' lat='31.5891785' lon='120.7804808' />
+  <node id='5917900904' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5929191' lon='120.7773986' />
+  <node id='5917900905' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59342182028' lon='120.7769673' />
+  <node id='5917900906' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59179046465' lon='120.77624875344' />
+  <node id='5917900907' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59217025216' lon='120.77700720133' />
+  <node id='5917900908' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5912156' lon='120.7750979' />
+  <node id='5917900909' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5915435' lon='120.775746' />
+  <node id='5917900910' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5904604' lon='120.7736148' />
+  <node id='5917900911' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5908638' lon='120.774392' />
+  <node id='5917900912' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5932743' lon='120.7792188' />
+  <node id='5917900913' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.592926' lon='120.778524' />
+  <node id='5917900914' timestamp='2018-09-25T13:52:08Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='62914694' lat='31.5925405' lon='120.7777329' />
+  <node id='5917900915' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5892955' lon='120.7756167' />
+  <node id='5917900916' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5890087' lon='120.7750831' />
+  <node id='5917900917' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5896367' lon='120.7762921' />
+  <node id='5917900918' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.589985' lon='120.7770047' />
+  <node id='5917900919' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5903646' lon='120.7777365' />
+  <node id='5917900920' action='delete' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5910075' lon='120.7790056'>
+    <tag k='direction' v='clockwise' />
+    <tag k='highway' v='mini_roundabout' />
+  </node>
+  <node id='5917900921' timestamp='2018-09-25T13:52:08Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='62914694' lat='31.5905809' lon='120.7781619' />
+  <node id='5917900922' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5913914' lon='120.7797667' />
+  <node id='5917900923' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5919997' lon='120.7809681' />
+  <node id='5917900924' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5923726' lon='120.7816824' />
+  <node id='5917900925' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5927043' lon='120.7812481' />
+  <node id='5917900927' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5932647' lon='120.7804884' />
+  <node id='5917900928' timestamp='2018-09-20T12:25:08Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62760647' lat='31.5932062' lon='120.7805646' />
+  <node id='5917900929' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5942877' lon='120.7788326' />
+  <node id='5917900930' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5939552' lon='120.7794318' />
+  <node id='5917900931' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5936531' lon='120.7799202' />
+  <node id='5917900932' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5943405' lon='120.7787297' />
+  <node id='5917900933' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5943597' lon='120.7786877' />
+  <node id='5917900934' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5943825' lon='120.7786334' />
+  <node id='5917900935' timestamp='2018-09-20T08:46:09Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944162' lon='120.7785349' />
+  <node id='5917900936' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944522' lon='120.7783954' />
+  <node id='5917900937' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944665' lon='120.7782787' />
+  <node id='5917900938' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944685' lon='120.7781858' />
+  <node id='5917900939' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944602' lon='120.7780863' />
+  <node id='5917900940' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944502' lon='120.7780195' />
+  <node id='5917900941' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944388' lon='120.7779589' />
+  <node id='5917900942' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944189' lon='120.7778786' />
+  <node id='5917900943' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5944022' lon='120.7778232' />
+  <node id='5917900944' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5943776' lon='120.7777533' />
+  <node id='5917900945' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5943707' lon='120.7777335' />
+  <node id='5917900946' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5943318' lon='120.777637' />
+  <node id='5917900947' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5943577' lon='120.7777012' />
+  <node id='5917900948' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5943033' lon='120.7775716' />
+  <node id='5917900949' timestamp='2018-09-20T12:25:08Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62760647' lat='31.5942232' lon='120.7774044' />
+  <node id='5917900953' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5942142' lon='120.7773862' />
+  <node id='5917900955' timestamp='2018-09-25T13:52:08Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='62914694' lat='31.5938425' lon='120.7766179' />
+  <node id='5917900956' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5932008' lon='120.7751211' />
+  <node id='5917900957' action='modify' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59226267684' lon='120.77295653516' />
+  <node id='5917900958' action='modify' timestamp='2018-09-26T06:04:25Z' uid='8712912' user='Zong Liang L' visible='true' version='4' changeset='62934912' lat='31.59296674017' lon='120.77459396882' />
+  <node id='5917900959' action='modify' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59232742431' lon='120.77310711724' />
+  <node id='5917900961' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59327914389' lon='120.77125465074' />
+  <node id='5917900962' action='modify' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59192924016' lon='120.77218106882' />
+  <node id='5917900963' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5910846' lon='120.7729914' />
+  <node id='5917900964' action='delete' timestamp='2018-09-25T13:52:08Z' uid='8712912' user='Zong Liang L' visible='true' version='4' changeset='62914694' lat='31.58931347713' lon='120.77475155054'>
+    <tag k='maxspeed' v='30' />
+    <tag k='name' v='限速' />
+    <tag k='traffic_sign' v='GB_ Prohibitory_38' />
+    <tag k='traffic_sign:value' v='30' />
+  </node>
+  <node id='5917900965' action='delete' timestamp='2018-09-26T02:38:47Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057' lat='31.58734266561' lon='120.77675651716' />
+  <node id='5917900966' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59343914247' lon='120.77184401482' />
+  <node id='5917900967' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59295734114' lon='120.77210235236' />
+  <node id='5917900968' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.592793' lon='120.7722706' />
+  <node id='5917900969' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5924137' lon='120.7724744' />
+  <node id='5917900970' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5928158' lon='120.7734239' />
+  <node id='5917900971' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59339657673' lon='120.77307723337' />
+  <node id='5917900972' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59355740693' lon='120.77307776784' />
+  <node id='5917900973' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59371360134' lon='120.77290023337' />
+  <node id='5917900974' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.59368421786' lon='120.77265866324' />
+  <node id='5917900975' action='delete' timestamp='2018-09-20T08:46:10Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62754840' lat='31.5933103124' lon='120.77130791657' />
+  <node id='5919887137' action='delete' timestamp='2018-09-26T06:04:25Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62934912' lat='31.59157296242' lon='120.7757208661'>
+    <tag k='name' v='停车让行' />
+    <tag k='traffic_sign:forward' v='GB_Prohibitory_1' />
+  </node>
+  <node id='5919887139' action='delete' timestamp='2018-09-26T06:04:25Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62934912' lat='31.59152544347' lon='120.7757601655'>
+    <tag k='name' v='停车让行' />
+    <tag k='traffic_sign:backward' v='GB_Prohibitory_1' />
+  </node>
+  <node id='5919887142' action='delete' timestamp='2018-09-26T06:04:25Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62934912' lat='31.589891' lon='120.777078'>
+    <tag k='highway' v='stop' />
+    <tag k='name' v='停车让行' />
+    <tag k='traffic_sign:backward' v='GB_Prohibitory_1' />
+  </node>
+  <node id='5919887144' action='delete' timestamp='2018-09-26T06:04:25Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62934912' lat='31.590073' lon='120.7769331'>
+    <tag k='highway' v='stop' />
+    <tag k='name' v='停车让行' />
+    <tag k='traffic_sign:forward' v='GB_Prohibitory_1' />
+  </node>
+  <node id='5919887147' action='delete' timestamp='2018-09-26T05:52:39Z' uid='8712912' user='Zong Liang L' visible='true' version='4' changeset='62934705' lat='31.59220015684' lon='120.77706071992'>
+    <tag k='name' v='隧道' />
+    <tag k='traffic_sign:forward' v='GB_Warning_40' />
+  </node>
+  <node id='5919887148' action='delete' timestamp='2018-09-26T05:52:39Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62934705' lat='31.59005729577' lon='120.7739930491' />
+  <node id='5919906149' action='modify' timestamp='2018-09-21T07:06:15Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62785912' lat='31.59317362508' lon='120.77295513729' />
+  <node id='5919906150' action='modify' timestamp='2018-09-21T07:06:15Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62785912' lat='31.59300010978' lon='120.77305627638' />
+  <node id='5919906151' action='modify' timestamp='2018-09-21T07:06:15Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62785912' lat='31.59271073159' lon='120.77237202093' />
+  <node id='5919906152' action='modify' timestamp='2018-09-21T07:06:15Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62785912' lat='31.59288424743' lon='120.77227088185' />
+  <node id='5922405538' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5912283' lon='120.7794433' />
+  <node id='5922405539' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.591089' lon='120.7795535' />
+  <node id='5922405540' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903564' lon='120.7801402' />
+  <node id='5922405541' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5902088' lon='120.7802642' />
+  <node id='5922405542' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5901725' lon='120.7803054' />
+  <node id='5922405543' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5901575' lon='120.780329' />
+  <node id='5922405544' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5901491' lon='120.7803556' />
+  <node id='5922405545' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.590147' lon='120.780401' />
+  <node id='5922405546' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5901576' lon='120.780439' />
+  <node id='5922405547' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5901716' lon='120.7804619' />
+  <node id='5922405548' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5902027' lon='120.7804913' />
+  <node id='5922405549' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5902304' lon='120.7805044' />
+  <node id='5922405550' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903242' lon='120.7805323' />
+  <node id='5922405551' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903511' lon='120.780547' />
+  <node id='5922405552' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903713' lon='120.7805649' />
+  <node id='5922405553' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903836' lon='120.7805855' />
+  <node id='5922405554' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903898' lon='120.780603' />
+  <node id='5922405555' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.590392' lon='120.7806346' />
+  <node id='5922405556' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903896' lon='120.7806622' />
+  <node id='5922405557' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903796' lon='120.7806967' />
+  <node id='5922405558' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903593' lon='120.7807355' />
+  <node id='5922405559' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.590343' lon='120.7807617' />
+  <node id='5922405560' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.590329' lon='120.7807868' />
+  <node id='5922405561' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903194' lon='120.7808121' />
+  <node id='5922405562' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903162' lon='120.7808325' />
+  <node id='5922405563' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.590317' lon='120.7808597' />
+  <node id='5922405564' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903194' lon='120.7808694' />
+  <node id='5922405565' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903275' lon='120.7808921' />
+  <node id='5922405566' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903406' lon='120.780913' />
+  <node id='5922405567' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5903623' lon='120.7809317' />
+  <node id='5922405568' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.590385' lon='120.780946' />
+  <node id='5922405569' action='delete' timestamp='2018-09-22T13:01:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5904189' lon='120.7809563' />
+  <node id='5922405570' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5904698' lon='120.7809655' />
+  <node id='5922405571' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5905013' lon='120.7809782' />
+  <node id='5922405572' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5905268' lon='120.780996' />
+  <node id='5922405573' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5905455' lon='120.7810206' />
+  <node id='5922405574' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5905558' lon='120.7810441' />
+  <node id='5922405575' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5905653' lon='120.7810706' />
+  <node id='5922405576' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5905713' lon='120.7811019' />
+  <node id='5922405577' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5905791' lon='120.781266' />
+  <node id='5922405578' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.590593' lon='120.7815611' />
+  <node id='5922405579' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5905987' lon='120.7816042' />
+  <node id='5922405580' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5906053' lon='120.7816306' />
+  <node id='5922405581' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5906148' lon='120.7816562' />
+  <node id='5922405582' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5906246' lon='120.7816748' />
+  <node id='5922405583' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5906381' lon='120.7816923' />
+  <node id='5922405584' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5906523' lon='120.781702' />
+  <node id='5922405785' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5906643' lon='120.781707' />
+  <node id='5922405786' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5906896' lon='120.7817091' />
+  <node id='5922405787' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5907078' lon='120.7817054' />
+  <node id='5922405788' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5907241' lon='120.7816959' />
+  <node id='5922405789' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5907349' lon='120.7816859' />
+  <node id='5922405790' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5907471' lon='120.7816719' />
+  <node id='5922405791' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5907614' lon='120.7816459' />
+  <node id='5922405792' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.590772' lon='120.7816124' />
+  <node id='5922405793' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5907789' lon='120.7815686' />
+  <node id='5922405794' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5908585' lon='120.7810465' />
+  <node id='5922405795' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5909193' lon='120.7806693' />
+  <node id='5922405796' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5909391' lon='120.7805874' />
+  <node id='5922405797' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5909549' lon='120.7805372' />
+  <node id='5922405798' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5909602' lon='120.7805255' />
+  <node id='5922405799' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5909754' lon='120.780501' />
+  <node id='5922405800' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5909906' lon='120.7804845' />
+  <node id='5922405801' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5909996' lon='120.7804766' />
+  <node id='5922405802' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910079' lon='120.7804701' />
+  <node id='5922405803' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910215' lon='120.7804632' />
+  <node id='5922405804' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.591038' lon='120.7804579' />
+  <node id='5922405805' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910596' lon='120.7804584' />
+  <node id='5922405806' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910737' lon='120.7804622' />
+  <node id='5922405807' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910853' lon='120.7804682' />
+  <node id='5922405808' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.591096' lon='120.7804761' />
+  <node id='5922405809' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911065' lon='120.7804873' />
+  <node id='5922405810' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911146' lon='120.7805016' />
+  <node id='5922405811' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911206' lon='120.7805166' />
+  <node id='5922405812' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911236' lon='120.7805308' />
+  <node id='5922405813' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911234' lon='120.7805575' />
+  <node id='5922405814' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911191' lon='120.7805793' />
+  <node id='5922405815' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911147' lon='120.7805958' />
+  <node id='5922405816' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910962' lon='120.7806402' />
+  <node id='5922405817' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.591089' lon='120.7806558' />
+  <node id='5922405818' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910839' lon='120.7806689' />
+  <node id='5922405819' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910808' lon='120.7806795' />
+  <node id='5922405820' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910788' lon='120.7806893' />
+  <node id='5922405821' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910786' lon='120.7807047' />
+  <node id='5922405822' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910804' lon='120.7807174' />
+  <node id='5922405823' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910846' lon='120.7807282' />
+  <node id='5922405824' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5910915' lon='120.7807379' />
+  <node id='5922405825' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911035' lon='120.7807557' />
+  <node id='5922405826' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5911495' lon='120.7807622' />
+  <node id='5922405827' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5912011' lon='120.7807514' />
+  <node id='5922405828' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5913005' lon='120.7807082' />
+  <node id='5922405829' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5913594' lon='120.7806931' />
+  <node id='5922405830' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5914497' lon='120.7806931' />
+  <node id='5922405831' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5915344' lon='120.7807298' />
+  <node id='5922405832' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5916223' lon='120.7807914' />
+  <node id='5922405833' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5916539' lon='120.7808228' />
+  <node id='5922405834' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5916762' lon='120.7808498' />
+  <node id='5922405835' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5916978' lon='120.7808822' />
+  <node id='5922405836' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917142' lon='120.7809138' />
+  <node id='5922405837' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917273' lon='120.780946' />
+  <node id='5922405838' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917358' lon='120.7809736' />
+  <node id='5922405839' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917439' lon='120.781006' />
+  <node id='5922405840' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917496' lon='120.7810463' />
+  <node id='5922405841' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917498' lon='120.7811146' />
+  <node id='5922405842' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917406' lon='120.781213' />
+  <node id='5922405843' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917234' lon='120.7813484' />
+  <node id='5922405844' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917248' lon='120.7814332' />
+  <node id='5922405845' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.59173' lon='120.7814713' />
+  <node id='5922405846' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5917429' lon='120.7815178' />
+  <node id='5922405847' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.591765' lon='120.781574' />
+  <node id='5922405848' action='delete' timestamp='2018-09-22T13:01:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5918' lon='120.7816346' />
+  <node id='5922405849' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5918309' lon='120.7816719' />
+  <node id='5922405850' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5918682' lon='120.7817075' />
+  <node id='5922405851' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5919041' lon='120.7817351' />
+  <node id='5922405852' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5919446' lon='120.781754' />
+  <node id='5922405853' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5919911' lon='120.7817643' />
+  <node id='5922405854' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5920334' lon='120.7817654' />
+  <node id='5922405855' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5920753' lon='120.7817605' />
+  <node id='5922405856' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5922061' lon='120.7817324' />
+  <node id='5922405857' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5922231' lon='120.7817297' />
+  <node id='5922405858' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5922415' lon='120.7817221' />
+  <node id='5922405859' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5922931' lon='120.7817135' />
+  <node id='5922405860' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096' lat='31.5923336' lon='120.7817048' />
+  <node id='5922419360' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5912283' lon='120.7794433' />
+  <node id='5922419361' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.591089' lon='120.7795535' />
+  <node id='5922419362' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903564' lon='120.7801402' />
+  <node id='5922419363' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5902088' lon='120.7802642' />
+  <node id='5922419364' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5901725' lon='120.7803054' />
+  <node id='5922419365' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5901575' lon='120.780329' />
+  <node id='5922419366' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5901491' lon='120.7803556' />
+  <node id='5922419367' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.590147' lon='120.780401' />
+  <node id='5922419368' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5901576' lon='120.780439' />
+  <node id='5922419369' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5901716' lon='120.7804619' />
+  <node id='5922419370' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5902027' lon='120.7804913' />
+  <node id='5922419371' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5902304' lon='120.7805044' />
+  <node id='5922419372' action='delete' timestamp='2018-09-22T13:15:16Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903242' lon='120.7805323' />
+  <node id='5922419373' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903511' lon='120.780547' />
+  <node id='5922419374' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903713' lon='120.7805649' />
+  <node id='5922419375' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903836' lon='120.7805855' />
+  <node id='5922419376' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903898' lon='120.780603' />
+  <node id='5922419377' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.590392' lon='120.7806346' />
+  <node id='5922419378' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903896' lon='120.7806622' />
+  <node id='5922419379' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903796' lon='120.7806967' />
+  <node id='5922419380' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903593' lon='120.7807355' />
+  <node id='5922419381' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.590343' lon='120.7807617' />
+  <node id='5922419382' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.590329' lon='120.7807868' />
+  <node id='5922419383' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903194' lon='120.7808121' />
+  <node id='5922419384' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903162' lon='120.7808325' />
+  <node id='5922419885' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.590317' lon='120.7808597' />
+  <node id='5922419886' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903194' lon='120.7808694' />
+  <node id='5922419887' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903275' lon='120.7808921' />
+  <node id='5922419888' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903406' lon='120.780913' />
+  <node id='5922419889' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5903623' lon='120.7809317' />
+  <node id='5922419890' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.590385' lon='120.780946' />
+  <node id='5922419891' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5904189' lon='120.7809563' />
+  <node id='5922419892' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5904698' lon='120.7809655' />
+  <node id='5922419893' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5905013' lon='120.7809782' />
+  <node id='5922419894' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5905268' lon='120.780996' />
+  <node id='5922419895' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5905455' lon='120.7810206' />
+  <node id='5922419896' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5905558' lon='120.7810441' />
+  <node id='5922419897' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5905653' lon='120.7810706' />
+  <node id='5922419898' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5905713' lon='120.7811019' />
+  <node id='5922419899' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5905791' lon='120.781266' />
+  <node id='5922419900' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.590593' lon='120.7815611' />
+  <node id='5922419901' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5905987' lon='120.7816042' />
+  <node id='5922419902' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5906053' lon='120.7816306' />
+  <node id='5922419903' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5906148' lon='120.7816562' />
+  <node id='5922419904' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5906246' lon='120.7816748' />
+  <node id='5922419905' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5906381' lon='120.7816923' />
+  <node id='5922419906' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5906523' lon='120.781702' />
+  <node id='5922419907' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5906643' lon='120.781707' />
+  <node id='5922419908' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5906896' lon='120.7817091' />
+  <node id='5922419909' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5907078' lon='120.7817054' />
+  <node id='5922419910' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5907241' lon='120.7816959' />
+  <node id='5922419911' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5907349' lon='120.7816859' />
+  <node id='5922419912' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5907471' lon='120.7816719' />
+  <node id='5922419913' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5907614' lon='120.7816459' />
+  <node id='5922419914' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.590772' lon='120.7816124' />
+  <node id='5922419915' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5907789' lon='120.7815686' />
+  <node id='5922419916' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5908585' lon='120.7810465' />
+  <node id='5922419917' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5909193' lon='120.7806693' />
+  <node id='5922419918' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5909391' lon='120.7805874' />
+  <node id='5922419919' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5909549' lon='120.7805372' />
+  <node id='5922419920' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5909602' lon='120.7805255' />
+  <node id='5922419921' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5909754' lon='120.780501' />
+  <node id='5922419922' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5909906' lon='120.7804845' />
+  <node id='5922419923' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5909996' lon='120.7804766' />
+  <node id='5922419924' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910079' lon='120.7804701' />
+  <node id='5922419925' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910215' lon='120.7804632' />
+  <node id='5922419926' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.591038' lon='120.7804579' />
+  <node id='5922419927' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910596' lon='120.7804584' />
+  <node id='5922419928' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910737' lon='120.7804622' />
+  <node id='5922419929' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910853' lon='120.7804682' />
+  <node id='5922419930' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.591096' lon='120.7804761' />
+  <node id='5922419931' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911065' lon='120.7804873' />
+  <node id='5922419932' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911146' lon='120.7805016' />
+  <node id='5922419933' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911206' lon='120.7805166' />
+  <node id='5922419934' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911236' lon='120.7805308' />
+  <node id='5922419935' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911234' lon='120.7805575' />
+  <node id='5922419936' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911191' lon='120.7805793' />
+  <node id='5922419937' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911147' lon='120.7805958' />
+  <node id='5922419938' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910962' lon='120.7806402' />
+  <node id='5922419939' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.591089' lon='120.7806558' />
+  <node id='5922419940' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910839' lon='120.7806689' />
+  <node id='5922419941' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910808' lon='120.7806795' />
+  <node id='5922419942' action='delete' timestamp='2018-09-22T13:15:17Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910788' lon='120.7806893' />
+  <node id='5922419943' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910786' lon='120.7807047' />
+  <node id='5922419944' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910804' lon='120.7807174' />
+  <node id='5922419945' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910846' lon='120.7807282' />
+  <node id='5922419946' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5910915' lon='120.7807379' />
+  <node id='5922419947' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911035' lon='120.7807557' />
+  <node id='5922419948' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5911495' lon='120.7807622' />
+  <node id='5922419949' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5912011' lon='120.7807514' />
+  <node id='5922419950' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5913005' lon='120.7807082' />
+  <node id='5922419951' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5913594' lon='120.7806931' />
+  <node id='5922419952' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5914497' lon='120.7806931' />
+  <node id='5922419953' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5915344' lon='120.7807298' />
+  <node id='5922419954' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5916223' lon='120.7807914' />
+  <node id='5922419955' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5916539' lon='120.7808228' />
+  <node id='5922419956' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5916762' lon='120.7808498' />
+  <node id='5922419957' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5916978' lon='120.7808822' />
+  <node id='5922419958' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917142' lon='120.7809138' />
+  <node id='5922419959' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917273' lon='120.780946' />
+  <node id='5922419960' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917358' lon='120.7809736' />
+  <node id='5922419961' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917439' lon='120.781006' />
+  <node id='5922419962' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917496' lon='120.7810463' />
+  <node id='5922419963' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917498' lon='120.7811146' />
+  <node id='5922419964' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917406' lon='120.781213' />
+  <node id='5922419965' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917234' lon='120.7813484' />
+  <node id='5922419966' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917248' lon='120.7814332' />
+  <node id='5922419967' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.59173' lon='120.7814713' />
+  <node id='5922419968' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5917429' lon='120.7815178' />
+  <node id='5922419969' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.591765' lon='120.781574' />
+  <node id='5922419970' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5918' lon='120.7816346' />
+  <node id='5922419971' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5918309' lon='120.7816719' />
+  <node id='5922419972' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5918682' lon='120.7817075' />
+  <node id='5922419973' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5919041' lon='120.7817351' />
+  <node id='5922419974' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5919446' lon='120.781754' />
+  <node id='5922419975' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5919911' lon='120.7817643' />
+  <node id='5922419976' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5920334' lon='120.7817654' />
+  <node id='5922419977' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5920753' lon='120.7817605' />
+  <node id='5922419978' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5922061' lon='120.7817324' />
+  <node id='5922419979' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5922231' lon='120.7817297' />
+  <node id='5922419980' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5922415' lon='120.7817221' />
+  <node id='5922419981' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5922931' lon='120.7817135' />
+  <node id='5922419982' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291' lat='31.5923336' lon='120.7817048' />
+  <node id='5922423065' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5912283' lon='120.7794433' />
+  <node id='5922423066' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.591089' lon='120.7795535' />
+  <node id='5922423067' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903564' lon='120.7801402' />
+  <node id='5922423068' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5902088' lon='120.7802642' />
+  <node id='5922423069' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5901725' lon='120.7803054' />
+  <node id='5922423070' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5901575' lon='120.780329' />
+  <node id='5922423071' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5901491' lon='120.7803556' />
+  <node id='5922423072' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.590147' lon='120.780401' />
+  <node id='5922423073' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5901576' lon='120.780439' />
+  <node id='5922423074' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5901716' lon='120.7804619' />
+  <node id='5922423075' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5902027' lon='120.7804913' />
+  <node id='5922423076' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5902304' lon='120.7805044' />
+  <node id='5922423077' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903242' lon='120.7805323' />
+  <node id='5922423078' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903511' lon='120.780547' />
+  <node id='5922423079' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903713' lon='120.7805649' />
+  <node id='5922423080' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903836' lon='120.7805855' />
+  <node id='5922423081' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903898' lon='120.780603' />
+  <node id='5922423082' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.590392' lon='120.7806346' />
+  <node id='5922423083' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903896' lon='120.7806622' />
+  <node id='5922423084' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903796' lon='120.7806967' />
+  <node id='5922423085' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903593' lon='120.7807355' />
+  <node id='5922423086' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.590343' lon='120.7807617' />
+  <node id='5922423087' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.590329' lon='120.7807868' />
+  <node id='5922423088' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903194' lon='120.7808121' />
+  <node id='5922423089' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903162' lon='120.7808325' />
+  <node id='5922423090' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.590317' lon='120.7808597' />
+  <node id='5922423091' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903194' lon='120.7808694' />
+  <node id='5922423092' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903275' lon='120.7808921' />
+  <node id='5922423093' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903406' lon='120.780913' />
+  <node id='5922423094' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5903623' lon='120.7809317' />
+  <node id='5922423095' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.590385' lon='120.780946' />
+  <node id='5922423096' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5904189' lon='120.7809563' />
+  <node id='5922423097' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5904698' lon='120.7809655' />
+  <node id='5922423098' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5905013' lon='120.7809782' />
+  <node id='5922423099' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5905268' lon='120.780996' />
+  <node id='5922423100' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5905455' lon='120.7810206' />
+  <node id='5922423101' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5905558' lon='120.7810441' />
+  <node id='5922423102' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5905653' lon='120.7810706' />
+  <node id='5922423103' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5905713' lon='120.7811019' />
+  <node id='5922423104' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5905791' lon='120.781266' />
+  <node id='5922423105' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.590593' lon='120.7815611' />
+  <node id='5922423106' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5905987' lon='120.7816042' />
+  <node id='5922423107' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5906053' lon='120.7816306' />
+  <node id='5922423108' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5906148' lon='120.7816562' />
+  <node id='5922423109' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5906246' lon='120.7816748' />
+  <node id='5922423110' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5906381' lon='120.7816923' />
+  <node id='5922423111' action='delete' timestamp='2018-09-22T13:18:26Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5906523' lon='120.781702' />
+  <node id='5922423112' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5906643' lon='120.781707' />
+  <node id='5922423113' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5906896' lon='120.7817091' />
+  <node id='5922423114' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5907078' lon='120.7817054' />
+  <node id='5922423115' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5907241' lon='120.7816959' />
+  <node id='5922423116' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5907349' lon='120.7816859' />
+  <node id='5922423117' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5907471' lon='120.7816719' />
+  <node id='5922423118' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5907614' lon='120.7816459' />
+  <node id='5922423119' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.590772' lon='120.7816124' />
+  <node id='5922423120' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5907789' lon='120.7815686' />
+  <node id='5922423121' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5908585' lon='120.7810465' />
+  <node id='5922423122' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5909193' lon='120.7806693' />
+  <node id='5922423123' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5909391' lon='120.7805874' />
+  <node id='5922423124' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5909549' lon='120.7805372' />
+  <node id='5922423125' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5909602' lon='120.7805255' />
+  <node id='5922423126' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5909754' lon='120.780501' />
+  <node id='5922423127' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5909906' lon='120.7804845' />
+  <node id='5922423128' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5909996' lon='120.7804766' />
+  <node id='5922423129' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910079' lon='120.7804701' />
+  <node id='5922423130' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910215' lon='120.7804632' />
+  <node id='5922423131' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.591038' lon='120.7804579' />
+  <node id='5922423132' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910596' lon='120.7804584' />
+  <node id='5922423133' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910737' lon='120.7804622' />
+  <node id='5922423134' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910853' lon='120.7804682' />
+  <node id='5922423135' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.591096' lon='120.7804761' />
+  <node id='5922423136' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911065' lon='120.7804873' />
+  <node id='5922423137' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911146' lon='120.7805016' />
+  <node id='5922423138' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911206' lon='120.7805166' />
+  <node id='5922423139' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911236' lon='120.7805308' />
+  <node id='5922423140' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911234' lon='120.7805575' />
+  <node id='5922423141' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911191' lon='120.7805793' />
+  <node id='5922423142' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911147' lon='120.7805958' />
+  <node id='5922423143' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910962' lon='120.7806402' />
+  <node id='5922423144' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.591089' lon='120.7806558' />
+  <node id='5922423145' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910839' lon='120.7806689' />
+  <node id='5922423146' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910808' lon='120.7806795' />
+  <node id='5922423147' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910788' lon='120.7806893' />
+  <node id='5922423148' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910786' lon='120.7807047' />
+  <node id='5922423149' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910804' lon='120.7807174' />
+  <node id='5922423150' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910846' lon='120.7807282' />
+  <node id='5922423151' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5910915' lon='120.7807379' />
+  <node id='5922423152' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911035' lon='120.7807557' />
+  <node id='5922423153' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5911495' lon='120.7807622' />
+  <node id='5922423154' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5912011' lon='120.7807514' />
+  <node id='5922423155' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5913005' lon='120.7807082' />
+  <node id='5922423156' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5913594' lon='120.7806931' />
+  <node id='5922423157' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5914497' lon='120.7806931' />
+  <node id='5922423158' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5915344' lon='120.7807298' />
+  <node id='5922423159' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5916223' lon='120.7807914' />
+  <node id='5922423160' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5916539' lon='120.7808228' />
+  <node id='5922423161' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5916762' lon='120.7808498' />
+  <node id='5922423162' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5916978' lon='120.7808822' />
+  <node id='5922423163' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917142' lon='120.7809138' />
+  <node id='5922423164' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917273' lon='120.780946' />
+  <node id='5922423165' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917358' lon='120.7809736' />
+  <node id='5922423166' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917439' lon='120.781006' />
+  <node id='5922423167' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917496' lon='120.7810463' />
+  <node id='5922423168' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917498' lon='120.7811146' />
+  <node id='5922423169' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917406' lon='120.781213' />
+  <node id='5922423170' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917234' lon='120.7813484' />
+  <node id='5922423171' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917248' lon='120.7814332' />
+  <node id='5922423172' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.59173' lon='120.7814713' />
+  <node id='5922423173' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5917429' lon='120.7815178' />
+  <node id='5922423174' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.591765' lon='120.781574' />
+  <node id='5922423175' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5918' lon='120.7816346' />
+  <node id='5922423176' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5918309' lon='120.7816719' />
+  <node id='5922423177' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5918682' lon='120.7817075' />
+  <node id='5922423178' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5919041' lon='120.7817351' />
+  <node id='5922423179' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5919446' lon='120.781754' />
+  <node id='5922423180' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5919911' lon='120.7817643' />
+  <node id='5922423181' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5920334' lon='120.7817654' />
+  <node id='5922423182' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5920753' lon='120.7817605' />
+  <node id='5922423183' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5922061' lon='120.7817324' />
+  <node id='5922423184' action='delete' timestamp='2018-09-22T13:18:27Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5922231' lon='120.7817297' />
+  <node id='5922423185' action='delete' timestamp='2018-09-22T13:18:28Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5922415' lon='120.7817221' />
+  <node id='5922423186' action='delete' timestamp='2018-09-22T13:18:28Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5922931' lon='120.7817135' />
+  <node id='5922423187' action='delete' timestamp='2018-09-22T13:18:28Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536' lat='31.5923336' lon='120.7817048' />
+  <node id='5922469330' action='delete' timestamp='2018-09-26T02:38:48Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='62932057' lat='31.59274667436' lon='120.77221705693'>
+    <tag k='amenity' v='parking' />
+    <tag k='name' v='起点' />
+    <tag k='parking:color' v='white' />
+    <tag k='parking:direction' v='backward' />
+    <tag k='parking:type' v='parallel' />
+  </node>
+  <node id='5928952507' action='delete' timestamp='2018-09-26T02:38:48Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057' lat='31.5896605' lon='120.780083' />
+  <node id='5928952508' action='delete' timestamp='2018-09-26T02:38:48Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057' lat='31.5889128' lon='120.7799344' />
+  <node id='5928952509' action='delete' timestamp='2018-09-26T02:38:48Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057' lat='31.5918942' lon='120.7822756' />
+  <node id='5928952510' action='delete' timestamp='2018-09-26T02:38:48Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057' lat='31.58968078574' lon='120.78143761908' />
+  <node id='5928952511' action='delete' timestamp='2018-09-26T02:38:48Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057' lat='31.5908263' lon='120.7835764' />
+  <node id='5930487279' action='delete' timestamp='2018-09-26T03:05:35Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932385' lat='31.58959824224' lon='120.77463592688'>
+    <tag k='amenity' v='taxi' />
+    <tag k='parking:additional' v='B' />
+    <tag k='parking:color' v='blue' />
+    <tag k='parking:direction' v='backward' />
+    <tag k='parking:type' v='parallel' />
+  </node>
+  <node id='5930487280' action='delete' timestamp='2018-09-26T03:05:35Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932385' lat='31.59301829022' lon='120.78059631239'>
+    <tag k='amenity' v='taxi' />
+    <tag k='parking:additional' v='A' />
+    <tag k='parking:color' v='blue' />
+    <tag k='parking:direction' v='forward' />
+    <tag k='parking:type' v='parallel' />
+  </node>
+  <node id='5930487281' action='delete' timestamp='2018-09-26T02:38:47Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62932057' lat='31.5895943' lon='120.7815376'>
+    <tag k='covered' v='yes' />
+    <tag k='parking:color' v='yellow' />
+    <tag k='parking:type' v='parallel' />
+    <tag k='public_transport' v='platform' />
+  </node>
+  <node id='5930487282' action='delete' timestamp='2018-09-26T02:38:47Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62932057' lat='31.5888861' lon='120.7794535'>
+    <tag k='covered' v='yes' />
+    <tag k='parking:color' v='yellow' />
+    <tag k='parking:type' v='parallel' />
+    <tag k='public_transport' v='platform' />
+  </node>
+  <node id='5930511542' action='delete' timestamp='2018-09-26T03:03:13Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62932335' lat='31.5895943' lon='120.7815376'>
+    <tag k='covered' v='yes' />
+    <tag k='parking:color' v='yellow' />
+    <tag k='parking:type' v='parallel' />
+    <tag k='public_transport' v='platform' />
+  </node>
+  <node id='5930511543' action='delete' timestamp='2018-09-26T03:03:13Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62932335' lat='31.5888861' lon='120.7794535'>
+    <tag k='covered' v='yes' />
+    <tag k='parking:color' v='yellow' />
+    <tag k='parking:type' v='parallel' />
+    <tag k='public_transport' v='platform' />
+  </node>
+  <node id='5930511544' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59098319269' lon='120.77895752657' />
+  <node id='5930511545' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59096877649' lon='120.77897267964' />
+  <node id='5930511546' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59096153469' lon='120.77899374539' />
+  <node id='5930511547' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5909629534' lon='120.77901640086' />
+  <node id='5930511548' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59097274149' lon='120.77903599685' />
+  <node id='5930511549' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59098999711' lon='120.77904897344' />
+  <node id='5930511550' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59101041506' lon='120.779051022' />
+  <node id='5930511551' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59102929608' lon='120.77904167105' />
+  <node id='5930511552' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59102641583' lon='120.77904309751' />
+  <node id='5930511553' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59104229462' lon='120.77902307274' />
+  <node id='5930511554' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59104641902' lon='120.77899950755' />
+  <node id='5930511555' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59104072004' lon='120.7789763991' />
+  <node id='5930511556' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59102991383' lon='120.77896186499' />
+  <node id='5930511557' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.5910152334' lon='120.77895319581' />
+  <node id='5930511558' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59099885149' lon='120.77895167462' />
+  <node id='5930511559' action='delete' timestamp='2018-09-26T02:38:48Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='62932057' lat='31.593302683' lon='120.77184887995'>
+    <tag k='amenity' v='parking' />
+    <tag k='name' v='起点' />
+    <tag k='parking:color' v='white' />
+    <tag k='parking:direction' v='backward' />
+    <tag k='parking:type' v='parallel' />
+  </node>
+  <node id='5930511560' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59342932235' lon='120.77184625992' />
+  <node id='5930511561' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59344087051' lon='120.77169336732' />
+  <node id='5930511562' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59338991718' lon='120.7715047612' />
+  <node id='5930511563' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59288850145' lon='120.77148124756' />
+  <node id='5930511564' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59354585033' lon='120.77209447859' />
+  <node id='5930511565' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59367029791' lon='120.77302086281' />
+  <node id='5930511566' action='modify' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59255342105' lon='120.77280433024' />
+  <node id='5930511567' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59261567214' lon='120.77295132698' />
+  <node id='5930511568' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59275482634' lon='120.7732799194' />
+  <node id='5930511569' action='delete' timestamp='2018-09-22T13:50:17Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62826454' lat='31.59302985862' lon='120.77311382813'>
+    <tag k='amenity' v='parking_entrance' />
+    <tag k='covered' v='yes' />
+    <tag k='name' v='地下车库' />
+  </node>
+  <way id='147097' action='modify' visible='true'>
+    <nd ref='167712' />
+    <nd ref='167708' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='福茂路' />
+    <tag k='section' v='1' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='147098' action='modify' visible='true'>
+    <nd ref='5930511566' />
+    <nd ref='5917900969' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='内部道路' />
+    <tag k='section' v='9' />
+    <tag k='width:lanes' v='2.6|2.6' />
+  </way>
+  <way id='147099' action='modify' visible='true'>
+    <nd ref='167709' />
+    <nd ref='5917900959' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='1' />
+    <tag k='section' v='6' />
+    <tag k='turn:lanes:forward' v='right' />
+  </way>
+  <way id='147100' action='modify' visible='true'>
+    <nd ref='167709' />
+    <nd ref='5930511566' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='section' v='7' />
+    <tag k='width:lanes' v='2.6|2.6' />
+  </way>
+  <way id='147101' action='modify' visible='true'>
+    <nd ref='5917900959' />
+    <nd ref='167710' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='name' v='云深路' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='through|through,right|right' />
+    <tag k='width:lanes' v='3.5|3.8|3.8|3.5|3.5' />
+  </way>
+  <way id='147102' action='modify' visible='true'>
+    <nd ref='167711' />
+    <nd ref='738994' />
+    <nd ref='5917900955' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='through,left|through' />
+    <tag k='turn:lanes:forward' v='left|through,right' />
+    <tag k='width:lanes' v='3.5|3.8|3.8|3.5|3.5' />
+  </way>
+  <way id='147103' action='modify' visible='true'>
+    <nd ref='5917900956' />
+    <nd ref='167711' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='name' v='云深路' />
+    <tag k='section' v='1' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='through,left|through' />
+    <tag k='turn:lanes:forward' v='left|through,right' />
+    <tag k='width:lanes' v='3.5|3.8|3.8|3.5|3.5' />
+  </way>
+  <way id='147104' action='modify' visible='true'>
+    <nd ref='5917900924' />
+    <nd ref='167712' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='147105' action='modify' visible='true'>
+    <nd ref='5917900914' />
+    <nd ref='739002' />
+    <nd ref='167713' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='yield' />
+    <tag k='turn:lanes:backward' v='left|through|through,right' />
+    <tag k='turn:lanes:forward' v='through|through|through,right' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='147106' action='modify' visible='true'>
+    <nd ref='167713' />
+    <nd ref='167737' />
+    <nd ref='167714' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='name' v='福盛路' />
+    <tag k='section' v='1' />
+    <tag k='stopline' v='yield' />
+    <tag k='turn:lanes:backward' v='left|through|through,right' />
+    <tag k='turn:lanes:forward' v='through|through|through,right' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='147107' action='modify' visible='true'>
+    <nd ref='167715' />
+    <nd ref='5917900901' />
+    <nd ref='167705' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash|dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='2' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='147108' action='modify' visible='true'>
+    <nd ref='5917900894' />
+    <nd ref='167706' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='2' />
+    <tag k='width:lanes' v='3.1' />
+  </way>
+  <way id='147109' action='modify' visible='true'>
+    <nd ref='5917900935' />
+    <nd ref='5917900934' />
+    <nd ref='5917900933' />
+    <nd ref='5917900932' />
+    <nd ref='5917900929' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='3' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='147110' action='modify' visible='true'>
+    <nd ref='5917900940' />
+    <nd ref='5917900939' />
+    <nd ref='5917900938' />
+    <nd ref='5917900937' />
+    <nd ref='5917900936' />
+    <nd ref='5917900935' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='云深路' />
+    <tag k='section' v='2' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='147111' action='modify' visible='true'>
+    <nd ref='167717' />
+    <nd ref='167756' />
+    <nd ref='167718' />
+    <nd ref='167719' />
+    <nd ref='167720' />
+    <nd ref='167726' />
+    <nd ref='167727' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='内部道路' />
+  </way>
+  <way id='147112' action='modify' visible='true'>
+    <nd ref='167717' />
+    <nd ref='167721' />
+    <nd ref='167728' />
+    <nd ref='167722' />
+    <nd ref='167723' />
+    <nd ref='167724' />
+    <nd ref='167725' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='内部道路' />
+  </way>
+  <way id='147113' action='modify' visible='true'>
+    <nd ref='167728' />
+    <nd ref='167729' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='2' />
+  </way>
+  <way id='147114' action='modify' visible='true'>
+    <nd ref='167720' />
+    <nd ref='167730' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+  </way>
+  <way id='147115' action='modify' visible='true'>
+    <nd ref='167746' />
+    <nd ref='167735' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+  </way>
+  <way id='147116' action='modify' visible='true'>
+    <nd ref='167736' />
+    <nd ref='167737' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+  </way>
+  <way id='147117' action='modify' visible='true'>
+    <nd ref='167732' />
+    <nd ref='167733' />
+    <nd ref='167734' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='1' />
+  </way>
+  <way id='147118' action='modify' visible='true'>
+    <nd ref='167716' />
+    <nd ref='167717' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+  </way>
+  <way id='147119' action='modify' visible='true'>
+    <nd ref='167739' />
+    <nd ref='167738' />
+    <tag k='highway' v='residential' />
+  </way>
+  <way id='147120' action='modify' visible='true'>
+    <nd ref='167753' />
+    <nd ref='167754' />
+    <nd ref='167755' />
+    <nd ref='167745' />
+    <nd ref='167747' />
+    <nd ref='167748' />
+    <nd ref='167749' />
+    <nd ref='167750' />
+    <nd ref='167751' />
+    <nd ref='167744' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='内部道路' />
+  </way>
+  <way id='147121' action='modify' visible='true'>
+    <nd ref='167744' />
+    <nd ref='167736' />
+    <nd ref='167761' />
+    <nd ref='167732' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='内部道路' />
+  </way>
+  <way id='147122' action='modify' visible='true'>
+    <nd ref='167752' />
+    <nd ref='167753' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+  </way>
+  <way id='147123' action='modify' visible='true'>
+    <nd ref='167758' />
+    <nd ref='167759' />
+    <nd ref='167760' />
+    <nd ref='167761' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='内部道路' />
+  </way>
+  <way id='739480' action='delete' visible='true' version='11'>
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='内部道路' />
+    <tag k='section' v='0' />
+    <tag k='width:lanes' v='2.6|2.6' />
+  </way>
+  <way id='739481' action='modify' visible='true' version='11'>
+    <nd ref='5917900969' />
+    <nd ref='5917900968' />
+    <nd ref='167704' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='内部道路' />
+    <tag k='section' v='10' />
+    <tag k='width:lanes' v='2.6|2.6' />
+  </way>
+  <way id='739482' action='delete' visible='true' version='11'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='1' />
+    <tag k='section' v='5' />
+  </way>
+  <way id='739483' action='modify' visible='true' version='11'>
+    <nd ref='5930511566' />
+    <nd ref='5917900957' />
+    <tag k='highway' v='residential' />
+    <tag k='lanes' v='1' />
+    <tag k='section' v='8' />
+    <tag k='turn:lanes:forward' v='right' />
+  </way>
+  <way id='739484' action='delete' visible='true' version='11'>
+    <tag k='highway' v='tertiary_link' />
+    <tag k='lanes' v='1' />
+    <tag k='oneway' v='yes' />
+    <tag k='turn:lanes:forward' v='left,right' />
+  </way>
+  <way id='739485' action='delete' visible='true' version='11'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='3' />
+    <tag k='name' v='湖山路' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='1' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='left|left|through,right' />
+    <tag k='width:lanes' v='3.62|3.62|3.62' />
+  </way>
+  <way id='739487' action='delete' visible='true' version='11'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='3' />
+    <tag k='name' v='湖山路' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='1' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.62|3.62|3.62' />
+  </way>
+  <way id='739489' action='delete' visible='true' version='11'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='3' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.62|3.62|3.62' />
+  </way>
+  <way id='739490' action='delete' visible='true' version='11'>
+    <tag k='highway' v='tertiary' />
+    <tag k='junction' v='roundabout' />
+    <tag k='lanes' v='4' />
+    <tag k='maxspeed' v='40' />
+    <tag k='turn:lanes' v='through|through|right,through|right,through' />
+  </way>
+  <way id='739491' action='delete' visible='true' version='11'>
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='内部道路' />
+    <tag k='width:lanes' v='2.6|2.6' />
+  </way>
+  <way id='626870017' action='delete' timestamp='2018-09-26T06:35:35Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='construction' v='tertiary' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.2|3.0|3.0' />
+  </way>
+  <way id='626870018' action='modify' timestamp='2018-09-26T06:35:35Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900895' />
+    <nd ref='5917900894' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='福兴路' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='3.1' />
+  </way>
+  <way id='626870019' action='modify' timestamp='2018-09-26T06:35:36Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900896' />
+    <nd ref='5917900918' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stopyield' />
+    <tag k='turn:lanes:forward' v='left|through,right' />
+    <tag k='width:lanes' v='3.2|3.0|3.0' />
+  </way>
+  <way id='626870020' action='modify' timestamp='2018-09-26T06:35:36Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900897' />
+    <nd ref='5917900896' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='福兴路' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='626870021' action='modify' timestamp='2018-09-26T06:35:36Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900918' />
+    <nd ref='5917900895' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stopyield' />
+    <tag k='turn:lanes:backward' v='left|through,right' />
+    <tag k='width:lanes' v='3.0|3.0|3.2' />
+  </way>
+  <way id='626870022' action='modify' timestamp='2018-09-26T06:35:36Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900909' />
+    <nd ref='5917900897' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stopyield' />
+    <tag k='turn:lanes:backward' v='left|through,right' />
+    <tag k='width:lanes' v='3.0|3.0|3.2' />
+  </way>
+  <way id='626870023' action='modify' timestamp='2018-09-26T06:28:23Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935356'>
+    <nd ref='5917900899' />
+    <nd ref='5917900909' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stopyield' />
+    <tag k='turn:lanes:forward' v='left|through|through,right' />
+    <tag k='width:lanes' v='3.2|3.0|3.0' />
+  </way>
+  <way id='626870024' action='modify' timestamp='2018-09-26T06:28:23Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935356'>
+    <nd ref='5917900900' />
+    <nd ref='5917900899' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='福兴路' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.5|4.6' />
+  </way>
+  <way id='626870025' action='modify' timestamp='2018-09-26T06:28:23Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935356'>
+    <nd ref='5917900958' />
+    <nd ref='738990' />
+    <nd ref='167730' />
+    <nd ref='5917900900' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='left|right' />
+    <tag k='width:lanes' v='3.0|3.0|3.2' />
+  </way>
+  <way id='626870026' action='delete' timestamp='2018-09-26T02:38:48Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62932057'>
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='construction' v='tertiary' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='626870027' action='modify' timestamp='2018-09-26T06:35:36Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='167707' />
+    <nd ref='167715' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash|dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='name' v='福盛路' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='626870028' action='modify' timestamp='2018-09-28T11:21:34Z' uid='8712912' user='Zong Liang L' visible='true' version='7' changeset='63005754'>
+    <nd ref='167757' />
+    <nd ref='5930511548' />
+    <nd ref='5917900902' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='yield' />
+    <tag k='turn:lanes:backward' v='through,left|through|through' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='626870029' action='modify' timestamp='2018-09-26T06:35:36Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='167714' />
+    <nd ref='5930511555' />
+    <nd ref='167757' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='yield' />
+    <tag k='turn:lanes:backward' v='left|through|through,right' />
+    <tag k='turn:lanes:forward' v='through|through|through,right' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='626870030' action='modify' timestamp='2018-09-26T06:35:36Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900904' />
+    <nd ref='739000' />
+    <nd ref='5917900914' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='left,through|through|through,right' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='626870031' action='modify' timestamp='2018-09-26T06:35:37Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900905' />
+    <nd ref='5917900904' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='name' v='福盛路' />
+    <tag k='section' v='1' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='626870032' action='modify' timestamp='2018-09-26T06:35:37Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900955' />
+    <nd ref='738992' />
+    <nd ref='5917900905' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='left|through|through,right' />
+    <tag k='width:lanes' v='3.1|3.5|3.8|3.8|3.5|3.1' />
+  </way>
+  <way id='626870033' action='modify' timestamp='2018-09-26T06:35:37Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900906' />
+    <nd ref='5917900909' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='left|through,right' />
+    <tag k='width:lanes' v='3.3|3.0|3.0' />
+  </way>
+  <way id='626870034' action='modify' timestamp='2018-09-26T06:35:37Z' uid='8712912' user='Zong Liang L' visible='true' version='7' changeset='62935500'>
+    <nd ref='5917900907' />
+    <nd ref='167752' />
+    <nd ref='5917900906' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='五渠路' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.5|4.6' />
+  </way>
+  <way id='626870035' action='modify' timestamp='2018-09-26T06:35:37Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900914' />
+    <nd ref='739570' />
+    <nd ref='5917900907' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='left|through|right' />
+    <tag k='width:lanes' v='3.0|3.0|3.0|3.3' />
+  </way>
+  <way id='626870036' action='modify' timestamp='2018-09-26T06:35:37Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900908' />
+    <nd ref='167716' />
+    <nd ref='5917900911' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='五渠路' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.7|4.5' />
+  </way>
+  <way id='626870037' action='modify' timestamp='2018-09-26T06:35:37Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900909' />
+    <nd ref='5917900908' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='left|through,right' />
+    <tag k='width:lanes' v='3.0|3.0|3.2' />
+  </way>
+  <way id='626870038' action='modify' timestamp='2018-09-26T06:35:37Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900911' />
+    <nd ref='5917900910' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.3|3.0|2.9' />
+  </way>
+  <way id='626870039' action='modify' timestamp='2018-09-26T06:35:38Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900912' />
+    <nd ref='5917900913' />
+    <tag k='access' v='no' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='construction' v='tertiary' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='五渠路' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.5|4.6' />
+  </way>
+  <way id='626870040' action='modify' timestamp='2018-09-26T06:35:38Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900913' />
+    <nd ref='738998' />
+    <nd ref='5917900914' />
+    <tag k='access' v='no' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='construction' v='tertiary' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='left|through|right' />
+    <tag k='width:lanes' v='3.3|3.0|3.0|3.0' />
+  </way>
+  <way id='626870041' action='modify' timestamp='2018-09-26T06:35:38Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900931' />
+    <nd ref='5917900912' />
+    <tag k='access' v='no' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='construction' v='tertiary' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.0|3.0|3.2' />
+  </way>
+  <way id='626870042' action='modify' timestamp='2018-09-26T06:35:38Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900915' />
+    <nd ref='5917900916' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='right' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='626870043' action='modify' timestamp='2018-09-26T06:35:38Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900918' />
+    <nd ref='5917900917' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='left|through,right' />
+    <tag k='width:lanes' v='3.0|3.0|3.2' />
+  </way>
+  <way id='626870044' action='modify' timestamp='2018-09-26T06:35:38Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900921' />
+    <nd ref='5917900919' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='渔乐路' />
+    <tag k='section' v='0' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='626870045' action='modify' timestamp='2018-09-26T06:35:38Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900919' />
+    <nd ref='5917900918' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='left|through,right' />
+    <tag k='width:lanes' v='3.2|3.0|3.0' />
+  </way>
+  <way id='626870046' action='modify' timestamp='2018-09-26T06:35:38Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900923' />
+    <nd ref='5917900922' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='渔乐路' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='626870048' action='modify' timestamp='2018-09-26T06:35:39Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900925' />
+    <nd ref='5917900924' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='626870050' action='modify' timestamp='2018-09-26T06:35:39Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='167757' />
+    <nd ref='5930511544' />
+    <nd ref='167758' />
+    <nd ref='5917900921' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='left|through|right' />
+    <tag k='width:lanes' v='3.0|3.0|3.0|3.3' />
+  </way>
+  <way id='626870051' action='modify' timestamp='2018-09-26T06:35:39Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900922' />
+    <nd ref='5922405538' />
+    <nd ref='5930511552' />
+    <nd ref='167757' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='left|through|right' />
+    <tag k='width:lanes' v='3.3|3.0|3.0|3.0' />
+  </way>
+  <way id='626870052' action='modify' timestamp='2018-09-26T06:35:39Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900924' />
+    <nd ref='5917900923' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='2' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.0|3.0|3.3' />
+  </way>
+  <way id='626870053' action='modify' timestamp='2018-09-26T06:35:39Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900927' />
+    <nd ref='5917900928' />
+    <nd ref='5917900925' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='福茂路' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='626870054' action='modify' timestamp='2018-09-26T06:35:39Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900931' />
+    <nd ref='5917900927' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.0|3.0|3.1' />
+  </way>
+  <way id='626870055' action='modify' timestamp='2018-09-26T06:35:39Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900930' />
+    <nd ref='5917900931' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='5' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='626870056' action='modify' timestamp='2018-09-26T06:35:39Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935500'>
+    <nd ref='5917900953' />
+    <nd ref='5917900949' />
+    <nd ref='5917900948' />
+    <nd ref='5917900946' />
+    <nd ref='5917900947' />
+    <nd ref='5917900945' />
+    <nd ref='5917900944' />
+    <nd ref='5917900943' />
+    <nd ref='5917900942' />
+    <nd ref='5917900941' />
+    <nd ref='5917900940' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='626870057' action='modify' timestamp='2018-09-26T06:35:40Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935500'>
+    <nd ref='5917900955' />
+    <nd ref='738996' />
+    <nd ref='5917900953' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='left|through,right' />
+    <tag k='width:lanes' v='3.0|3.0|3.0' />
+  </way>
+  <way id='626870058' action='modify' timestamp='2018-09-28T11:16:16Z' uid='8712912' user='Zong Liang L' visible='true' version='7' changeset='63005533'>
+    <nd ref='5917900958' />
+    <nd ref='738988' />
+    <nd ref='5917900956' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='2' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='through,left|through' />
+    <tag k='turn:lanes:forward' v='left|through,right' />
+    <tag k='width:lanes' v='3.5|3.8|3.8|3.5|3.5' />
+  </way>
+  <way id='626870059' action='modify' timestamp='2018-09-26T06:28:23Z' uid='8712912' user='Zong Liang L' visible='true' version='6' changeset='62935356'>
+    <nd ref='5917900957' />
+    <nd ref='5917900959' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash|dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='3.0|3.5|3.8|3.8|3.5|3.0' />
+  </way>
+  <way id='626870060' action='modify' timestamp='2018-09-28T11:16:16Z' uid='8712912' user='Zong Liang L' visible='true' version='9' changeset='63005533'>
+    <nd ref='167710' />
+    <nd ref='738986' />
+    <nd ref='5917900958' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='3' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:forward' v='through|through,right|right' />
+    <tag k='width:lanes' v='3.5|3.8|3.8|3.5|3.5' />
+  </way>
+  <way id='626870061' action='modify' timestamp='2018-09-26T06:28:24Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62935356'>
+    <nd ref='5917900962' />
+    <nd ref='5917900957' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid|solid' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='section' v='0' />
+    <tag k='stopline' v='stop' />
+    <tag k='turn:lanes:backward' v='left|left|right' />
+    <tag k='width:lanes' v='3.0|3.5|3.8|3.8|3.5|3.0' />
+  </way>
+  <way id='626870062' action='delete' timestamp='2018-09-25T13:52:09Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='62914694'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes' v='3' />
+    <tag k='name' v='湖山路' />
+    <tag k='oneway' v='yes' />
+    <tag k='section' v='1' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.62|3.62|3.62' />
+  </way>
+  <way id='626870063' action='delete' timestamp='2018-09-26T06:28:24Z' uid='8712912' user='Zong Liang L' visible='true' version='7' changeset='62935356'>
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='内部道路' />
+    <tag k='width:lanes' v='2.6|2.6' />
+  </way>
+  <way id='626905444' timestamp='2018-09-28T11:21:34Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='63005754'>
+    <nd ref='5917900917' />
+    <nd ref='5917900915' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+  </way>
+  <way id='627086530' action='modify' timestamp='2018-09-28T11:21:34Z' uid='8712912' user='Zong Liang L' visible='true' version='5' changeset='63005754'>
+    <nd ref='5917900929' />
+    <nd ref='5917900930' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='section' v='4' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='627086531' action='modify' timestamp='2018-09-26T06:35:40Z' uid='8712912' user='Zong Liang L' visible='true' version='4' changeset='62935500'>
+    <nd ref='5917900917' />
+    <nd ref='5917900915' />
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='1' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='name' v='渔乐路' />
+    <tag k='section' v='1' />
+    <tag k='width:lanes' v='4.6|4.5' />
+  </way>
+  <way id='627092208' timestamp='2018-09-22T13:01:24Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62825096'>
+    <nd ref='5919906149' />
+    <nd ref='5919906150' />
+    <nd ref='5919906151' />
+    <nd ref='5919906152' />
+    <nd ref='5919906149' />
+    <tag k='building' v='yes' />
+    <tag k='name' v='智能车大楼' />
+  </way>
+  <way id='627372740' action='delete' timestamp='2018-09-22T13:01:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825096'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='简易道路' />
+  </way>
+  <way id='627374305' action='delete' timestamp='2018-09-22T13:15:18Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825291'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='简易道路' />
+    <tag k='width' v='3.0' />
+  </way>
+  <way id='627374718' action='delete' timestamp='2018-09-22T13:18:28Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62825536'>
+    <tag k='highway' v='residential' />
+    <tag k='name' v='简易道路' />
+  </way>
+  <way id='628041131' action='delete' timestamp='2018-09-25T13:52:07Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62914694'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='name' v='黄浦江路' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.62|3.62|3.62|3.62|3.62|3.62' />
+  </way>
+  <way id='628041132' action='delete' timestamp='2018-09-26T02:38:49Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='4' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.22|3.22|3.22|3.22|3.22|3.22|3.22' />
+  </way>
+  <way id='628041133' action='delete' timestamp='2018-09-26T06:35:40Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='62935500'>
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='dash' />
+    <tag k='construction' v='tertiary' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='福茂路' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='4.64|4.64' />
+  </way>
+  <way id='628041134' action='delete' timestamp='2018-09-25T13:52:07Z' uid='8712912' user='Zong Liang L' visible='true' version='1' changeset='62914694'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='4' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.22|3.22|3.22|3.22|3.22|3.22|3.22' />
+  </way>
+  <way id='628041135' action='delete' timestamp='2018-09-26T02:38:49Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='name' v='黄浦江路' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.62|3.62|3.62|3.62|3.62|3.62' />
+  </way>
+  <way id='628041136' action='delete' timestamp='2018-09-26T06:35:40Z' uid='8712912' user='Zong Liang L' visible='true' version='3' changeset='62935500'>
+    <tag k='centerline:color' v='yellow' />
+    <tag k='centerline:type' v='solid' />
+    <tag k='construction' v='tertiary' />
+    <tag k='highway' v='construction' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.10|3.10|3.10' />
+  </way>
+  <way id='628041137' action='delete' timestamp='2018-09-26T02:38:49Z' uid='8712912' user='Zong Liang L' visible='true' version='2' changeset='62932057'>
+    <tag k='highway' v='tertiary' />
+    <tag k='lanes:backward' v='3' />
+    <tag k='lanes:forward' v='3' />
+    <tag k='name' v='黄浦江路' />
+    <tag k='stopline' v='stop' />
+    <tag k='width:lanes' v='3.62|3.62|3.62|3.62|3.62|3.62' />
+  </way>
+</osm>

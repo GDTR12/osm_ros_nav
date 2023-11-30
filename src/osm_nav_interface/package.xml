@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>osm_nav_interface</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="guoming.huang@foxmail.com">gdtr</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+  <!--编译依赖-->
+  <!--
+    rosidl: ros interface definition lanuage 
+    rosidl可以解析.msg/.srv/.action文件，并将它们转换为.idl文件，然后根据不同的语言和中间件生成相应的代码。
+    rosidl还包含了一些子包，例如rosidl_cmake、rosidl_default_generators等，它们提供了CMake函数、默认生成器和运行时依赖等
+  -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <!--执行依赖-->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!--声明当前包所属功能包组-->
+  <build_depend>builtin_interfaces</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  
+  <!-- action 构建工具依赖 -->
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <depend>action_msgs</depend>
+
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

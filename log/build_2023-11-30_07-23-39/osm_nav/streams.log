@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[0.056s] [ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[0.056s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[1.911s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.911s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[1.911s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:465:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[1.911s]   465 |                     [01;31m[Kelse[m[K if (node.id == current_path->parent->id){
+[1.911s]       |                     [01;31m[K^~~~[m[K
+[2.008s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[2.008s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[2.008s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:465:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[2.008s]   465 |                     [01;31m[Kelse[m[K if (node.id == current_path->parent->id){
+[2.008s]       |                     [01;31m[K^~~~[m[K
+[3.495s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+[3.495s] gmake[2]: *** Waiting for unfinished jobs....
+[3.498s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+[3.498s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+[3.498s] gmake: *** [Makefile:146: all] Error 2
+[3.500s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '2': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12

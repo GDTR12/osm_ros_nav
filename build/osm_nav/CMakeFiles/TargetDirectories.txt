@@ -1,0 +1,10 @@
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/uninstall.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/osm_nav_uninstall.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/osm_navigation.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/test.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/edit_cache.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/rebuild_cache.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/list_install_components.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/install.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/install/local.dir
+/root/slam/slam/osm/osm-nav/build/osm_nav/CMakeFiles/install/strip.dir

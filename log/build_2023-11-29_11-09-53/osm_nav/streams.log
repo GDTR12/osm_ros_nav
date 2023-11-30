@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[0.053s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[0.054s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[6.996s] [100%] [32m[1mLinking CXX executable osm_navigation[0m
+[7.366s] [100%] Built target osm_navigation
+[7.374s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '0': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[7.390s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --install /root/slam/slam/osm/osm-nav/build/osm_nav
+[7.395s] -- Install configuration: ""
+[7.395s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/lib/osm_nav/osm_navigation
+[7.397s] -- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav/lib/osm_nav/osm_navigation" to ""
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/launch
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/launch/osm_parser.launch.py
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/config
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/config/osm_parser.yaml
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/package_run_dependencies/osm_nav
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/parent_prefix_path/osm_nav
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/ament_prefix_path.sh
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/ament_prefix_path.dsv
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/path.sh
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/environment/path.dsv
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.bash
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.sh
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.zsh
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/local_setup.dsv
+[7.398s] -- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/package.dsv
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/ament_index/resource_index/packages/osm_nav
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/cmake/osm_navConfig.cmake
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/cmake/osm_navConfig-version.cmake
+[7.398s] -- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav/share/osm_nav/package.xml
+[7.401s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '0': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --install /root/slam/slam/osm/osm-nav/build/osm_nav

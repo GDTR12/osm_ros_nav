@@ -1,0 +1,32 @@
+[0.020s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[0.083s] [ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[0.083s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[1.832s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.832s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[1.832s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:355:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kobserved_nodes[m[K’ is not captured
+[1.832s]   355 |             for(auto& n : [01;31m[Kobserved_nodes[m[K){
+[1.832s]       |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.832s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:352:20:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[1.832s]   352 |         auto it = [[01;36m[K][m[K(){
+[1.832s]       |                    [01;36m[K^[m[K
+[1.832s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:59:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_map<long int, double> observed_nodes[m[K’ declared here
+[1.832s]   338 |         std::unordered_map<osmium::object_id_type,double> [01;36m[Kobserved_nodes[m[K;
+[1.832s]       |                                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.837s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.837s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[1.837s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:355:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kobserved_nodes[m[K’ is not captured
+[1.837s]   355 |             for(auto& n : [01;31m[Kobserved_nodes[m[K){
+[1.837s]       |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.837s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:352:20:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[1.837s]   352 |         auto it = [[01;36m[K][m[K(){
+[1.837s]       |                    [01;36m[K^[m[K
+[1.837s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:59:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_map<long int, double> observed_nodes[m[K’ declared here
+[1.837s]   338 |         std::unordered_map<osmium::object_id_type,double> [01;36m[Kobserved_nodes[m[K;
+[1.837s]       |                                                           [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.160s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+[3.160s] gmake[2]: *** Waiting for unfinished jobs....
+[3.299s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+[3.299s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+[3.299s] gmake: *** [Makefile:146: all] Error 2
+[3.300s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '2': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12

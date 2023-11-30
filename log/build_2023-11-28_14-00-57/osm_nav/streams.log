@@ -1,0 +1,452 @@
+[0.006s] Invoking command in '/root/slam/slam/osm/osm-nav/build/osm_nav': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+[0.044s] gmake[2]: Warning: File '/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp' has modification time 8918 s in the future
+[0.048s] [ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+[0.048s] [ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[1.790s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:337:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+[1.791s]   337 |         TmpNode_t [01;31m[Kcurrent[m[K;
+[1.791s]       |                   [01;31m[K^~~~~~~[m[K
+[1.791s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’
+[1.791s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.791s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[1.791s]    58 | class [01;36m[KTmpNode_t[m[K{
+[1.791s]       |       [01;36m[K^~~~~~~~~[m[K
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[1.791s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.793s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:347:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.793s]   347 |         observed_nodes.push_back(dist_start1 > dist_start2 ? osm_nav::TmpNode_t{start1, dist_start1[01;31m[K}[m[K : osm_nav::TmpNode_t{start2, dist_start2});
+[1.793s]       |                                                                                                    [01;31m[K^[m[K
+[1.793s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.793s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.793s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.793s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:347:142:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.793s]   347 |         observed_nodes.push_back(dist_start1 > dist_start2 ? osm_nav::TmpNode_t{start1, dist_start1} : osm_nav::TmpNode_t{start2, dist_start2[01;31m[K}[m[K);
+[1.793s]       |                                                                                                                                              [01;31m[K^[m[K
+[1.793s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.793s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.793s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.793s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:349:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+[1.793s]   349 |             TmpNode_t [01;31m[Kret[m[K;
+[1.793s]       |                       [01;31m[K^~~[m[K
+[1.793s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’
+[1.793s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.793s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.793s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[1.793s]    58 | class [01;36m[KTmpNode_t[m[K{
+[1.793s]       |       [01;36m[K^~~~~~~~~[m[K
+[1.794s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.794s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[1.794s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.794s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.794s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:352:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble osm_nav::TmpNode_t::cost[m[K’ is private within this context
+[1.794s]   352 |                 if(n.[01;31m[Kcost[m[K < min){
+[1.794s]       |                      [01;31m[K^~~~[m[K
+[1.794s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.794s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.794s]    60 |     double [01;36m[Kcost[m[K;
+[1.794s]       |            [01;36m[K^~~~[m[K
+[1.794s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.794s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:353:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble osm_nav::TmpNode_t::cost[m[K’ is private within this context
+[1.794s]   353 |                     min = n.[01;31m[Kcost[m[K;
+[1.794s]       |                             [01;31m[K^~~~[m[K
+[1.794s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.794s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.794s]    60 |     double [01;36m[Kcost[m[K;
+[1.794s]       |            [01;36m[K^~~~[m[K
+[1.797s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.797s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.797s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:365:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kosmium::object_id_type osm_nav::TmpNode_t::id[m[K’ is private within this context
+[1.797s]   365 |             auto& node = nav_nodes[current.[01;31m[Kid[m[K];
+[1.797s]       |                                            [01;31m[K^~[m[K
+[1.797s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.797s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.797s]    59 |     osmium::object_id_type [01;36m[Kid[m[K;
+[1.797s]       |                            [01;36m[K^~[m[K
+[1.797s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.797s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:366:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble osm_nav::TmpNode_t::cost[m[K’ is private within this context
+[1.797s]   366 |             double cost_now = current.[01;31m[Kcost[m[K;
+[1.798s]       |                                       [01;31m[K^~~~[m[K
+[1.798s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.798s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.798s]    60 |     double [01;36m[Kcost[m[K;
+[1.798s]       |            [01;36m[K^~~~[m[K
+[1.798s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.798s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:372:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble osm_nav::TmpNode_t::cost[m[K’ is private within this context
+[1.798s]   372 |                 if (tmp < current.[01;31m[Kcost[m[K){
+[1.798s]       |                                   [01;31m[K^~~~[m[K
+[1.798s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.798s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.798s]    60 |     double [01;36m[Kcost[m[K;
+[1.798s]       |            [01;36m[K^~~~[m[K
+[1.798s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.798s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:374:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.798s]   374 |                     [01;31m[Kpath_node.push_back({n.id, tmp})[m[K;
+[1.798s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.798s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.798s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.798s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.798s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.798s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.798s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:377:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.798s]   377 |                                         osm_nav::TmpNode_t(n.id, tmp[01;31m[K)[m[K,
+[1.798s]       |                                                                     [01;31m[K^[m[K
+[1.799s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.799s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.799s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.799s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.799s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.799s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[1.799s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:379:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kosmium::object_id_type osm_nav::TmpNode_t::id[m[K’ is private within this context
+[1.799s]   379 |                                             return a.[01;31m[Kid[m[K == b.id;
+[1.799s]       |                                                      [01;31m[K^~[m[K
+[1.799s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.799s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.799s]    59 |     osmium::object_id_type [01;36m[Kid[m[K;
+[1.799s]       |                            [01;36m[K^~[m[K
+[1.799s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.799s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:379:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kosmium::object_id_type osm_nav::TmpNode_t::id[m[K’ is private within this context
+[1.799s]   379 |                                             return a.id == b.[01;31m[Kid[m[K;
+[1.799s]       |                                                              [01;31m[K^~[m[K
+[1.799s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.799s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.799s]    59 |     osmium::object_id_type [01;36m[Kid[m[K;
+[1.799s]       |                            [01;36m[K^~[m[K
+[1.799s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.799s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.799s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfind(std::__cxx11::list<osm_nav::TmpNode_t>::iterator, std::__cxx11::list<osm_nav::TmpNode_t>::iterator, osm_nav::TmpNode_t, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const osm_nav::TmpNode_t&, const osm_nav::TmpNode_t&)>)[m[K’
+[1.799s]   375 |                     auto it = [01;31m[Kstd::find(observed_nodes.begin(),[m[K
+[1.799s]       |                               [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.799s]   376 | [01;31m[K                                        observed_nodes.end(),[m[K
+[1.799s]       |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.799s]   377 | [01;31m[K                                        osm_nav::TmpNode_t(n.id, tmp),[m[K
+[1.799s]       |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.799s]   378 | [01;31m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+[1.799s]       |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.799s]   379 | [01;31m[K                                            return a.id == b.id;[m[K
+[1.799s]       |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[1.799s]   380 | [01;31m[K                                        })[m[K;
+[1.799s]       |                                         [01;31m[K~~[m[K
+[1.799s] In file included from [01m[K/usr/include/c++/11/bits/locale_facets.h:48[m[K,
+[1.799s]                  from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+[1.800s]                  from [01m[K/usr/include/c++/11/ios:44[m[K,
+[1.800s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[1.800s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[1.800s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:1[m[K:
+[1.800s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> > >::__type std::find(std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, const _CharT2&)[m[K’
+[1.800s]   421 |     [01;36m[Kfind[m[K(istreambuf_iterator<_CharT> __first,
+[1.800s]       |     [01;36m[K^~~~[m[K
+[1.800s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.800s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.800s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<osm_nav::TmpNode_t>[m[K’ is not derived from ‘[01m[Kstd::istreambuf_iterator<_CharT, std::char_traits<_CharT> >[m[K’
+[1.800s]   375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+[1.800s]       |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.800s]   376 | [01;36m[K                                        observed_nodes.end(),[m[K
+[1.800s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.800s]   377 | [01;36m[K                                        osm_nav::TmpNode_t(n.id, tmp),[m[K
+[1.800s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.800s]   378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+[1.800s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.800s]   379 | [01;36m[K                                            return a.id == b.id;[m[K
+[1.800s]       |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[1.800s]   380 | [01;36m[K                                        })[m[K;
+[1.800s]       |                                         [01;36m[K~~[m[K
+[1.800s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[1.800s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+[1.800s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+[1.800s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:2[m[K:
+[1.800s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3876:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)[m[K’
+[1.800s]  3876 |     [01;36m[Kfind[m[K(_InputIterator __first, _InputIterator __last,
+[1.800s]       |     [01;36m[K^~~~[m[K
+[1.800s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3876:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.800s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.800s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[1.800s]   375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+[1.801s]       |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   376 | [01;36m[K                                        observed_nodes.end(),[m[K
+[1.801s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   377 | [01;36m[K                                        osm_nav::TmpNode_t(n.id, tmp),[m[K
+[1.801s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+[1.801s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   379 | [01;36m[K                                            return a.id == b.id;[m[K
+[1.801s]       |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   380 | [01;36m[K                                        })[m[K;
+[1.801s]       |                                         [01;36m[K~~[m[K
+[1.801s] In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.801s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+[1.801s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+[1.801s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:2[m[K:
+[1.801s] [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator> std::find(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)[m[K’
+[1.801s]    60 | [01;36m[Kfind[m[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+[1.801s]       | [01;36m[K^~~~[m[K
+[1.801s] [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.801s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.801s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_ForwardIterator[m[K’ (‘[01m[Kstd::_List_iterator<osm_nav::TmpNode_t>[m[K’ and ‘[01m[Kosm_nav::TmpNode_t[m[K’)
+[1.801s]   375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+[1.801s]       |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   376 | [01;36m[K                                        observed_nodes.end(),[m[K
+[1.801s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   377 | [01;36m[K                                        osm_nav::TmpNode_t(n.id, tmp),[m[K
+[1.801s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+[1.801s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   379 | [01;36m[K                                            return a.id == b.id;[m[K
+[1.801s]       |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[1.801s]   380 | [01;36m[K                                        })[m[K;
+[1.801s]       |                                         [01;36m[K~~[m[K
+[1.801s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:385:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.801s]   385 |                     [01;31m[Kobserved_nodes.push_back({n.id, tmp})[m[K;
+[1.802s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.802s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.802s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.802s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.802s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.802s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.802s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:388:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kosmium::object_id_type osm_nav::TmpNode_t::id[m[K’ is private within this context
+[1.802s]   388 |             if (current.[01;31m[Kid[m[K == end1)break;
+[1.802s]       |                         [01;31m[K^~[m[K
+[1.802s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[1.802s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.802s]    59 |     osmium::object_id_type [01;36m[Kid[m[K;
+[1.802s]       |                            [01;36m[K^~[m[K
+[1.805s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:337:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+[1.806s]   337 |         TmpNode_t [01;31m[Kcurrent[m[K;
+[1.806s]       |                   [01;31m[K^~~~~~~[m[K
+[1.806s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’
+[1.806s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.806s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[1.806s]    58 | class [01;36m[KTmpNode_t[m[K{
+[1.806s]       |       [01;36m[K^~~~~~~~~[m[K
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[1.806s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.808s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.808s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:347:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.808s]   347 |         observed_nodes.push_back(dist_start1 > dist_start2 ? osm_nav::TmpNode_t{start1, dist_start1[01;31m[K}[m[K : osm_nav::TmpNode_t{start2, dist_start2});
+[1.808s]       |                                                                                                    [01;31m[K^[m[K
+[1.808s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.808s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.808s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.808s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.808s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.808s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:347:142:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.808s]   347 |         observed_nodes.push_back(dist_start1 > dist_start2 ? osm_nav::TmpNode_t{start1, dist_start1} : osm_nav::TmpNode_t{start2, dist_start2[01;31m[K}[m[K);
+[1.808s]       |                                                                                                                                              [01;31m[K^[m[K
+[1.808s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.808s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.808s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.808s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.808s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:349:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+[1.809s]   349 |             TmpNode_t [01;31m[Kret[m[K;
+[1.809s]       |                       [01;31m[K^~~[m[K
+[1.809s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’
+[1.809s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.809s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[1.809s]    58 | class [01;36m[KTmpNode_t[m[K{
+[1.809s]       |       [01;36m[K^~~~~~~~~[m[K
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:58:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.809s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:352:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble osm_nav::TmpNode_t::cost[m[K’ is private within this context
+[1.809s]   352 |                 if(n.[01;31m[Kcost[m[K < min){
+[1.809s]       |                      [01;31m[K^~~~[m[K
+[1.809s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.809s]    60 |     double [01;36m[Kcost[m[K;
+[1.809s]       |            [01;36m[K^~~~[m[K
+[1.809s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.809s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:353:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble osm_nav::TmpNode_t::cost[m[K’ is private within this context
+[1.810s]   353 |                     min = n.[01;31m[Kcost[m[K;
+[1.810s]       |                             [01;31m[K^~~~[m[K
+[1.810s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.810s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.810s]    60 |     double [01;36m[Kcost[m[K;
+[1.810s]       |            [01;36m[K^~~~[m[K
+[1.812s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.812s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.812s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:365:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kosmium::object_id_type osm_nav::TmpNode_t::id[m[K’ is private within this context
+[1.812s]   365 |             auto& node = nav_nodes[current.[01;31m[Kid[m[K];
+[1.812s]       |                                            [01;31m[K^~[m[K
+[1.812s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.812s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.812s]    59 |     osmium::object_id_type [01;36m[Kid[m[K;
+[1.812s]       |                            [01;36m[K^~[m[K
+[1.812s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.812s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:366:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble osm_nav::TmpNode_t::cost[m[K’ is private within this context
+[1.812s]   366 |             double cost_now = current.[01;31m[Kcost[m[K;
+[1.812s]       |                                       [01;31m[K^~~~[m[K
+[1.812s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.813s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.813s]    60 |     double [01;36m[Kcost[m[K;
+[1.813s]       |            [01;36m[K^~~~[m[K
+[1.813s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.813s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:372:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble osm_nav::TmpNode_t::cost[m[K’ is private within this context
+[1.813s]   372 |                 if (tmp < current.[01;31m[Kcost[m[K){
+[1.813s]       |                                   [01;31m[K^~~~[m[K
+[1.813s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.813s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.813s]    60 |     double [01;36m[Kcost[m[K;
+[1.813s]       |            [01;36m[K^~~~[m[K
+[1.813s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.813s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:374:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.813s]   374 |                     [01;31m[Kpath_node.push_back({n.id, tmp})[m[K;
+[1.813s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.813s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.813s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.813s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.814s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.814s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.814s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:377:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.814s]   377 |                                         osm_nav::TmpNode_t(n.id, tmp[01;31m[K)[m[K,
+[1.814s]       |                                                                     [01;31m[K^[m[K
+[1.814s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.814s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.814s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.814s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.814s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.814s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In lambda function:
+[1.814s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:379:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kosmium::object_id_type osm_nav::TmpNode_t::id[m[K’ is private within this context
+[1.814s]   379 |                                             return a.[01;31m[Kid[m[K == b.id;
+[1.814s]       |                                                      [01;31m[K^~[m[K
+[1.814s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.814s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.814s]    59 |     osmium::object_id_type [01;36m[Kid[m[K;
+[1.814s]       |                            [01;36m[K^~[m[K
+[1.814s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.814s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:379:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kosmium::object_id_type osm_nav::TmpNode_t::id[m[K’ is private within this context
+[1.814s]   379 |                                             return a.id == b.[01;31m[Kid[m[K;
+[1.814s]       |                                                              [01;31m[K^~[m[K
+[1.814s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.814s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.815s]    59 |     osmium::object_id_type [01;36m[Kid[m[K;
+[1.815s]       |                            [01;36m[K^~[m[K
+[1.815s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.815s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.815s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfind(std::__cxx11::list<osm_nav::TmpNode_t>::iterator, std::__cxx11::list<osm_nav::TmpNode_t>::iterator, osm_nav::TmpNode_t, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const osm_nav::TmpNode_t&, const osm_nav::TmpNode_t&)>)[m[K’
+[1.815s]   375 |                     auto it = [01;31m[Kstd::find(observed_nodes.begin(),[m[K
+[1.815s]       |                               [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.815s]   376 | [01;31m[K                                        observed_nodes.end(),[m[K
+[1.815s]       |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.815s]   377 | [01;31m[K                                        osm_nav::TmpNode_t(n.id, tmp),[m[K
+[1.815s]       |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.815s]   378 | [01;31m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+[1.815s]       |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.815s]   379 | [01;31m[K                                            return a.id == b.id;[m[K
+[1.815s]       |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[1.815s]   380 | [01;31m[K                                        })[m[K;
+[1.815s]       |                                         [01;31m[K~~[m[K
+[1.815s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[1.815s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+[1.816s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+[1.816s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2[m[K,
+[1.816s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.816s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3876:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)[m[K’
+[1.816s]  3876 |     [01;36m[Kfind[m[K(_InputIterator __first, _InputIterator __last,
+[1.816s]       |     [01;36m[K^~~~[m[K
+[1.816s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3876:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.816s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.816s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[1.816s]   375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+[1.816s]       |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.816s]   376 | [01;36m[K                                        observed_nodes.end(),[m[K
+[1.816s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.816s]   377 | [01;36m[K                                        osm_nav::TmpNode_t(n.id, tmp),[m[K
+[1.816s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.816s]   378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+[1.816s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.816s]   379 | [01;36m[K                                            return a.id == b.id;[m[K
+[1.816s]       |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[1.816s]   380 | [01;36m[K                                        })[m[K;
+[1.816s]       |                                         [01;36m[K~~[m[K
+[1.816s] In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.817s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+[1.817s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+[1.817s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2[m[K,
+[1.817s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.817s] [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator> std::find(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)[m[K’
+[1.817s]    60 | [01;36m[Kfind[m[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+[1.817s]       | [01;36m[K^~~~[m[K
+[1.817s] [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.817s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.817s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_ForwardIterator[m[K’ (‘[01m[Kstd::_List_iterator<osm_nav::TmpNode_t>[m[K’ and ‘[01m[Kosm_nav::TmpNode_t[m[K’)
+[1.817s]   375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+[1.817s]       |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.817s]   376 | [01;36m[K                                        observed_nodes.end(),[m[K
+[1.817s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.817s]   377 | [01;36m[K                                        osm_nav::TmpNode_t(n.id, tmp),[m[K
+[1.817s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.817s]   378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+[1.817s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.817s]   379 | [01;36m[K                                            return a.id == b.id;[m[K
+[1.817s]       |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[1.817s]   380 | [01;36m[K                                        })[m[K;
+[1.817s]       |                                         [01;36m[K~~[m[K
+[1.817s] In file included from [01m[K/usr/include/c++/11/iterator:66[m[K,
+[1.817s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:42[m[K,
+[1.818s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+[1.818s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2[m[K,
+[1.818s]                  from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.818s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> > >::__type std::find(std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, const _CharT2&)[m[K’
+[1.818s]   421 |     [01;36m[Kfind[m[K(istreambuf_iterator<_CharT> __first,
+[1.818s]       |     [01;36m[K^~~~[m[K
+[1.818s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.818s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.818s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<osm_nav::TmpNode_t>[m[K’ is not derived from ‘[01m[Kstd::istreambuf_iterator<_CharT, std::char_traits<_CharT> >[m[K’
+[1.818s]   375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+[1.818s]       |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.818s]   376 | [01;36m[K                                        observed_nodes.end(),[m[K
+[1.818s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.818s]   377 | [01;36m[K                                        osm_nav::TmpNode_t(n.id, tmp),[m[K
+[1.818s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.818s]   378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+[1.818s]       |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.818s]   379 | [01;36m[K                                            return a.id == b.id;[m[K
+[1.818s]       |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[1.818s]   380 | [01;36m[K                                        })[m[K;
+[1.818s]       |                                         [01;36m[K~~[m[K
+[1.818s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:385:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)[m[K’ is private within this context
+[1.818s]   385 |                     [01;31m[Kobserved_nodes.push_back({n.id, tmp})[m[K;
+[1.818s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.818s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.819s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.819s]    61 |     [01;36m[KTmpNode_t[m[K(osmium::object_id_type a, double b):id(a), cost(b){}
+[1.819s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.819s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.819s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:388:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kosmium::object_id_type osm_nav::TmpNode_t::id[m[K’ is private within this context
+[1.819s]   388 |             if (current.[01;31m[Kid[m[K == end1)break;
+[1.819s]       |                         [01;31m[K^~[m[K
+[1.819s] In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[1.819s] [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.819s]    59 |     osmium::object_id_type [01;36m[Kid[m[K;
+[1.819s]       |                            [01;36m[K^~[m[K
+[3.205s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+[3.205s] gmake[2]: *** Waiting for unfinished jobs....
+[3.318s] gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+[3.318s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+[3.318s] gmake: *** [Makefile:146: all] Error 2
+[3.321s] Invoked command in '/root/slam/slam/osm/osm-nav/build/osm_nav' returned '2': CMAKE_PREFIX_PATH=/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble CONDA_PROMPT_MODIFIER=(openalt) /usr/bin/cmake --build /root/slam/slam/osm/osm-nav/build/osm_nav -- -j12 -l12

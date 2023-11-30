@@ -1,0 +1,620 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (osm_nav_interface) JobQueued: {'identifier': 'osm_nav_interface', 'dependencies': OrderedDict()}
+[0.000290] (osm_nav) JobQueued: {'identifier': 'osm_nav', 'dependencies': OrderedDict([('osm_nav_interface', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface')])}
+[0.000624] (osm_nav_interface) JobStarted: {'identifier': 'osm_nav_interface'}
+[0.008386] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'cmake'}
+[0.008722] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'build'}
+[0.009078] (osm_nav_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', '--', '-j12', '-l12'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm/osm-nav'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble')]), 'shell': False}
+[0.038159] (osm_nav_interface) StdoutLine: {'line': b'[  3%] Built target osm_nav_interface__cpp\n'}
+[0.038858] (osm_nav_interface) StdoutLine: {'line': b'[ 12%] Built target osm_nav_interface__rosidl_generator_c\n'}
+[0.044488] (osm_nav_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_osm_nav_interface\n'}
+[0.052828] (osm_nav_interface) StdoutLine: {'line': b'[ 22%] Built target osm_nav_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.053033] (osm_nav_interface) StdoutLine: {'line': b'[ 32%] Built target osm_nav_interface__rosidl_typesupport_cpp\n'}
+[0.055382] (osm_nav_interface) StdoutLine: {'line': b'[ 61%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.055490] (osm_nav_interface) StdoutLine: {'line': b'[ 61%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.055526] (osm_nav_interface) StdoutLine: {'line': b'[ 61%] Built target osm_nav_interface__rosidl_typesupport_c\n'}
+[0.056446] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] Built target osm_nav_interface__rosidl_typesupport_introspection_c\n'}
+[0.066617] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] Built target osm_nav_interface\n'}
+[0.077032] (osm_nav_interface) StdoutLine: {'line': b'[ 74%] Built target osm_nav_interface__py\n'}
+[0.087439] (osm_nav_interface) StdoutLine: {'line': b'[ 80%] Built target osm_nav_interface__rosidl_generator_py\n'}
+[0.099641] (osm_nav_interface) StdoutLine: {'line': b'[ 87%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.099959] (-) TimerEvent: {}
+[0.100151] (osm_nav_interface) StdoutLine: {'line': b'[ 93%] Built target osm_nav_interface__rosidl_typesupport_c__pyext\n'}
+[0.100253] (osm_nav_interface) StdoutLine: {'line': b'[100%] Built target osm_nav_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.191375] (osm_nav_interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.191914] (osm_nav_interface) StdoutLine: {'line': b'writing osm_nav_interface.egg-info/PKG-INFO\n'}
+[0.192059] (osm_nav_interface) StdoutLine: {'line': b'writing dependency_links to osm_nav_interface.egg-info/dependency_links.txt\n'}
+[0.192143] (osm_nav_interface) StdoutLine: {'line': b'writing top-level names to osm_nav_interface.egg-info/top_level.txt\n'}
+[0.193429] (osm_nav_interface) StdoutLine: {'line': b"reading manifest file 'osm_nav_interface.egg-info/SOURCES.txt'\n"}
+[0.193742] (osm_nav_interface) StdoutLine: {'line': b"writing manifest file 'osm_nav_interface.egg-info/SOURCES.txt'\n"}
+[0.200064] (-) TimerEvent: {}
+[0.209155] (osm_nav_interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_osm_nav_interface_egg\n'}
+[0.215215] (osm_nav_interface) CommandEnded: {'returncode': 0}
+[0.250064] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'install'}
+[0.254272] (osm_nav_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm/osm-nav'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble')]), 'shell': False}
+[0.259466] (osm_nav_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.259661] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/rosidl_interfaces/osm_nav_interface\n'}
+[0.259736] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.259804] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.259858] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.259936] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.h\n'}
+[0.260011] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__functions.h\n'}
+[0.260062] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__functions.c\n'}
+[0.260121] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__struct.h\n'}
+[0.260171] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/planner.h\n'}
+[0.260221] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[0.260356] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.260444] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/library_path.sh\n'}
+[0.260507] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/library_path.dsv\n'}
+[0.260562] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_c.so\n'}
+[0.260628] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.260680] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.260748] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.260820] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_fastrtps_c.h\n'}
+[0.260872] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[0.260930] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.260980] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.261037] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.261094] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.261143] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/planner.hpp\n'}
+[0.261198] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.261277] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__builder.hpp\n'}
+[0.261329] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__traits.hpp\n'}
+[0.261387] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__struct.hpp\n'}
+[0.261439] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.261490] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.261537] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.261597] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/dds_fastrtps\n'}
+[0.261646] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.261709] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[0.261771] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.261816] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.261873] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.261921] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.261979] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.262036] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_introspection_c.h\n'}
+[0.262084] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.c\n'}
+[0.262151] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[0.262233] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.262302] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_c.so\n'}
+[0.262357] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_c.so\n'}
+[0.262403] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[0.262448] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[0.262492] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[0.262527] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.cpp\n'}
+[0.262555] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.262581] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.262607] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_cpp.so\n'}
+[0.262639] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/pythonpath.sh\n'}
+[0.262666] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/pythonpath.dsv\n'}
+[0.262693] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info\n'}
+[0.262720] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.262747] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.262778] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.262806] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.262832] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface\n'}
+[0.262858] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv\n'}
+[0.262889] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/__init__.py\n'}
+[0.262919] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner.py\n'}
+[0.262945] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner_s.c\n'}
+[0.262971] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.262998] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.263024] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/libosm_nav_interface__rosidl_generator_py.so\n'}
+[0.263051] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_c.c\n'}
+[0.263076] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.263103] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/__init__.py\n'}
+[0.263128] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.263155] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.285304] (osm_nav_interface) StdoutLine: {'line': b"Listing '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface'...\n"}
+[0.285399] (osm_nav_interface) StdoutLine: {'line': b"Listing '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv'...\n"}
+[0.288299] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.288557] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.288692] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\n'}
+[0.288792] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_py.so\n'}
+[0.288877] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner.idl\n'}
+[0.288964] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner.srv\n'}
+[0.289062] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner_Request.msg\n'}
+[0.289120] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner_Response.msg\n'}
+[0.289203] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/package_run_dependencies/osm_nav_interface\n'}
+[0.289283] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/parent_prefix_path/osm_nav_interface\n'}
+[0.289352] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/ament_prefix_path.sh\n'}
+[0.289398] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/ament_prefix_path.dsv\n'}
+[0.289445] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/path.sh\n'}
+[0.289504] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/path.dsv\n'}
+[0.289553] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.bash\n'}
+[0.289620] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.sh\n'}
+[0.289671] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.zsh\n'}
+[0.289737] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.dsv\n'}
+[0.289796] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/package.dsv\n'}
+[0.289857] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/packages/osm_nav_interface\n'}
+[0.289918] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cExport.cmake\n'}
+[0.289989] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.290050] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.290110] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.290170] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cppExport.cmake\n'}
+[0.290229] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.290297] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.290355] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.290419] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.290489] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cExport.cmake\n'}
+[0.290562] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.290634] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.290691] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.290744] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cppExport.cmake\n'}
+[0.290794] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.290843] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_pyExport.cmake\n'}
+[0.290886] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.290927] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[0.290970] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.291012] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.291059] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.291105] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.291146] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.291185] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.291224] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interfaceConfig.cmake\n'}
+[0.291265] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interfaceConfig-version.cmake\n'}
+[0.291303] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/package.xml\n'}
+[0.292182] (osm_nav_interface) CommandEnded: {'returncode': 0}
+[0.300614] (-) TimerEvent: {}
+[0.337876] (osm_nav_interface) JobEnded: {'identifier': 'osm_nav_interface', 'rc': 0}
+[0.339223] (osm_nav) JobStarted: {'identifier': 'osm_nav'}
+[0.344423] (osm_nav) JobProgress: {'identifier': 'osm_nav', 'progress': 'cmake'}
+[0.344974] (osm_nav) JobProgress: {'identifier': 'osm_nav', 'progress': 'build'}
+[0.345201] (osm_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/slam/slam/osm/osm-nav/build/osm_nav', '--', '-j12', '-l12'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm/osm-nav'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble')]), 'shell': False}
+[0.373497] (osm_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target osm_navigation\x1b[0m\n'}
+[0.381355] (osm_nav) StderrLine: {'line': b"gmake[2]: Warning: File '/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp' has modification time 8878 s in the future\n"}
+[0.385557] (osm_nav) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o\x1b[0m\n'}
+[0.386602] (osm_nav) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o\x1b[0m\n'}
+[0.400717] (-) TimerEvent: {}
+[0.500962] (-) TimerEvent: {}
+[0.601289] (-) TimerEvent: {}
+[0.701531] (-) TimerEvent: {}
+[0.801812] (-) TimerEvent: {}
+[0.902165] (-) TimerEvent: {}
+[1.002491] (-) TimerEvent: {}
+[1.102739] (-) TimerEvent: {}
+[1.202990] (-) TimerEvent: {}
+[1.303217] (-) TimerEvent: {}
+[1.403460] (-) TimerEvent: {}
+[1.503781] (-) TimerEvent: {}
+[1.604141] (-) TimerEvent: {}
+[1.704414] (-) TimerEvent: {}
+[1.804696] (-) TimerEvent: {}
+[1.904980] (-) TimerEvent: {}
+[2.005230] (-) TimerEvent: {}
+[2.096070] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.096217] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.096258] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.096290] (osm_nav) StderrLine: {'line': b'  338 |         TmpNode_t \x1b[01;31m\x1b[Kcurrent\x1b[m\x1b[K;\n'}
+[2.096319] (osm_nav) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.096347] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.096375] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.096402] (osm_nav) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(){}\n'}
+[2.096429] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.098914] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.098981] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:348:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.099012] (osm_nav) StderrLine: {'line': b'  348 |         observed_nodes.push_back(dist_start1 > dist_start2 ? osm_nav::TmpNode_t(start1, dist_start1\x1b[01;31m\x1b[K)\x1b[m\x1b[K : osm_nav::TmpNode_t{start2, dist_start2});\n'}
+[2.099039] (osm_nav) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.099069] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.099097] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.099124] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.099151] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099178] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.099203] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:348:142:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.099232] (osm_nav) StderrLine: {'line': b'  348 |         observed_nodes.push_back(dist_start1 > dist_start2 ? osm_nav::TmpNode_t(start1, dist_start1) : osm_nav::TmpNode_t{start2, dist_start2\x1b[01;31m\x1b[K}\x1b[m\x1b[K);\n'}
+[2.099259] (osm_nav) StderrLine: {'line': b'      |                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.099294] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.099323] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.099403] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.099433] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099462] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.099489] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.099513] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:350:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.099540] (osm_nav) StderrLine: {'line': b'  350 |             TmpNode_t \x1b[01;31m\x1b[Kret\x1b[m\x1b[K;\n'}
+[2.099568] (osm_nav) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.099596] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.099627] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.099655] (osm_nav) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(){}\n'}
+[2.099681] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099709] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.099734] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:353:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::TmpNode_t::cost\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.099762] (osm_nav) StderrLine: {'line': b'  353 |                 if(n.\x1b[01;31m\x1b[Kcost\x1b[m\x1b[K < min){\n'}
+[2.099788] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.099815] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.099841] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.099868] (osm_nav) StderrLine: {'line': b'   60 |     double \x1b[01;36m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.099893] (osm_nav) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.099918] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.099943] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:354:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::TmpNode_t::cost\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.099970] (osm_nav) StderrLine: {'line': b'  354 |                     min = n.\x1b[01;31m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.099998] (osm_nav) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.100023] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.100049] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.100074] (osm_nav) StderrLine: {'line': b'   60 |     double \x1b[01;36m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.100098] (osm_nav) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.104809] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.104890] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.104921] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:366:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosmium::object_id_type osm_nav::TmpNode_t::id\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.104948] (osm_nav) StderrLine: {'line': b'  366 |             auto& node = nav_nodes[current.\x1b[01;31m\x1b[Kid\x1b[m\x1b[K];\n'}
+[2.104974] (osm_nav) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.104998] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.105023] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.105049] (osm_nav) StderrLine: {'line': b'   59 |     osmium::object_id_type \x1b[01;36m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.105074] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.105099] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.105123] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:367:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::TmpNode_t::cost\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.105151] (osm_nav) StderrLine: {'line': b'  367 |             double cost_now = current.\x1b[01;31m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.105177] (osm_nav) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.105201] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.105226] (-) TimerEvent: {}
+[2.105298] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.105331] (osm_nav) StderrLine: {'line': b'   60 |     double \x1b[01;36m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.105377] (osm_nav) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.105510] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.105544] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:373:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::TmpNode_t::cost\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.105603] (osm_nav) StderrLine: {'line': b'  373 |                 if (tmp < current.\x1b[01;31m\x1b[Kcost\x1b[m\x1b[K){\n'}
+[2.105634] (osm_nav) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.105755] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.105797] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.105834] (osm_nav) StderrLine: {'line': b'   60 |     double \x1b[01;36m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.105872] (osm_nav) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.105966] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.106013] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.106057] (osm_nav) StderrLine: {'line': b'  375 |                     \x1b[01;31m\x1b[Kpath_node.push_back({n.id, tmp})\x1b[m\x1b[K;\n'}
+[2.106089] (osm_nav) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.106114] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.106140] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.106170] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.106223] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.106280] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.106313] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:378:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.106344] (osm_nav) StderrLine: {'line': b'  378 |                                         osm_nav::TmpNode_t(n.id, tmp\x1b[01;31m\x1b[K)\x1b[m\x1b[K,\n'}
+[2.106440] (osm_nav) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.106498] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.106528] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.106558] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.106586] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.106614] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.106643] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.106700] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:380:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosmium::object_id_type osm_nav::TmpNode_t::id\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.106728] (osm_nav) StderrLine: {'line': b'  380 |                                             return a.\x1b[01;31m\x1b[Kid\x1b[m\x1b[K == b.id;\n'}
+[2.106754] (osm_nav) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.106779] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.106810] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.106835] (osm_nav) StderrLine: {'line': b'   59 |     osmium::object_id_type \x1b[01;36m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.106861] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.106885] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.106909] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:380:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosmium::object_id_type osm_nav::TmpNode_t::id\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.106934] (osm_nav) StderrLine: {'line': b'  380 |                                             return a.id == b.\x1b[01;31m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.106959] (osm_nav) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.106984] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.107008] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.107033] (osm_nav) StderrLine: {'line': b'   59 |     osmium::object_id_type \x1b[01;36m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.107056] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.107080] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.107106] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.107135] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kfind(std::__cxx11::list<osm_nav::TmpNode_t>::iterator, std::__cxx11::list<osm_nav::TmpNode_t>::iterator, osm_nav::TmpNode_t, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const osm_nav::TmpNode_t&, const osm_nav::TmpNode_t&)>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.107162] (osm_nav) StderrLine: {'line': b'  376 |                     auto it = \x1b[01;31m\x1b[Kstd::find(observed_nodes.begin(),\x1b[m\x1b[K\n'}
+[2.107191] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107216] (osm_nav) StderrLine: {'line': b'  377 | \x1b[01;31m\x1b[K                                        observed_nodes.end(),\x1b[m\x1b[K\n'}
+[2.107241] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107266] (osm_nav) StderrLine: {'line': b'  378 | \x1b[01;31m\x1b[K                                        osm_nav::TmpNode_t(n.id, tmp),\x1b[m\x1b[K\n'}
+[2.107292] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107317] (osm_nav) StderrLine: {'line': b'  379 | \x1b[01;31m\x1b[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){\x1b[m\x1b[K\n'}
+[2.107353] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107381] (osm_nav) StderrLine: {'line': b'  380 | \x1b[01;31m\x1b[K                                            return a.id == b.id;\x1b[m\x1b[K\n'}
+[2.107406] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107430] (osm_nav) StderrLine: {'line': b'  381 | \x1b[01;31m\x1b[K                                        })\x1b[m\x1b[K;\n'}
+[2.107455] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.107480] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[2.107504] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36\x1b[m\x1b[K,\n'}
+[2.107529] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38\x1b[m\x1b[K,\n'}
+[2.107555] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2\x1b[m\x1b[K,\n'}
+[2.107580] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.107606] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3876:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.107635] (osm_nav) StderrLine: {'line': b' 3876 |     \x1b[01;36m\x1b[Kfind\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[2.107660] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.107685] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3876:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.107710] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.107734] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[2.107760] (osm_nav) StderrLine: {'line': b'  376 |                     auto it = \x1b[01;36m\x1b[Kstd::find(observed_nodes.begin(),\x1b[m\x1b[K\n'}
+[2.107785] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107809] (osm_nav) StderrLine: {'line': b'  377 | \x1b[01;36m\x1b[K                                        observed_nodes.end(),\x1b[m\x1b[K\n'}
+[2.107835] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107859] (osm_nav) StderrLine: {'line': b'  378 | \x1b[01;36m\x1b[K                                        osm_nav::TmpNode_t(n.id, tmp),\x1b[m\x1b[K\n'}
+[2.107885] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107909] (osm_nav) StderrLine: {'line': b'  379 | \x1b[01;36m\x1b[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){\x1b[m\x1b[K\n'}
+[2.107932] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.107958] (osm_nav) StderrLine: {'line': b'  380 | \x1b[01;36m\x1b[K                                            return a.id == b.id;\x1b[m\x1b[K\n'}
+[2.107983] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108007] (osm_nav) StderrLine: {'line': b'  381 | \x1b[01;36m\x1b[K                                        })\x1b[m\x1b[K;\n'}
+[2.108031] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.108058] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[2.108083] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36\x1b[m\x1b[K,\n'}
+[2.108107] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38\x1b[m\x1b[K,\n'}
+[2.108131] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2\x1b[m\x1b[K,\n'}
+[2.108157] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.108182] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator> std::find(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.108210] (osm_nav) StderrLine: {'line': b'   60 | \x1b[01;36m\x1b[Kfind\x1b[m\x1b[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);\n'}
+[2.108235] (osm_nav) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.108263] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.108293] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.108323] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kstd::_List_iterator<osm_nav::TmpNode_t>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.108353] (osm_nav) StderrLine: {'line': b'  376 |                     auto it = \x1b[01;36m\x1b[Kstd::find(observed_nodes.begin(),\x1b[m\x1b[K\n'}
+[2.108381] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108436] (osm_nav) StderrLine: {'line': b'  377 | \x1b[01;36m\x1b[K                                        observed_nodes.end(),\x1b[m\x1b[K\n'}
+[2.108461] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108485] (osm_nav) StderrLine: {'line': b'  378 | \x1b[01;36m\x1b[K                                        osm_nav::TmpNode_t(n.id, tmp),\x1b[m\x1b[K\n'}
+[2.108511] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108537] (osm_nav) StderrLine: {'line': b'  379 | \x1b[01;36m\x1b[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){\x1b[m\x1b[K\n'}
+[2.108561] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108584] (osm_nav) StderrLine: {'line': b'  380 | \x1b[01;36m\x1b[K                                            return a.id == b.id;\x1b[m\x1b[K\n'}
+[2.108609] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108633] (osm_nav) StderrLine: {'line': b'  381 | \x1b[01;36m\x1b[K                                        })\x1b[m\x1b[K;\n'}
+[2.108659] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.108684] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iterator:66\x1b[m\x1b[K,\n'}
+[2.108708] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:42\x1b[m\x1b[K,\n'}
+[2.108734] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38\x1b[m\x1b[K,\n'}
+[2.108758] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2\x1b[m\x1b[K,\n'}
+[2.108782] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.108808] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> > >::__type std::find(std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, const _CharT2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.108835] (osm_nav) StderrLine: {'line': b'  421 |     \x1b[01;36m\x1b[Kfind\x1b[m\x1b[K(istreambuf_iterator<_CharT> __first,\n'}
+[2.108864] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.108889] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.108914] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.108941] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_List_iterator<osm_nav::TmpNode_t>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::istreambuf_iterator<_CharT, std::char_traits<_CharT> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.108970] (osm_nav) StderrLine: {'line': b'  376 |                     auto it = \x1b[01;36m\x1b[Kstd::find(observed_nodes.begin(),\x1b[m\x1b[K\n'}
+[2.108995] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109020] (osm_nav) StderrLine: {'line': b'  377 | \x1b[01;36m\x1b[K                                        observed_nodes.end(),\x1b[m\x1b[K\n'}
+[2.109046] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109072] (osm_nav) StderrLine: {'line': b'  378 | \x1b[01;36m\x1b[K                                        osm_nav::TmpNode_t(n.id, tmp),\x1b[m\x1b[K\n'}
+[2.109098] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109123] (osm_nav) StderrLine: {'line': b'  379 | \x1b[01;36m\x1b[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){\x1b[m\x1b[K\n'}
+[2.109148] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109172] (osm_nav) StderrLine: {'line': b'  380 | \x1b[01;36m\x1b[K                                            return a.id == b.id;\x1b[m\x1b[K\n'}
+[2.109196] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109222] (osm_nav) StderrLine: {'line': b'  381 | \x1b[01;36m\x1b[K                                        })\x1b[m\x1b[K;\n'}
+[2.109247] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.109271] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:386:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.109296] (osm_nav) StderrLine: {'line': b'  386 |                     \x1b[01;31m\x1b[Kobserved_nodes.push_back({n.id, tmp})\x1b[m\x1b[K;\n'}
+[2.109325] (osm_nav) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109350] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.109374] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.109399] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.109424] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.109449] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.109473] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:389:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosmium::object_id_type osm_nav::TmpNode_t::id\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.109498] (osm_nav) StderrLine: {'line': b'  389 |             if (current.\x1b[01;31m\x1b[Kid\x1b[m\x1b[K == end1)break;\n'}
+[2.109522] (osm_nav) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.109547] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[2.109571] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.109596] (osm_nav) StderrLine: {'line': b'   59 |     osmium::object_id_type \x1b[01;36m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.109622] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.109647] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.109671] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.109697] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.109723] (osm_nav) StderrLine: {'line': b'  338 |         TmpNode_t \x1b[01;31m\x1b[Kcurrent\x1b[m\x1b[K;\n'}
+[2.109748] (osm_nav) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.109772] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.109798] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.109823] (osm_nav) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(){}\n'}
+[2.109848] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.110539] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.110598] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:348:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.110637] (osm_nav) StderrLine: {'line': b'  348 |         observed_nodes.push_back(dist_start1 > dist_start2 ? osm_nav::TmpNode_t(start1, dist_start1\x1b[01;31m\x1b[K)\x1b[m\x1b[K : osm_nav::TmpNode_t{start2, dist_start2});\n'}
+[2.110676] (osm_nav) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.110716] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.110754] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.110786] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.110811] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.110839] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.110867] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:348:142:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.110898] (osm_nav) StderrLine: {'line': b'  348 |         observed_nodes.push_back(dist_start1 > dist_start2 ? osm_nav::TmpNode_t(start1, dist_start1) : osm_nav::TmpNode_t{start2, dist_start2\x1b[01;31m\x1b[K}\x1b[m\x1b[K);\n'}
+[2.110959] (osm_nav) StderrLine: {'line': b'      |                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.110985] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.111010] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.111035] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.111060] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.111084] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.111108] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.111136] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:350:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.111168] (osm_nav) StderrLine: {'line': b'  350 |             TmpNode_t \x1b[01;31m\x1b[Kret\x1b[m\x1b[K;\n'}
+[2.111194] (osm_nav) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.111221] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.111248] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.111272] (osm_nav) StderrLine: {'line': b'   62 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(){}\n'}
+[2.111298] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.111323] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.111359] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:353:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::TmpNode_t::cost\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.111386] (osm_nav) StderrLine: {'line': b'  353 |                 if(n.\x1b[01;31m\x1b[Kcost\x1b[m\x1b[K < min){\n'}
+[2.111413] (osm_nav) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.111439] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.111463] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.111505] (osm_nav) StderrLine: {'line': b'   60 |     double \x1b[01;36m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.111562] (osm_nav) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.111618] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.111674] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:354:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::TmpNode_t::cost\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.111747] (osm_nav) StderrLine: {'line': b'  354 |                     min = n.\x1b[01;31m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.111800] (osm_nav) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.111862] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.111907] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.111932] (osm_nav) StderrLine: {'line': b'   60 |     double \x1b[01;36m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.111957] (osm_nav) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.116078] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.116201] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.116241] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:366:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosmium::object_id_type osm_nav::TmpNode_t::id\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.116271] (osm_nav) StderrLine: {'line': b'  366 |             auto& node = nav_nodes[current.\x1b[01;31m\x1b[Kid\x1b[m\x1b[K];\n'}
+[2.116299] (osm_nav) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.116325] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.116356] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.116383] (osm_nav) StderrLine: {'line': b'   59 |     osmium::object_id_type \x1b[01;36m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.116409] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.116436] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.116462] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:367:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::TmpNode_t::cost\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.116489] (osm_nav) StderrLine: {'line': b'  367 |             double cost_now = current.\x1b[01;31m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.116513] (osm_nav) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.116538] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.116563] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.116642] (osm_nav) StderrLine: {'line': b'   60 |     double \x1b[01;36m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.116671] (osm_nav) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.116700] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.116788] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:373:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble osm_nav::TmpNode_t::cost\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.116815] (osm_nav) StderrLine: {'line': b'  373 |                 if (tmp < current.\x1b[01;31m\x1b[Kcost\x1b[m\x1b[K){\n'}
+[2.116840] (osm_nav) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.116869] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.116896] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:60:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.116925] (osm_nav) StderrLine: {'line': b'   60 |     double \x1b[01;36m\x1b[Kcost\x1b[m\x1b[K;\n'}
+[2.116952] (osm_nav) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.116979] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.117019] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.117049] (osm_nav) StderrLine: {'line': b'  375 |                     \x1b[01;31m\x1b[Kpath_node.push_back({n.id, tmp})\x1b[m\x1b[K;\n'}
+[2.117136] (osm_nav) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.117163] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.117193] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.117224] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.117327] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.117357] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.117418] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:378:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.117447] (osm_nav) StderrLine: {'line': b'  378 |                                         osm_nav::TmpNode_t(n.id, tmp\x1b[01;31m\x1b[K)\x1b[m\x1b[K,\n'}
+[2.117476] (osm_nav) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.117501] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.117526] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.117550] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.117575] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.117600] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.117626] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.117650] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:380:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosmium::object_id_type osm_nav::TmpNode_t::id\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.117676] (osm_nav) StderrLine: {'line': b'  380 |                                             return a.\x1b[01;31m\x1b[Kid\x1b[m\x1b[K == b.id;\n'}
+[2.117699] (osm_nav) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.117724] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.117747] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.117771] (osm_nav) StderrLine: {'line': b'   59 |     osmium::object_id_type \x1b[01;36m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.117795] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.117820] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.117844] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:380:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosmium::object_id_type osm_nav::TmpNode_t::id\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.117868] (osm_nav) StderrLine: {'line': b'  380 |                                             return a.id == b.\x1b[01;31m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.117892] (osm_nav) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.117917] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.117940] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.117965] (osm_nav) StderrLine: {'line': b'   59 |     osmium::object_id_type \x1b[01;36m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.117988] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.118012] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.118037] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.118063] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kfind(std::__cxx11::list<osm_nav::TmpNode_t>::iterator, std::__cxx11::list<osm_nav::TmpNode_t>::iterator, osm_nav::TmpNode_t, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const osm_nav::TmpNode_t&, const osm_nav::TmpNode_t&)>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.118092] (osm_nav) StderrLine: {'line': b'  376 |                     auto it = \x1b[01;31m\x1b[Kstd::find(observed_nodes.begin(),\x1b[m\x1b[K\n'}
+[2.118117] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118141] (osm_nav) StderrLine: {'line': b'  377 | \x1b[01;31m\x1b[K                                        observed_nodes.end(),\x1b[m\x1b[K\n'}
+[2.118166] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118192] (osm_nav) StderrLine: {'line': b'  378 | \x1b[01;31m\x1b[K                                        osm_nav::TmpNode_t(n.id, tmp),\x1b[m\x1b[K\n'}
+[2.118217] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118240] (osm_nav) StderrLine: {'line': b'  379 | \x1b[01;31m\x1b[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){\x1b[m\x1b[K\n'}
+[2.118266] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118290] (osm_nav) StderrLine: {'line': b'  380 | \x1b[01;31m\x1b[K                                            return a.id == b.id;\x1b[m\x1b[K\n'}
+[2.118314] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118338] (osm_nav) StderrLine: {'line': b'  381 | \x1b[01;31m\x1b[K                                        })\x1b[m\x1b[K;\n'}
+[2.118362] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.118388] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[2.118414] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[2.118438] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:44\x1b[m\x1b[K,\n'}
+[2.118462] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.118486] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.118510] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.118533] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> > >::__type std::find(std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, const _CharT2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.118560] (osm_nav) StderrLine: {'line': b'  421 |     \x1b[01;36m\x1b[Kfind\x1b[m\x1b[K(istreambuf_iterator<_CharT> __first,\n'}
+[2.118584] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.118611] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.118636] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.118660] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_List_iterator<osm_nav::TmpNode_t>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::istreambuf_iterator<_CharT, std::char_traits<_CharT> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.118690] (osm_nav) StderrLine: {'line': b'  376 |                     auto it = \x1b[01;36m\x1b[Kstd::find(observed_nodes.begin(),\x1b[m\x1b[K\n'}
+[2.118715] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118739] (osm_nav) StderrLine: {'line': b'  377 | \x1b[01;36m\x1b[K                                        observed_nodes.end(),\x1b[m\x1b[K\n'}
+[2.118764] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118789] (osm_nav) StderrLine: {'line': b'  378 | \x1b[01;36m\x1b[K                                        osm_nav::TmpNode_t(n.id, tmp),\x1b[m\x1b[K\n'}
+[2.118813] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118837] (osm_nav) StderrLine: {'line': b'  379 | \x1b[01;36m\x1b[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){\x1b[m\x1b[K\n'}
+[2.118862] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118887] (osm_nav) StderrLine: {'line': b'  380 | \x1b[01;36m\x1b[K                                            return a.id == b.id;\x1b[m\x1b[K\n'}
+[2.118911] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118937] (osm_nav) StderrLine: {'line': b'  381 | \x1b[01;36m\x1b[K                                        })\x1b[m\x1b[K;\n'}
+[2.118961] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.118985] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[2.119009] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36\x1b[m\x1b[K,\n'}
+[2.119034] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38\x1b[m\x1b[K,\n'}
+[2.119057] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.119081] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3876:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.119107] (osm_nav) StderrLine: {'line': b' 3876 |     \x1b[01;36m\x1b[Kfind\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[2.119133] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.119157] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3876:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.119182] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.119208] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[2.119234] (osm_nav) StderrLine: {'line': b'  376 |                     auto it = \x1b[01;36m\x1b[Kstd::find(observed_nodes.begin(),\x1b[m\x1b[K\n'}
+[2.119257] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119283] (osm_nav) StderrLine: {'line': b'  377 | \x1b[01;36m\x1b[K                                        observed_nodes.end(),\x1b[m\x1b[K\n'}
+[2.119307] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119331] (osm_nav) StderrLine: {'line': b'  378 | \x1b[01;36m\x1b[K                                        osm_nav::TmpNode_t(n.id, tmp),\x1b[m\x1b[K\n'}
+[2.119369] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119395] (osm_nav) StderrLine: {'line': b'  379 | \x1b[01;36m\x1b[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){\x1b[m\x1b[K\n'}
+[2.119421] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119445] (osm_nav) StderrLine: {'line': b'  380 | \x1b[01;36m\x1b[K                                            return a.id == b.id;\x1b[m\x1b[K\n'}
+[2.119469] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119494] (osm_nav) StderrLine: {'line': b'  381 | \x1b[01;36m\x1b[K                                        })\x1b[m\x1b[K;\n'}
+[2.119518] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.119541] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[2.119566] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36\x1b[m\x1b[K,\n'}
+[2.119592] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38\x1b[m\x1b[K,\n'}
+[2.119617] (osm_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.119641] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator> std::find(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.119668] (osm_nav) StderrLine: {'line': b'   60 | \x1b[01;36m\x1b[Kfind\x1b[m\x1b[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);\n'}
+[2.119693] (osm_nav) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.119717] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.119742] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.119767] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:376:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kstd::_List_iterator<osm_nav::TmpNode_t>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.119794] (osm_nav) StderrLine: {'line': b'  376 |                     auto it = \x1b[01;36m\x1b[Kstd::find(observed_nodes.begin(),\x1b[m\x1b[K\n'}
+[2.119819] (osm_nav) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119844] (osm_nav) StderrLine: {'line': b'  377 | \x1b[01;36m\x1b[K                                        observed_nodes.end(),\x1b[m\x1b[K\n'}
+[2.119868] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119892] (osm_nav) StderrLine: {'line': b'  378 | \x1b[01;36m\x1b[K                                        osm_nav::TmpNode_t(n.id, tmp),\x1b[m\x1b[K\n'}
+[2.119915] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119938] (osm_nav) StderrLine: {'line': b'  379 | \x1b[01;36m\x1b[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){\x1b[m\x1b[K\n'}
+[2.119962] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119986] (osm_nav) StderrLine: {'line': b'  380 | \x1b[01;36m\x1b[K                                            return a.id == b.id;\x1b[m\x1b[K\n'}
+[2.120011] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.120036] (osm_nav) StderrLine: {'line': b'  381 | \x1b[01;36m\x1b[K                                        })\x1b[m\x1b[K;\n'}
+[2.120063] (osm_nav) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~\x1b[m\x1b[K\n'}
+[2.120086] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:386:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type, double)\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.120114] (osm_nav) StderrLine: {'line': b'  386 |                     \x1b[01;31m\x1b[Kobserved_nodes.push_back({n.id, tmp})\x1b[m\x1b[K;\n'}
+[2.120138] (osm_nav) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.120163] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.120187] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.120212] (osm_nav) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K(osmium::object_id_type a, double b):id(a), cost(b){}\n'}
+[2.120236] (osm_nav) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.120259] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.120283] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:389:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kosmium::object_id_type osm_nav::TmpNode_t::id\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.120308] (osm_nav) StderrLine: {'line': b'  389 |             if (current.\x1b[01;31m\x1b[Kid\x1b[m\x1b[K == end1)break;\n'}
+[2.120332] (osm_nav) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.120357] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[2.120381] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:59:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.120405] (osm_nav) StderrLine: {'line': b'   59 |     osmium::object_id_type \x1b[01;36m\x1b[Kid\x1b[m\x1b[K;\n'}
+[2.120430] (osm_nav) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.205347] (-) TimerEvent: {}
+[2.305579] (-) TimerEvent: {}
+[2.405843] (-) TimerEvent: {}
+[2.506095] (-) TimerEvent: {}
+[2.606389] (-) TimerEvent: {}
+[2.706647] (-) TimerEvent: {}
+[2.806919] (-) TimerEvent: {}
+[2.907160] (-) TimerEvent: {}
+[3.007642] (-) TimerEvent: {}
+[3.108032] (-) TimerEvent: {}
+[3.208272] (-) TimerEvent: {}
+[3.308530] (-) TimerEvent: {}
+[3.408874] (-) TimerEvent: {}
+[3.430833] (osm_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1\n'}
+[3.430964] (osm_nav) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.508997] (-) TimerEvent: {}
+[3.527027] (osm_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1\n'}
+[3.527168] (osm_nav) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2\n'}
+[3.527226] (osm_nav) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.528479] (osm_nav) CommandEnded: {'returncode': 2}
+[3.547179] (osm_nav) JobEnded: {'identifier': 'osm_nav', 'rc': 2}
+[3.557750] (-) EventReactorShutdown: {}

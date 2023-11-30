@@ -1,0 +1,202 @@
+[35m[1mConsolidate compiler generated dependencies of target osm_navigation[0m
+gmake[2]: Warning: File '/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp' has modification time 8096 s in the future
+[ 33%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o[0m
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:373:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type&, double&)[m[K’
+  373 |                     osm_nav::TmpNode_t a(n.id, tmp[01;31m[K)[m[K;
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+   62 | }[01;36m[KTmpNode_t[m[K;
+      |  [01;36m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfind(std::__cxx11::list<osm_nav::TmpNode_t>::iterator, std::__cxx11::list<osm_nav::TmpNode_t>::iterator, osm_nav::TmpNode_t&, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const osm_nav::TmpNode_t&, const osm_nav::TmpNode_t&)>)[m[K’
+  375 |                     auto it = [01;31m[Kstd::find(observed_nodes.begin(),[m[K
+      |                               [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;31m[K                                        observed_nodes.end(),[m[K
+      |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;31m[K                                        a,[m[K
+      |                                         [01;31m[K~~[m[K
+  378 | [01;31m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+      |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;31m[K                                            return a.id == b.id;[m[K
+      |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  380 | [01;31m[K                                        })[m[K;
+      |                                         [01;31m[K~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3876:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)[m[K’
+ 3876 |     [01;36m[Kfind[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3876:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+  375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+      |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;36m[K                                        observed_nodes.end(),[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;36m[K                                        a,[m[K
+      |                                         [01;36m[K~~[m[K
+  378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;36m[K                                            return a.id == b.id;[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  380 | [01;36m[K                                        })[m[K;
+      |                                         [01;36m[K~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator> std::find(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)[m[K’
+   60 | [01;36m[Kfind[m[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+      | [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_ForwardIterator[m[K’ (‘[01m[Kstd::_List_iterator<osm_nav::TmpNode_t>[m[K’ and ‘[01m[Kosm_nav::TmpNode_t[m[K’)
+  375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+      |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;36m[K                                        observed_nodes.end(),[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;36m[K                                        a,[m[K
+      |                                         [01;36m[K~~[m[K
+  378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;36m[K                                            return a.id == b.id;[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  380 | [01;36m[K                                        })[m[K;
+      |                                         [01;36m[K~~[m[K
+In file included from [01m[K/usr/include/c++/11/iterator:66[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:42[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:2[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> > >::__type std::find(std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, const _CharT2&)[m[K’
+  421 |     [01;36m[Kfind[m[K(istreambuf_iterator<_CharT> __first,
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<osm_nav::TmpNode_t>[m[K’ is not derived from ‘[01m[Kstd::istreambuf_iterator<_CharT, std::char_traits<_CharT> >[m[K’
+  375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+      |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;36m[K                                        observed_nodes.end(),[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;36m[K                                        a,[m[K
+      |                                         [01;36m[K~~[m[K
+  378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;36m[K                                            return a.id == b.id;[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  380 | [01;36m[K                                        })[m[K;
+      |                                         [01;36m[K~~[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:[m[K In member function ‘[01m[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:373:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type&, double&)[m[K’
+  373 |                     osm_nav::TmpNode_t a(n.id, tmp[01;31m[K)[m[K;
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kosm_nav::TmpNode_t::TmpNode_t()[m[K’
+   62 | }[01;36m[KTmpNode_t[m[K;
+      |  [01;36m[K^~~~~~~~~[m[K
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)[m[K’
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:62:2:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfind(std::__cxx11::list<osm_nav::TmpNode_t>::iterator, std::__cxx11::list<osm_nav::TmpNode_t>::iterator, osm_nav::TmpNode_t&, osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)::<lambda(const osm_nav::TmpNode_t&, const osm_nav::TmpNode_t&)>)[m[K’
+  375 |                     auto it = [01;31m[Kstd::find(observed_nodes.begin(),[m[K
+      |                               [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;31m[K                                        observed_nodes.end(),[m[K
+      |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;31m[K                                        a,[m[K
+      |                                         [01;31m[K~~[m[K
+  378 | [01;31m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+      |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;31m[K                                            return a.id == b.id;[m[K
+      |                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  380 | [01;31m[K                                        })[m[K;
+      |                                         [01;31m[K~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/locale_facets.h:48[m[K,
+                 from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/ios:44[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> > >::__type std::find(std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, std::istreambuf_iterator<_CharT, std::char_traits<_CharT> >, const _CharT2&)[m[K’
+  421 |     [01;36m[Kfind[m[K(istreambuf_iterator<_CharT> __first,
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/bits/streambuf_iterator.h:421:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_List_iterator<osm_nav::TmpNode_t>[m[K’ is not derived from ‘[01m[Kstd::istreambuf_iterator<_CharT, std::char_traits<_CharT> >[m[K’
+  375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+      |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;36m[K                                        observed_nodes.end(),[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;36m[K                                        a,[m[K
+      |                                         [01;36m[K~~[m[K
+  378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;36m[K                                            return a.id == b.id;[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  380 | [01;36m[K                                        })[m[K;
+      |                                         [01;36m[K~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3876:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IIter, class _Tp> _IIter std::find(_IIter, _IIter, const _Tp&)[m[K’
+ 3876 |     [01;36m[Kfind[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3876:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+  375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+      |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;36m[K                                        observed_nodes.end(),[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;36m[K                                        a,[m[K
+      |                                         [01;36m[K~~[m[K
+  378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;36m[K                                            return a.id == b.id;[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  380 | [01;36m[K                                        })[m[K;
+      |                                         [01;36m[K~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/location.hpp:36[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include/osmium/osm/node.hpp:38[m[K,
+                 from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:2[m[K:
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator> std::find(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)[m[K’
+   60 | [01;36m[Kfind[m[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+      | [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:60:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13[m[K:
+[01m[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:40:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_ForwardIterator[m[K’ (‘[01m[Kstd::_List_iterator<osm_nav::TmpNode_t>[m[K’ and ‘[01m[Kosm_nav::TmpNode_t[m[K’)
+  375 |                     auto it = [01;36m[Kstd::find(observed_nodes.begin(),[m[K
+      |                               [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;36m[K                                        observed_nodes.end(),[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  377 | [01;36m[K                                        a,[m[K
+      |                                         [01;36m[K~~[m[K
+  378 | [01;36m[K                                        [](const osm_nav::TmpNode_t& a, const osm_nav::TmpNode_t& b){[m[K
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;36m[K                                            return a.id == b.id;[m[K
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~[m[K
+  380 | [01;36m[K                                        })[m[K;
+      |                                         [01;36m[K~~[m[K
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

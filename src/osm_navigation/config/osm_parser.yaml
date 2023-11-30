@@ -1,0 +1,17 @@
+osm_parser:
+  ros__parameters:
+    osm_file: "/root/slam/slam/osm/osm-nav/src/osm_navigation/osm_file/map.osm"
+    osm_match_tags:
+      - "name"
+      - "至诚大道"
+      - "name"
+      - "独秀大道（南冀）"
+      - "name"
+      - "独秀大道（北冀）"
+      - "name"
+      - "至坚路"
+      # - "highway"
+      # - "unclassified"
+      - "highway"
+      - "service"
+

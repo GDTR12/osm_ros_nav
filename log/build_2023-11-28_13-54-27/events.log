@@ -1,0 +1,597 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (osm_nav_interface) JobQueued: {'identifier': 'osm_nav_interface', 'dependencies': OrderedDict()}
+[0.000315] (osm_nav) JobQueued: {'identifier': 'osm_nav', 'dependencies': OrderedDict([('osm_nav_interface', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface')])}
+[0.000330] (osm_nav_interface) JobStarted: {'identifier': 'osm_nav_interface'}
+[0.008166] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'cmake'}
+[0.008261] (osm_nav_interface) Command: {'cmd': ['/usr/bin/cmake', '/root/slam/slam/osm/osm-nav/src/osm_nav_interface', '-DCMAKE_INSTALL_PREFIX=/root/slam/slam/osm/osm-nav/install/osm_nav_interface'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm/osm-nav'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble')]), 'shell': False}
+[0.040417] (osm_nav_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.076947] (osm_nav_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.081081] (osm_nav_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099924] (-) TimerEvent: {}
+[0.121077] (osm_nav_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.126058] (osm_nav_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.126268] (osm_nav_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.126559] (osm_nav_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.128559] (osm_nav_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.173071] (osm_nav_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.177802] (osm_nav_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.178037] (osm_nav_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.178335] (osm_nav_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.180439] (osm_nav_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200000] (-) TimerEvent: {}
+[0.295500] (osm_nav_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.300088] (-) TimerEvent: {}
+[0.371822] (osm_nav_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400194] (-) TimerEvent: {}
+[0.412329] (osm_nav_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.416319] (osm_nav_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.422947] (osm_nav_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.432489] (osm_nav_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.446285] (osm_nav_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.495425] (osm_nav_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.497590] (osm_nav_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500284] (-) TimerEvent: {}
+[0.560359] (osm_nav_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.583223] (osm_nav_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.600400] (-) TimerEvent: {}
+[0.620691] (osm_nav_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.628948] (osm_nav_interface) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.667765] (osm_nav_interface) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.667945] (osm_nav_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700494] (-) TimerEvent: {}
+[0.707858] (osm_nav_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.708908] (osm_nav_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800594] (-) TimerEvent: {}
+[0.818508] (osm_nav_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.900676] (-) TimerEvent: {}
+[0.978562] (osm_nav_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.000777] (-) TimerEvent: {}
+[1.101010] (-) TimerEvent: {}
+[1.170704] (osm_nav_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201097] (-) TimerEvent: {}
+[1.246388] (osm_nav_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.257082] (osm_nav_interface) StdoutLine: {'line': b'-- Found PythonInterp: /root/miniconda3/envs/openalt/bin/python3 (found suitable version "3.11.5", minimum required is "3.6") \n'}
+[1.259045] (osm_nav_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.273063] (osm_nav_interface) StdoutLine: {'line': b'-- Found PythonLibs: /root/miniconda3/envs/openalt/lib/libpython3.11.so (found suitable version "3.11.5", minimum required is "3.5") \n'}
+[1.273225] (osm_nav_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /root/miniconda3/envs/openalt/bin/python3\n'}
+[1.273265] (osm_nav_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /root/miniconda3/envs/openalt/include/python3.11\n'}
+[1.273295] (osm_nav_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /root/miniconda3/envs/openalt/lib/libpython3.11.so\n'}
+[1.286994] (osm_nav_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.301167] (-) TimerEvent: {}
+[1.401353] (-) TimerEvent: {}
+[1.461683] (osm_nav_interface) StdoutLine: {'line': b'-- Using numpy include directory: /root/miniconda3/envs/openalt/lib/python3.11/site-packages/numpy/core/include\n'}
+[1.466763] (osm_nav_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.481171] (osm_nav_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.481630] (osm_nav_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.482817] (osm_nav_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.499597] (osm_nav_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.500972] (osm_nav_interface) StdoutLine: {'line': b'-- Build files have been written to: /root/slam/slam/osm/osm-nav/build/osm_nav_interface\n'}
+[1.501405] (-) TimerEvent: {}
+[1.507961] (osm_nav_interface) CommandEnded: {'returncode': 0}
+[1.508453] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'build'}
+[1.509014] (osm_nav_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', '--', '-j12', '-l12'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm/osm-nav'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble')]), 'shell': False}
+[1.529763] (osm_nav_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.534373] (osm_nav_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.540671] (osm_nav_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_osm_nav_interface\n'}
+[1.601551] (-) TimerEvent: {}
+[1.693575] (osm_nav_interface) StdoutLine: {'line': b'running egg_info\n'}
+[1.694059] (osm_nav_interface) StdoutLine: {'line': b'creating osm_nav_interface.egg-info\n'}
+[1.694150] (osm_nav_interface) StdoutLine: {'line': b'writing osm_nav_interface.egg-info/PKG-INFO\n'}
+[1.694240] (osm_nav_interface) StdoutLine: {'line': b'writing dependency_links to osm_nav_interface.egg-info/dependency_links.txt\n'}
+[1.694307] (osm_nav_interface) StdoutLine: {'line': b'writing top-level names to osm_nav_interface.egg-info/top_level.txt\n'}
+[1.694390] (osm_nav_interface) StdoutLine: {'line': b"writing manifest file 'osm_nav_interface.egg-info/SOURCES.txt'\n"}
+[1.695494] (osm_nav_interface) StdoutLine: {'line': b"reading manifest file 'osm_nav_interface.egg-info/SOURCES.txt'\n"}
+[1.695763] (osm_nav_interface) StdoutLine: {'line': b"writing manifest file 'osm_nav_interface.egg-info/SOURCES.txt'\n"}
+[1.699508] (osm_nav_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/osm_nav_interface__rosidl_generator_c.dir/rosidl_generator_c/osm_nav_interface/srv/detail/planner__functions.c.o\x1b[0m\n'}
+[1.701643] (-) TimerEvent: {}
+[1.718299] (osm_nav_interface) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_osm_nav_interface_egg\n'}
+[1.736132] (osm_nav_interface) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libosm_nav_interface__rosidl_generator_c.so\x1b[0m\n'}
+[1.755430] (osm_nav_interface) StdoutLine: {'line': b'[ 12%] Built target osm_nav_interface__cpp\n'}
+[1.760419] (osm_nav_interface) StdoutLine: {'line': b'[ 12%] Built target osm_nav_interface__rosidl_generator_c\n'}
+[1.760526] (osm_nav_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.760577] (osm_nav_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.766190] (osm_nav_interface) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.766352] (osm_nav_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.766420] (osm_nav_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.771284] (osm_nav_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.801717] (-) TimerEvent: {}
+[1.901942] (-) TimerEvent: {}
+[1.922678] (osm_nav_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/osm_nav_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/osm_nav_interface/srv/detail/planner__type_support.cpp.o\x1b[0m\n'}
+[1.925660] (osm_nav_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/osm_nav_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/osm_nav_interface/srv/detail/dds_fastrtps/planner__type_support.cpp.o\x1b[0m\n'}
+[1.938210] (osm_nav_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/osm_nav_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/osm_nav_interface/srv/planner__type_support.cpp.o\x1b[0m\n'}
+[1.955593] (osm_nav_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/osm_nav_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/osm_nav_interface/srv/detail/planner__type_support.c.o\x1b[0m\n'}
+[1.963323] (osm_nav_interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libosm_nav_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.978457] (osm_nav_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libosm_nav_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.001668] (osm_nav_interface) StdoutLine: {'line': b'[ 51%] Built target osm_nav_interface__rosidl_typesupport_c\n'}
+[2.002001] (-) TimerEvent: {}
+[2.004011] (osm_nav_interface) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/osm_nav_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/osm_nav_interface/srv/planner__type_support.cpp.o\x1b[0m\n'}
+[2.009947] (osm_nav_interface) StdoutLine: {'line': b'[ 54%] Built target osm_nav_interface__rosidl_typesupport_introspection_c\n'}
+[2.025219] (osm_nav_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/osm_nav_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/osm_nav_interface/srv/detail/planner__type_support_c.cpp.o\x1b[0m\n'}
+[2.102122] (-) TimerEvent: {}
+[2.202422] (-) TimerEvent: {}
+[2.203048] (osm_nav_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libosm_nav_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.217304] (osm_nav_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libosm_nav_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.229240] (osm_nav_interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libosm_nav_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.243611] (osm_nav_interface) StdoutLine: {'line': b'[ 67%] Built target osm_nav_interface__rosidl_typesupport_cpp\n'}
+[2.248635] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libosm_nav_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.252742] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] Built target osm_nav_interface__rosidl_typesupport_introspection_cpp\n'}
+[2.295337] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[2.302506] (-) TimerEvent: {}
+[2.310913] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_c\n'}
+[2.320591] (osm_nav_interface) StdoutLine: {'line': b'[ 70%] Built target osm_nav_interface\n'}
+[2.331140] (osm_nav_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.402637] (-) TimerEvent: {}
+[2.502952] (-) TimerEvent: {}
+[2.552114] (osm_nav_interface) StdoutLine: {'line': b'[ 74%] Built target osm_nav_interface__py\n'}
+[2.564482] (osm_nav_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/osm_nav_interface__rosidl_generator_py.dir/rosidl_generator_py/osm_nav_interface/srv/_planner_s.c.o\x1b[0m\n'}
+[2.603076] (-) TimerEvent: {}
+[2.655911] (osm_nav_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/osm_nav_interface/libosm_nav_interface__rosidl_generator_py.so\x1b[0m\n'}
+[2.681976] (osm_nav_interface) StdoutLine: {'line': b'[ 80%] Built target osm_nav_interface__rosidl_generator_py\n'}
+[2.695346] (osm_nav_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/osm_nav_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.695525] (osm_nav_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/osm_nav_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.701534] (osm_nav_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/osm_nav_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.703137] (-) TimerEvent: {}
+[2.757488] (osm_nav_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.759935] (osm_nav_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.768733] (osm_nav_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.778227] (osm_nav_interface) StdoutLine: {'line': b'[100%] Built target osm_nav_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.778375] (osm_nav_interface) StdoutLine: {'line': b'[100%] Built target osm_nav_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[2.788595] (osm_nav_interface) StdoutLine: {'line': b'[100%] Built target osm_nav_interface__rosidl_typesupport_c__pyext\n'}
+[2.795062] (osm_nav_interface) CommandEnded: {'returncode': 0}
+[2.803206] (-) TimerEvent: {}
+[2.823875] (osm_nav_interface) JobProgress: {'identifier': 'osm_nav_interface', 'progress': 'install'}
+[2.830081] (osm_nav_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav_interface', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm/osm-nav'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav_interface'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble')]), 'shell': False}
+[2.834548] (osm_nav_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.834715] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/rosidl_interfaces/osm_nav_interface\n'}
+[2.834776] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[2.834814] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[2.834847] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[2.834878] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.h\n'}
+[2.834928] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__functions.h\n'}
+[2.834961] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__functions.c\n'}
+[2.834992] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__struct.h\n'}
+[2.835022] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/planner.h\n'}
+[2.835064] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[2.835108] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.835137] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/library_path.sh\n'}
+[2.835168] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/library_path.dsv\n'}
+[2.835207] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_c.so\n'}
+[2.835273] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_c.so" to ""\n'}
+[2.835315] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[2.835347] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[2.835388] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[2.835435] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_fastrtps_c.h\n'}
+[2.835468] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[2.835498] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.835538] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[2.835575] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.835609] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[2.835651] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[2.835682] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/planner.hpp\n'}
+[2.835729] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[2.835758] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__builder.hpp\n'}
+[2.835789] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__traits.hpp\n'}
+[2.835837] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__struct.hpp\n'}
+[2.835866] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[2.835898] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[2.835937] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[2.835990] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/dds_fastrtps\n'}
+[2.836019] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.836045] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[2.836071] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.836098] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.836137] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.836182] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[2.836216] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[2.836245] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[2.836275] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_introspection_c.h\n'}
+[2.836302] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.c\n'}
+[2.836342] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg\n'}
+[2.836367] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.836393] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_c.so\n'}
+[2.836431] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.836471] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_c.so\n'}
+[2.836540] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_c.so" to ""\n'}
+[2.836585] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface\n'}
+[2.836615] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv\n'}
+[2.836646] (osm_nav_interface) StdoutLine: {'line': b'-- Up-to-date: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail\n'}
+[2.836685] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__type_support.cpp\n'}
+[2.836715] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/include/osm_nav_interface/osm_nav_interface/srv/detail/planner__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.836755] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[2.836805] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.836843] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_cpp.so\n'}
+[2.836933] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[2.836970] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/pythonpath.sh\n'}
+[2.837001] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/pythonpath.dsv\n'}
+[2.837038] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info\n'}
+[2.837089] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.837128] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.837180] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.837258] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.837303] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface\n'}
+[2.837354] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv\n'}
+[2.837394] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/__init__.py\n'}
+[2.837433] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner.py\n'}
+[2.837470] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner_s.c\n'}
+[2.837505] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\n'}
+[2.837535] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.837574] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/libosm_nav_interface__rosidl_generator_py.so\n'}
+[2.837624] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_c.c\n'}
+[2.837663] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/_osm_nav_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.837705] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/__init__.py\n'}
+[2.837745] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\n'}
+[2.837774] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\n'}
+[2.858709] (osm_nav_interface) StdoutLine: {'line': b"Listing '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface'...\n"}
+[2.858898] (osm_nav_interface) StdoutLine: {'line': b"Compiling '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/__init__.py'...\n"}
+[2.858989] (osm_nav_interface) StdoutLine: {'line': b"Listing '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv'...\n"}
+[2.859044] (osm_nav_interface) StdoutLine: {'line': b"Compiling '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/__init__.py'...\n"}
+[2.859095] (osm_nav_interface) StdoutLine: {'line': b"Compiling '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/srv/_planner.py'...\n"}
+[2.861916] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so\n'}
+[2.862038] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so" to ""\n'}
+[2.862096] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so\n'}
+[2.862194] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so" to ""\n'}
+[2.862274] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so\n'}
+[2.862380] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages/osm_nav_interface/osm_nav_interface_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so" to ""\n'}
+[2.862420] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_py.so\n'}
+[2.862537] (osm_nav_interface) StdoutLine: {'line': b'-- Set runtime path of "/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib/libosm_nav_interface__rosidl_generator_py.so" to ""\n'}
+[2.862580] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner.idl\n'}
+[2.862627] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner.srv\n'}
+[2.862668] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner_Request.msg\n'}
+[2.862709] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/srv/Planner_Response.msg\n'}
+[2.862766] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/package_run_dependencies/osm_nav_interface\n'}
+[2.862822] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/parent_prefix_path/osm_nav_interface\n'}
+[2.862868] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/ament_prefix_path.sh\n'}
+[2.862912] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/ament_prefix_path.dsv\n'}
+[2.862953] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/path.sh\n'}
+[2.862995] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/environment/path.dsv\n'}
+[2.863036] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.bash\n'}
+[2.863076] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.sh\n'}
+[2.863125] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.zsh\n'}
+[2.863165] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/local_setup.dsv\n'}
+[2.863204] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/package.dsv\n'}
+[2.863259] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/ament_index/resource_index/packages/osm_nav_interface\n'}
+[2.863320] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cExport.cmake\n'}
+[2.863368] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.863420] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.863466] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.863515] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_cppExport.cmake\n'}
+[2.863562] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.863606] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.863653] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.863696] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.863744] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cExport.cmake\n'}
+[2.863788] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.863837] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.863882] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.863929] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cppExport.cmake\n'}
+[2.863973] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.864019] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_pyExport.cmake\n'}
+[2.864062] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/export_osm_nav_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.864105] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[2.864147] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.864189] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.864231] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.864272] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.864311] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.864355] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.864396] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interfaceConfig.cmake\n'}
+[2.864432] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake/osm_nav_interfaceConfig-version.cmake\n'}
+[2.864470] (osm_nav_interface) StdoutLine: {'line': b'-- Installing: /root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/package.xml\n'}
+[2.865782] (osm_nav_interface) CommandEnded: {'returncode': 0}
+[2.903313] (-) TimerEvent: {}
+[2.918799] (osm_nav_interface) JobEnded: {'identifier': 'osm_nav_interface', 'rc': 0}
+[2.920026] (osm_nav) JobStarted: {'identifier': 'osm_nav'}
+[2.924959] (osm_nav) JobProgress: {'identifier': 'osm_nav', 'progress': 'cmake'}
+[2.925105] (osm_nav) Command: {'cmd': ['/usr/bin/cmake', '/root/slam/slam/osm/osm-nav/src/osm_navigation', '-DCMAKE_INSTALL_PREFIX=/root/slam/slam/osm/osm-nav/install/osm_nav'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm/osm-nav'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble')]), 'shell': False}
+[2.956640] (osm_nav) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.989870] (osm_nav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.994646] (osm_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.003424] (-) TimerEvent: {}
+[3.035400] (osm_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.040013] (osm_nav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.040164] (osm_nav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.040410] (osm_nav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.042762] (osm_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.090532] (osm_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.098514] (osm_nav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.098715] (osm_nav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.099166] (osm_nav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.103480] (-) TimerEvent: {}
+[3.122786] (osm_nav) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[3.123573] (osm_nav) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.172817] (osm_nav) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.172996] (osm_nav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.203578] (-) TimerEvent: {}
+[3.218613] (osm_nav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.219593] (osm_nav) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.263342] (osm_nav) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[3.270035] (osm_nav) StdoutLine: {'line': b'-- Found BZip2: /usr/lib/x86_64-linux-gnu/libbz2.so (found version "1.0.8") \n'}
+[3.270969] (osm_nav) StdoutLine: {'line': b'-- Looking for BZ2_bzCompressInit\n'}
+[3.303683] (-) TimerEvent: {}
+[3.317377] (osm_nav) StdoutLine: {'line': b'-- Looking for BZ2_bzCompressInit - found\n'}
+[3.320904] (osm_nav) StdoutLine: {'line': b'-- Found Osmium: /root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include  \n'}
+[3.330094] (osm_nav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.403797] (-) TimerEvent: {}
+[3.504036] (-) TimerEvent: {}
+[3.604247] (-) TimerEvent: {}
+[3.633541] (osm_nav) StdoutLine: {'line': b'-- Found Python3: /root/miniconda3/envs/openalt/bin/python3.1 (found version "3.11.5") found components: Interpreter \n'}
+[3.704340] (-) TimerEvent: {}
+[3.731451] (osm_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.735555] (osm_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.742191] (osm_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.752313] (osm_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.766266] (osm_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.804446] (-) TimerEvent: {}
+[3.816525] (osm_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.818691] (osm_nav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.881325] (osm_nav) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.900445] (osm_nav) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.904592] (-) TimerEvent: {}
+[3.939789] (osm_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.004707] (-) TimerEvent: {}
+[4.056255] (osm_nav) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[4.104817] (-) TimerEvent: {}
+[4.130383] (osm_nav) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.161634] (osm_nav) StdoutLine: {'line': b'-- Found osm_nav_interface: 0.0.0 (/root/slam/slam/osm/osm-nav/install/osm_nav_interface/share/osm_nav_interface/cmake)\n'}
+[4.172150] (osm_nav) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[4.204904] (-) TimerEvent: {}
+[4.305136] (-) TimerEvent: {}
+[4.356544] (osm_nav) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.405254] (-) TimerEvent: {}
+[4.417163] (osm_nav) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[4.505346] (-) TimerEvent: {}
+[4.520648] (osm_nav) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[4.527861] (osm_nav) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[4.544645] (osm_nav) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[4.544776] (osm_nav) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.576501] (osm_nav) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[4.591521] (osm_nav) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[4.599284] (osm_nav) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[4.605431] (-) TimerEvent: {}
+[4.618901] (osm_nav) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[4.619031] (osm_nav) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[4.650394] (osm_nav) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[4.655585] (osm_nav) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[4.705627] (-) TimerEvent: {}
+[4.782144] (osm_nav) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[4.782351] (osm_nav) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[4.786142] (osm_nav) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[4.798131] (osm_nav) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[4.805717] (-) TimerEvent: {}
+[4.820139] (osm_nav) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[4.874540] (osm_nav) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[4.874814] (osm_nav) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[4.905820] (-) TimerEvent: {}
+[4.937781] (osm_nav) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[4.937965] (osm_nav) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[4.994854] (osm_nav) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[4.994988] (osm_nav) StdoutLine: {'line': b'-- Looking for connect\n'}
+[5.005926] (-) TimerEvent: {}
+[5.036520] (osm_nav) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[5.036673] (osm_nav) StdoutLine: {'line': b'-- Looking for remove\n'}
+[5.080816] (osm_nav) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[5.080950] (osm_nav) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[5.106032] (-) TimerEvent: {}
+[5.120581] (osm_nav) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[5.120725] (osm_nav) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[5.166969] (osm_nav) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[5.187631] (osm_nav) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[5.190588] (osm_nav) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[5.192279] (osm_nav) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[5.206101] (-) TimerEvent: {}
+[5.232714] (osm_nav) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[5.235812] (osm_nav) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[5.238661] (osm_nav) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[5.242871] (osm_nav) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[5.291911] (osm_nav) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[5.299643] (osm_nav) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[5.306218] (-) TimerEvent: {}
+[5.318065] (osm_nav) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[5.319397] (osm_nav) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[5.319509] (osm_nav) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.348685] (osm_nav) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[5.348829] (osm_nav) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.350271] (osm_nav) StdoutLine: {'line': b'-- Found PCAP: /usr/lib/x86_64-linux-gnu/libpcap.so  \n'}
+[5.350460] (osm_nav) StdoutLine: {'line': b'-- Performing Test PCAP_LINKS_SOLO\n'}
+[5.396027] (osm_nav) StdoutLine: {'line': b'-- Performing Test PCAP_LINKS_SOLO - Success\n'}
+[5.396197] (osm_nav) StdoutLine: {'line': b'-- Looking for pcap_get_pfring_id\n'}
+[5.406298] (-) TimerEvent: {}
+[5.440717] (osm_nav) StdoutLine: {'line': b'-- Looking for pcap_get_pfring_id - not found\n'}
+[5.440877] (osm_nav) StdoutLine: {'line': b'-- Looking for pcap_set_immediate_mode\n'}
+[5.487263] (osm_nav) StdoutLine: {'line': b'-- Looking for pcap_set_immediate_mode - found\n'}
+[5.487401] (osm_nav) StdoutLine: {'line': b'-- Looking for pcap_set_tstamp_precision\n'}
+[5.506387] (-) TimerEvent: {}
+[5.534159] (osm_nav) StdoutLine: {'line': b'-- Looking for pcap_set_tstamp_precision - found\n'}
+[5.606494] (-) TimerEvent: {}
+[5.636392] (osm_nav) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.640877] (osm_nav) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.644940] (osm_nav) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.706593] (-) TimerEvent: {}
+[5.738899] (osm_nav) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[5.806703] (-) TimerEvent: {}
+[5.834144] (osm_nav) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.906813] (-) TimerEvent: {}
+[5.924667] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[5.925265] (osm_nav) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[5.925394] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[5.925901] (osm_nav) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[5.925992] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[5.926670] (osm_nav) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[5.926767] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[5.927219] (osm_nav) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[5.927331] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[5.927779] (osm_nav) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[5.927907] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[5.928356] (osm_nav) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[5.928491] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[5.928650] (osm_nav) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[5.928762] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[5.928912] (osm_nav) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[5.929002] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[5.929431] (osm_nav) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[5.929586] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[5.930031] (osm_nav) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[5.930171] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[5.930645] (osm_nav) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[5.930717] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[5.932021] (osm_nav) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[5.932194] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[5.932649] (osm_nav) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[5.932801] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[5.933311] (osm_nav) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[5.933456] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[5.934675] (osm_nav) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[5.934816] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[5.935259] (osm_nav) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[5.935409] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[5.935875] (osm_nav) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[5.935986] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[5.936461] (osm_nav) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[5.936641] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[5.937108] (osm_nav) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[5.937206] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[5.937639] (osm_nav) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[5.938033] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[5.938202] (osm_nav) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[5.938280] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[5.938451] (osm_nav) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[5.938520] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[5.938752] (osm_nav) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[5.938824] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[5.939283] (osm_nav) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[5.939404] (osm_nav) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[5.939878] (osm_nav) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[5.940418] (osm_nav) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[5.942911] (osm_nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[6.006922] (-) TimerEvent: {}
+[6.107151] (-) TimerEvent: {}
+[6.195113] (osm_nav) StderrLine: {'line': b'\x1b[0mLIBRARY_SRCS: /root/slam/slam/osm/osm-nav/src/osm_navigation/./osm/osm_parser.cpp\n'}
+[6.195255] (osm_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[6.198249] (osm_nav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.207251] (-) TimerEvent: {}
+[6.307463] (-) TimerEvent: {}
+[6.407724] (-) TimerEvent: {}
+[6.460821] (osm_nav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.460997] (osm_nav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/slam/slam/osm/osm-nav/src/osm_navigation/third_party/libosmium/include;/root/slam/slam/osm/osm-nav/src/osm_navigation/./include;$<BUILD_INTERFACE:/root/slam/slam/osm/osm-nav/src/osm_navigation/include>\n'}
+[6.461077] (osm_nav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.483125] (osm_nav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.507830] (-) TimerEvent: {}
+[6.526866] (osm_nav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.549732] (osm_nav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.607945] (-) TimerEvent: {}
+[6.708168] (-) TimerEvent: {}
+[6.728817] (osm_nav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.729049] (osm_nav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.751878] (osm_nav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.752590] (osm_nav) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.761657] (osm_nav) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:57 (add_executable):\n'}
+[6.761767] (osm_nav) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target osm_navigation\n'}
+[6.761799] (osm_nav) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[6.761829] (osm_nav) StderrLine: {'line': b'  directories:\n'}
+[6.761859] (osm_nav) StderrLine: {'line': b'\n'}
+[6.761886] (osm_nav) StderrLine: {'line': b'    runtime library [libbz2.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.761912] (osm_nav) StderrLine: {'line': b'      /root/miniconda3/envs/openalt/lib\n'}
+[6.761939] (osm_nav) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.761966] (osm_nav) StderrLine: {'line': b'      /root/miniconda3/envs/openalt/lib\n'}
+[6.761990] (osm_nav) StderrLine: {'line': b'\n'}
+[6.762016] (osm_nav) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.762047] (osm_nav) StderrLine: {'line': b'\n'}
+[6.762073] (osm_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[6.762287] (osm_nav) StdoutLine: {'line': b'-- Generating done\n'}
+[6.763883] (osm_nav) StdoutLine: {'line': b'-- Build files have been written to: /root/slam/slam/osm/osm-nav/build/osm_nav\n'}
+[6.773710] (osm_nav) CommandEnded: {'returncode': 0}
+[6.774161] (osm_nav) JobProgress: {'identifier': 'osm_nav', 'progress': 'build'}
+[6.774402] (osm_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/slam/slam/osm/osm-nav/build/osm_nav', '--', '-j12', '-l12'], 'cwd': '/root/slam/slam/osm/osm-nav/build/osm_nav', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CONDA_PROMPT_MODIFIER', '(openalt)'), ('no_proxy', 'localhost'), ('HOSTNAME', 'song'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/slam/slam/osm/osm-nav'), ('LESS', '-R'), ('CONDA_SHLVL', '2'), ('NO_PROXY', 'localhost'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-30d8381a-c812-4636-980c-f2262d9788bb.sock'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node'), ('P9K_TTY', 'old'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('LOGNAME', 'root'), ('http_proxy', 'http://127.0.0.1:7890'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/root'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.oh-my-zsh/custom/plugins/git-open:/root/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/opt/ros/humble/bin:/root/miniconda3/envs/openalt/bin:/root/miniconda3/condabin:/root/.oh-my-zsh/custom/plugins/git-open:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('CONDA_PREFIX_1', '/root/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-67be95f944.sock'), ('CONDA_PYTHON_EXE', '/root/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav:/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c8b54ddf-7fa1-49ea-87c1-335992c55824.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/usr/bin/zsh'), ('CONDA_DEFAULT_ENV', 'openalt'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'dbe088d9-0621-43bf-be8a-82d758dbc8b3'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/root/slam/slam/osm/osm-nav/build/osm_nav'), ('CONDA_EXE', '/root/miniconda3/bin/conda'), ('ZDOTDIR', '/root'), ('_P9K_TTY', '/dev/pts/2'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('PYTHONPATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/root/miniconda3/envs/openalt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/slam/slam/osm/osm-nav/install/osm_nav_interface:/root/slam/slam/osm/osm-nav/install/osm_nav:/opt/ros/humble')]), 'shell': False}
+[6.798835] (osm_nav) StderrLine: {'line': b"gmake[2]: Warning: File '/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp' has modification time 9301 s in the future\n"}
+[6.802301] (osm_nav) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o\x1b[0m\n'}
+[6.802406] (osm_nav) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o\x1b[0m\n'}
+[6.808265] (-) TimerEvent: {}
+[6.908460] (-) TimerEvent: {}
+[7.008673] (-) TimerEvent: {}
+[7.108942] (-) TimerEvent: {}
+[7.209252] (-) TimerEvent: {}
+[7.309480] (-) TimerEvent: {}
+[7.409715] (-) TimerEvent: {}
+[7.509980] (-) TimerEvent: {}
+[7.610225] (-) TimerEvent: {}
+[7.710469] (-) TimerEvent: {}
+[7.810704] (-) TimerEvent: {}
+[7.910964] (-) TimerEvent: {}
+[8.011218] (-) TimerEvent: {}
+[8.111450] (-) TimerEvent: {}
+[8.211675] (-) TimerEvent: {}
+[8.311917] (-) TimerEvent: {}
+[8.412183] (-) TimerEvent: {}
+[8.468716] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[8.468862] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.468903] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:339:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<long int, std::allocator<long int> > path_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.468935] (osm_nav) StderrLine: {'line': b'  339 |         std::vector<osmium::object_id_type> \x1b[01;31m\x1b[Kpath_node\x1b[m\x1b[K;\n'}
+[8.468971] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.468998] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::list<osm_nav::TmpNode_t> path_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.469027] (osm_nav) StderrLine: {'line': b'  338 |         std::list<TmpNode_t> \x1b[01;36m\x1b[Kpath_node\x1b[m\x1b[K;\n'}
+[8.469054] (osm_nav) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.469080] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.469106] (osm_nav) StderrLine: {'line': b'  346 |         observed_nodes.push_back(dist_start1 > dist_start2 ? \x1b[01;31m\x1b[K{\x1b[m\x1b[Kstart1, dist_start1} : {start2, dist_start2});\n'}
+[8.469132] (osm_nav) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.469157] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.469182] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.473095] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type&, double&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.473189] (osm_nav) StderrLine: {'line': b'  375 |                                         osm_nav::TmpNode_t(n.id, tmp\x1b[01;31m\x1b[K)\x1b[m\x1b[K,\n'}
+[8.473227] (osm_nav) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.473254] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/osm/osm_parser.cpp:1\x1b[m\x1b[K:\n'}
+[8.473280] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.473307] (osm_nav) StderrLine: {'line': b'   61 | }\x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K;\n'}
+[8.473333] (osm_nav) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.477059] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[8.477110] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.477174] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[8.477210] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.477242] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[8.478244] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[8.478290] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid osm_nav::OsmParser::planner_request_cb(osm_nav_interface::srv::Planner_Request_<std::allocator<void> >::SharedPtr, osm_nav_interface::srv::Planner_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.478324] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:339:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<long int, std::allocator<long int> > path_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.478356] (osm_nav) StderrLine: {'line': b'  339 |         std::vector<osmium::object_id_type> \x1b[01;31m\x1b[Kpath_node\x1b[m\x1b[K;\n'}
+[8.478384] (osm_nav) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.478441] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:338:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::list<osm_nav::TmpNode_t> path_node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.478473] (osm_nav) StderrLine: {'line': b'  338 |         std::list<TmpNode_t> \x1b[01;36m\x1b[Kpath_node\x1b[m\x1b[K;\n'}
+[8.478503] (osm_nav) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.478564] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.478598] (osm_nav) StderrLine: {'line': b'  346 |         observed_nodes.push_back(dist_start1 > dist_start2 ? \x1b[01;31m\x1b[K{\x1b[m\x1b[Kstart1, dist_start1} : {start2, dist_start2});\n'}
+[8.478625] (osm_nav) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.478650] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.478676] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:346:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.483634] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:375:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t(osmium::object_id_type&, double&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.483801] (osm_nav) StderrLine: {'line': b'  375 |                                         osm_nav::TmpNode_t(n.id, tmp\x1b[01;31m\x1b[K)\x1b[m\x1b[K,\n'}
+[8.483838] (osm_nav) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.483866] (osm_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp:13\x1b[m\x1b[K:\n'}
+[8.483894] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kosm_nav::TmpNode_t::TmpNode_t()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.483926] (osm_nav) StderrLine: {'line': b'   61 | }\x1b[01;36m\x1b[KTmpNode_t\x1b[m\x1b[K;\n'}
+[8.483954] (osm_nav) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.483980] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[8.484007] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(const osm_nav::TmpNode_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.484035] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[8.484061] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr osm_nav::TmpNode_t::TmpNode_t(osm_nav::TmpNode_t&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.484089] (osm_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/root/slam/slam/osm/osm-nav/src/osm_navigation/./include/osm/osm_parser.hpp:61:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[8.512294] (-) TimerEvent: {}
+[8.612561] (-) TimerEvent: {}
+[8.712811] (-) TimerEvent: {}
+[8.813070] (-) TimerEvent: {}
+[8.913385] (-) TimerEvent: {}
+[9.013618] (-) TimerEvent: {}
+[9.113892] (-) TimerEvent: {}
+[9.214182] (-) TimerEvent: {}
+[9.314480] (-) TimerEvent: {}
+[9.414851] (-) TimerEvent: {}
+[9.515076] (-) TimerEvent: {}
+[9.615344] (-) TimerEvent: {}
+[9.715672] (-) TimerEvent: {}
+[9.792121] (osm_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:76: CMakeFiles/osm_navigation.dir/osm/osm_parser.cpp.o] Error 1\n'}
+[9.792249] (osm_nav) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.815784] (-) TimerEvent: {}
+[9.916026] (-) TimerEvent: {}
+[9.920922] (osm_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/osm_navigation.dir/build.make:90: CMakeFiles/osm_navigation.dir/app/osm_node.cpp.o] Error 1\n'}
+[9.921031] (osm_nav) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/osm_navigation.dir/all] Error 2\n'}
+[9.921081] (osm_nav) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.923165] (osm_nav) CommandEnded: {'returncode': 2}
+[9.941753] (osm_nav) JobEnded: {'identifier': 'osm_nav', 'rc': 2}
+[9.952721] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+gmake[2]: Warning: File '/root/slam/slam/osm/osm-nav/src/osm_navigation/app/osm_node.cpp' has modification time 7798 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
